@@ -912,7 +912,7 @@ Convenience tools (`get_jobs`, `get_duties`, `get_actions`, `get_items`) use `Lu
 
 4. **Bump `KnownGoodGameVersion.Value`** in `ServerConstants.cs` to the new game version string (from `game/ffxivgame.ver`).
 
-5. **Run the full test suite** — all 220 tests should run (147 unit pass without a game install; 73 integration require `FFXIV_GAME_PATH`).
+5. **Run the full test suite** — all 261 tests should run (160 unit pass without a game install; 101 integration require `FFXIV_GAME_PATH`).
 
 6. **Refresh EXDSchema** if configured:
    ```
