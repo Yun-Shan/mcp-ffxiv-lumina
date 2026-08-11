@@ -199,6 +199,18 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
         var itemName = Loc(id, supplemental.GetItemNames) ?? new Dictionary<string, string>();
         var gilPrice = gameData.Raw.Excel.GetSheet<Item>().GetRowOrDefault(id)?.PriceMid ?? 0u;
 
+        // Render a special-shop cost ("500x Allagan Tomestone of Poetics + 1x …") in the primary language.
+        string? FormatCost(IReadOnlyList<CostItem> cost)
+        {
+            if (cost.Count == 0) return null;
+            var parts = cost.Select(c =>
+            {
+                var n = itemPrimary.TryGetValue(c.ItemId, out var nm) ? nm : $"item #{c.ItemId}";
+                return $"{c.Count.ToString("N0", CultureInfo.InvariantCulture)}x {n}";
+            });
+            return string.Join(" + ", parts);
+        }
+
         var sources = new List<ItemSourceEntry>();
 
         // ── Drops ──
@@ -273,14 +285,18 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
             sources.Add(new ItemSourceEntry
             {
                 SourceType = "submarine", Category = "exploration",
-                SourceId = d.SubmarineExplorationId, Detail = $"sector #{d.SubmarineExplorationId}",
+                SourceId = d.SubmarineExplorationId,
+                SourceName = Loc(d.SubmarineExplorationId, supplemental.GetSubmarineNames),
+                Detail = $"sector #{d.SubmarineExplorationId}",
             });
 
         foreach (var pointId in supplemental.GetAirshipDrops(id))
             sources.Add(new ItemSourceEntry
             {
                 SourceType = "airship", Category = "exploration",
-                SourceId = pointId, Detail = $"sector #{pointId}",
+                SourceId = pointId,
+                SourceName = Loc(pointId, supplemental.GetAirshipNames),
+                Detail = $"sector #{pointId}",
             });
 
         // ── Vendors ──
@@ -295,14 +311,14 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
             });
         }
 
-        foreach (var shopId in supplemental.GetSpecialShops(id))
+        foreach (var offer in supplemental.GetSpecialShops(id).GroupBy(o => o.ShopId).Select(g => g.First()))
         {
-            var (name, ctx) = VendorNames(shopId, primaryLang, Loc);
+            var (name, ctx) = VendorNames(offer.ShopId, primaryLang, Loc);
             sources.Add(new ItemSourceEntry
             {
                 SourceType = "special_vendor", Category = "vendor",
-                SourceId = shopId, SourceName = name, Context = ctx,
-                Detail = "special-currency exchange",
+                SourceId = offer.ShopId, SourceName = name, Context = ctx,
+                Detail = FormatCost(offer.Cost) ?? "special-currency exchange",
             });
         }
 

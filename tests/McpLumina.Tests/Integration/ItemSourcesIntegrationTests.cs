@@ -14,20 +14,22 @@ public sealed class ItemSourcesIntegrationTests : IntegrationTestBase
     private const int GrenadeAshItemId = 5526;  // dropped by "napalm" (BNpcName 1749)
     private const int NapalmBNpcNameId = 1749;
     private const int PotionItemId     = 4551;  // sold by gil vendors (priceMid 28)
+    private const int WolfMarkItemId   = 25;    // offered by a special (currency) shop
 
     private static readonly JsonSerializerOptions DeserializeOpts = new()
     {
         PropertyNameCaseInsensitive = true,
     };
 
-    private readonly SupplementalTools? _tools;
+    private readonly SupplementalDataService? _supplemental;
+    private readonly SupplementalTools?       _tools;
 
     public ItemSourcesIntegrationTests()
     {
         if (ShouldSkip) return;
 
-        var supplemental = new SupplementalDataService(GameData, NullLogger<SupplementalDataService>.Instance);
-        _tools = new SupplementalTools(supplemental, GameData);
+        _supplemental = new SupplementalDataService(GameData, NullLogger<SupplementalDataService>.Instance);
+        _tools        = new SupplementalTools(_supplemental, GameData);
     }
 
     [SkippableFact]
@@ -129,6 +131,34 @@ public sealed class ItemSourcesIntegrationTests : IntegrationTestBase
             s => s.SourceType == "mob_drop" && s.SourceId == NapalmBNpcNameId);
         Assert.True(mobDrop.SourceName!.ContainsKey("ja"), "Mob name should include Japanese.");
         Assert.False(string.IsNullOrWhiteSpace(mobDrop.SourceName["ja"]));
+    }
+
+    [SkippableFact]
+    public void SpecialVendor_CarriesFormattedCurrencyCost()
+    {
+        SkipIfNoGamePath();
+
+        var response = Sources(itemId: WolfMarkItemId, limit: 200);
+
+        var special = Assert.Single(response.Sources.Where(s => s.SourceType == "special_vendor").Take(1));
+        Assert.Equal("vendor", special.Category);
+        // Cost is rendered as "<count>x <currency name>", e.g. "1x Wolf Collar".
+        Assert.NotNull(special.Detail);
+        Assert.Matches(@"\d+x \S", special.Detail!);
+    }
+
+    [SkippableFact]
+    public void ExplorationNameIndices_ResolveDestinations()
+    {
+        SkipIfNoGamePath();
+
+        // Submarine/airship sector ids resolve to localised destination names.
+        var subNames = _supplemental!.GetSubmarineNames("en");
+        Assert.NotEmpty(subNames);
+        Assert.Contains(subNames, kv => !string.IsNullOrWhiteSpace(kv.Value));
+
+        var airNames = _supplemental.GetAirshipNames("en");
+        Assert.NotEmpty(airNames);
     }
 
     // ── Helper ───────────────────────────────────────────────────────────────

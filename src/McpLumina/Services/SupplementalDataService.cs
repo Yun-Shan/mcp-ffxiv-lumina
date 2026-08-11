@@ -33,7 +33,7 @@ public sealed class SupplementalDataService
 
     // Vendors: itemId → shop RowIds (gil vs special kept apart), plus shop metadata.
     private readonly ILookup<uint, uint> _gilShopsByItem;             // itemId → gil shop RowId
-    private readonly ILookup<uint, uint> _specialShopsByItem;         // itemId → special shop RowId
+    private readonly ILookup<uint, SpecialShopOffer> _specialShopsByItem; // itemId → special shop offer (+ cost)
     private readonly IReadOnlyDictionary<uint, string> _shopLabel;    // shop RowId → descriptive name
     private readonly ILookup<uint, uint> _npcsByShop;                 // shop RowId → ENpcResidentId
 
@@ -44,6 +44,8 @@ public sealed class SupplementalDataService
     private readonly IReadOnlyDictionary<string, IReadOnlyDictionary<uint, string>> _fateNames;
     private readonly IReadOnlyDictionary<string, IReadOnlyDictionary<uint, string>> _npcNames;
     private readonly IReadOnlyDictionary<string, IReadOnlyDictionary<uint, string>> _questNames;
+    private readonly IReadOnlyDictionary<string, IReadOnlyDictionary<uint, string>> _submarineNames;
+    private readonly IReadOnlyDictionary<string, IReadOnlyDictionary<uint, string>> _airshipNames;
 
     public SupplementalDataService(
         GameDataService gameData,
@@ -86,6 +88,8 @@ public sealed class SupplementalDataService
         _fateNames  = BuildNameIndices<Fate>(gameData, r => r.Name.ToString(), logger, "Fate");
         _npcNames   = BuildNameIndices<ENpcResident>(gameData, r => r.Singular.ToString(), logger, "ENpcResident");
         _questNames = BuildNameIndices<Quest>(gameData, r => r.Name.ToString(), logger, "Quest");
+        _submarineNames = BuildNameIndices<SubmarineExploration>(gameData, r => r.Destination.ToString(), logger, "SubmarineExploration");
+        _airshipNames   = BuildNameIndices<AirshipExplorationPoint>(gameData, r => r.Name.ToString(), logger, "AirshipExplorationPoint");
 
         logger.LogInformation(
             "SupplementalDataService ready. MobDrops={Drops}, Derivations={Der}, Vendors={Shops}, langs={Langs}",
@@ -122,15 +126,17 @@ public sealed class SupplementalDataService
         }
     }
 
-    public IEnumerable<uint> GetGilShops(uint itemId)     => _gilShopsByItem[itemId];
-    public IEnumerable<uint> GetSpecialShops(uint itemId) => _specialShopsByItem[itemId];
-    public string? GetShopLabel(uint shopId)              => _shopLabel.TryGetValue(shopId, out var n) ? n : null;
-    public IEnumerable<uint> GetShopNpcs(uint shopId)     => _npcsByShop[shopId];
+    public IEnumerable<uint> GetGilShops(uint itemId)                => _gilShopsByItem[itemId];
+    public IEnumerable<SpecialShopOffer> GetSpecialShops(uint itemId) => _specialShopsByItem[itemId];
+    public string? GetShopLabel(uint shopId)                         => _shopLabel.TryGetValue(shopId, out var n) ? n : null;
+    public IEnumerable<uint> GetShopNpcs(uint shopId)                => _npcsByShop[shopId];
 
-    public IReadOnlyDictionary<uint, string> GetDutyNames(string lang)  => Pick(_dutyNames, lang);
-    public IReadOnlyDictionary<uint, string> GetFateNames(string lang)  => Pick(_fateNames, lang);
-    public IReadOnlyDictionary<uint, string> GetNpcNames(string lang)   => Pick(_npcNames, lang);
-    public IReadOnlyDictionary<uint, string> GetQuestNames(string lang) => Pick(_questNames, lang);
+    public IReadOnlyDictionary<uint, string> GetDutyNames(string lang)      => Pick(_dutyNames, lang);
+    public IReadOnlyDictionary<uint, string> GetFateNames(string lang)      => Pick(_fateNames, lang);
+    public IReadOnlyDictionary<uint, string> GetNpcNames(string lang)       => Pick(_npcNames, lang);
+    public IReadOnlyDictionary<uint, string> GetQuestNames(string lang)     => Pick(_questNames, lang);
+    public IReadOnlyDictionary<uint, string> GetSubmarineNames(string lang) => Pick(_submarineNames, lang);
+    public IReadOnlyDictionary<uint, string> GetAirshipNames(string lang)   => Pick(_airshipNames, lang);
 
     // ── Private helpers ───────────────────────────────────────────────────────
 
@@ -162,11 +168,11 @@ public sealed class SupplementalDataService
     /// LuminaSupplemental ShopName / ENpcShop datasets. Best-effort: guarded so a schema
     /// surprise degrades vendor coverage rather than failing startup.
     /// </summary>
-    private static (ILookup<uint, uint>, ILookup<uint, uint>, IReadOnlyDictionary<uint, string>, ILookup<uint, uint>) BuildVendorIndex(
+    private static (ILookup<uint, uint>, ILookup<uint, SpecialShopOffer>, IReadOnlyDictionary<uint, string>, ILookup<uint, uint>) BuildVendorIndex(
         Lumina.GameData raw, ILogger logger)
     {
         var gil     = new List<(uint ItemId, uint ShopId)>();
-        var special = new List<(uint ItemId, uint ShopId)>();
+        var special = new List<(uint ItemId, SpecialShopOffer Offer)>();
 
         try
         {
@@ -181,14 +187,23 @@ public sealed class SupplementalDataService
         {
             foreach (var shop in raw.Excel.GetSheet<SpecialShop>())
                 foreach (var entry in shop.Item)
+                {
+                    // Each entry pairs the items you receive with the items you give (the cost).
+                    var cost = new List<CostItem>();
+                    foreach (var give in entry.ItemCosts)
+                        if (give.ItemCost.RowId != 0 && give.CurrencyCost > 0)
+                            cost.Add(new CostItem(give.ItemCost.RowId, give.CurrencyCost));
+
+                    var offer = new SpecialShopOffer(shop.RowId, cost);
                     foreach (var recv in entry.ReceiveItems)
                         if (recv.Item.RowId != 0)
-                            special.Add((recv.Item.RowId, shop.RowId));
+                            special.Add((recv.Item.RowId, offer));
+                }
         }
         catch (Exception ex) { logger.LogWarning(ex, "SpecialShop scan failed; special vendors unavailable"); }
 
         var gilByItem     = gil.Distinct().ToLookup(x => x.ItemId, x => x.ShopId);
-        var specialByItem = special.Distinct().ToLookup(x => x.ItemId, x => x.ShopId);
+        var specialByItem = special.ToLookup(x => x.ItemId, x => x.Offer);
 
         var shopLabel = new Dictionary<uint, string>();
         foreach (var sn in Load<ShopName>(CsvLoader.ShopNameResourceName, raw, logger))
@@ -198,7 +213,7 @@ public sealed class SupplementalDataService
         // ENpcBase sheet, whose ENpcData references point at shop rows; we keep only refs
         // that match a shop we actually indexed. Merge in the curated LuminaSupplemental
         // ENpcShop dataset for anything ENpcBase does not cover.
-        var shopIds = new HashSet<uint>(gil.Select(x => x.ShopId).Concat(special.Select(x => x.ShopId)));
+        var shopIds = new HashSet<uint>(gil.Select(x => x.ShopId).Concat(special.Select(x => x.Offer.ShopId)));
         var npcShop = new List<(uint ShopId, uint NpcId)>();
 
         try
@@ -251,3 +266,9 @@ public sealed class SupplementalDataService
         return result;
     }
 }
+
+/// <summary>An item and quantity that must be given to complete a special-shop exchange.</summary>
+public sealed record CostItem(uint ItemId, uint Count);
+
+/// <summary>A special (currency) shop that offers an item, along with what it costs.</summary>
+public sealed record SpecialShopOffer(uint ShopId, IReadOnlyList<CostItem> Cost);

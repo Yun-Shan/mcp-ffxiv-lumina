@@ -819,7 +819,7 @@ Sources are grouped by a coarse `category` for filtering:
 | `vendor` | `gil_vendor`, `special_vendor` | GilShopItem / SpecialShop → ShopName / ENpcShop |
 | `quest` | `quest_required` (obtained *for*, not *from*) | QuestRequiredItem |
 
-Each source carries a localised `sourceName`, an optional `context` (e.g. the vendor NPC), and a free-form `detail` (drop rate, quantity, gil price).
+Each source carries a localised `sourceName` (mob, source item, duty, FATE, vendor NPC, submarine/airship destination…), an optional `context` (e.g. the vendor NPC behind a named shop), and a free-form `detail` — drop rate, quantity, gil price, or a special-shop currency cost such as `"1x Wolf Collar"`.
 
 ```json
 {
@@ -956,7 +956,7 @@ Convenience tools (`get_jobs`, `get_duties`, `get_actions`, `get_items`) use `Lu
 
 4. **Bump `KnownGoodGameVersion.Value`** in `ServerConstants.cs` to the new game version string (from `game/ffxivgame.ver`).
 
-5. **Run the full test suite** — all 269 tests should run (160 unit pass without a game install; 109 integration require `FFXIV_GAME_PATH`).
+5. **Run the full test suite** — all 271 tests should run (160 unit pass without a game install; 111 integration require `FFXIV_GAME_PATH`).
 
 6. **Refresh EXDSchema** if configured:
    ```
