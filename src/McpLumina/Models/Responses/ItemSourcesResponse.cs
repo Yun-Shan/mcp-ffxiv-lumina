@@ -42,8 +42,11 @@ public sealed record ItemSourceEntry
     /// <summary>Coarse group for filtering: drop | crafting | dungeon | content | exploration | vendor | quest.</summary>
     public required string Category { get; init; }
 
-    /// <summary>Row id of the joined entity (mob, source item, duty CFC, FATE, shop, quest), when applicable.</summary>
+    /// <summary>Row id of the joined entity (mob, source item, duty CFC, FATE, shop, quest), when applicable. For vendors this is the shop's row id (stable regardless of which NPC is named).</summary>
     public uint? SourceId { get; init; }
+
+    /// <summary>For vendor sources, the specific merchant NPC (ENpcResident) row id, when one is known. Null otherwise.</summary>
+    public uint? NpcId { get; init; }
 
     /// <summary>Localised display name of the source entity (mob / source item / duty / FATE / NPC / quest).</summary>
     public Dictionary<string, string>? SourceName { get; init; }

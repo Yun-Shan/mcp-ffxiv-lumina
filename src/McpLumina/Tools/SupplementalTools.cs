@@ -331,20 +331,20 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
         // ── Vendors (one entry per vendor NPC of each shop) ──
         var gilDetail = gilPrice > 0 ? $"{gilPrice.ToString("N0", CultureInfo.InvariantCulture)} gil" : null;
         foreach (var shopId in supplemental.GetGilShops(id).Distinct())
-            foreach (var (srcId, name, ctx) in VendorTargets(shopId, Loc))
+            foreach (var (npcId, name, ctx) in VendorTargets(shopId, Loc))
                 sources.Add(new ItemSourceEntry
                 {
                     SourceType = "gil_vendor", Category = "vendor",
-                    SourceId = srcId, SourceName = name, Context = ctx,
+                    SourceId = shopId, NpcId = npcId, SourceName = name, Context = ctx,
                     Detail = gilDetail,
                 });
 
         foreach (var offer in DistinctOffers(supplemental.GetSpecialShops(id)))
-            foreach (var (srcId, name, ctx) in VendorTargets(offer.ShopId, Loc))
+            foreach (var (npcId, name, ctx) in VendorTargets(offer.ShopId, Loc))
                 sources.Add(new ItemSourceEntry
                 {
                     SourceType = "special_vendor", Category = "vendor",
-                    SourceId = srcId, SourceName = name, Context = ctx,
+                    SourceId = offer.ShopId, NpcId = npcId, SourceName = name, Context = ctx,
                     Detail = FormatOffer(offer),
                 });
 
@@ -394,7 +394,7 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
     /// shop's descriptive label is English-only community data, exposed as context under the "en" key.
     /// When no NPC is known, falls back to the English label (or nothing) as the name.
     /// </summary>
-    private IEnumerable<(uint SourceId, Dictionary<string, string>? Name, Dictionary<string, string>? Context)> VendorTargets(
+    private IEnumerable<(uint? NpcId, Dictionary<string, string>? Name, Dictionary<string, string>? Context)> VendorTargets(
         uint shopId, Func<uint, Func<string, IReadOnlyDictionary<uint, string>>, Dictionary<string, string>?> loc)
     {
         var label = supplemental.GetShopLabel(shopId);
@@ -403,27 +403,32 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
         var npcIds = supplemental.GetShopNpcs(shopId).Distinct().ToList();
         if (npcIds.Count == 0)
         {
-            yield return (shopId, LabelDict(), null);
+            yield return (null, LabelDict(), null);
             yield break;
         }
 
         foreach (var npc in npcIds)
         {
             var name = loc(npc, supplemental.GetNpcNames);
+            // The NPC id is always exposed; when its name resolves it becomes the source name
+            // and the (English) shop label is context, otherwise the label stands in as the name.
             yield return name is not null
                 ? (npc, name, LabelDict())
-                : (shopId, LabelDict(), null);
+                : (npc, LabelDict(), null);
         }
     }
 
-    /// <summary>Removes exact-duplicate offers while preserving genuinely distinct cost/quantity variants of the same shop.</summary>
+    /// <summary>Removes exact-duplicate offers while preserving genuinely distinct cost/quantity variants of the same shop. Cost order is not significant, so the key sorts costs.</summary>
     private static IEnumerable<SpecialShopOffer> DistinctOffers(IEnumerable<SpecialShopOffer> offers)
     {
         var seen = new HashSet<string>();
         foreach (var o in offers)
         {
-            var key = $"{o.ShopId}|{o.ReceiveCount}|{string.Join(",", o.Cost.Select(c => $"{c.ItemId}x{c.Count}"))}";
-            if (seen.Add(key)) yield return o;
+            var costKey = string.Join(",", o.Cost
+                .OrderBy(c => c.ItemId).ThenBy(c => c.Count)
+                .Select(c => $"{c.ItemId}x{c.Count}"));
+            if (seen.Add($"{o.ShopId}|{o.ReceiveCount}|{costKey}"))
+                yield return o;
         }
     }
 

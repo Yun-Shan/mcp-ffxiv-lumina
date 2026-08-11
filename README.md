@@ -821,7 +821,7 @@ Sources are grouped by a coarse `category` for filtering:
 | `vendor` | `gil_vendor`, `special_vendor` | GilShopItem / SpecialShop → ENpcBase / ShopName |
 | `quest` | `quest_required` (obtained *for*, not *from*) | QuestRequiredItem |
 
-Each source carries a localised `sourceName` (mob, source item, duty, FATE, vendor NPC, submarine/airship destination…). Vendors emit one entry per merchant NPC; the shop's English descriptive label, when present, is exposed as `context` under the `en` key. `detail` is free-form — drop rate, quantity, gil price, or a special-shop cost such as `"x10 for 2x Wet Bombard Ash"`.
+Each source carries a localised `sourceName` (mob, source item, duty, FATE, vendor NPC, submarine/airship destination…). `sourceId` is the primary joined entity — for vendors it is the **shop** row id (stable), while `npcId` names the specific merchant. Vendors emit one entry per merchant NPC, so a shop staffed by several NPCs yields several entries sharing one `sourceId`. The shop's English descriptive label, when present, is exposed as `context` under the `en` key. `detail` is free-form — drop rate, quantity, gil price, or a special-shop cost such as `"x10 for 2x Wet Bombard Ash"`.
 
 ```json
 {
@@ -834,7 +834,7 @@ Each source carries a localised `sourceName` (mob, source item, duty, FATE, vend
     { "sourceType": "mob_drop", "category": "drop", "sourceId": 1749, "sourceName": { "en": "napalm" } },
     { "sourceType": "desynth", "category": "crafting", "sourceId": 6512, "sourceName": { "en": "Amdapori Beacon" }, "detail": "x2-8 (22.08%)" },
     { "sourceType": "retainer_venture", "category": "exploration", "sourceId": 30021, "detail": "venture table #30021" },
-    { "sourceType": "gil_vendor", "category": "vendor", "sourceId": 262211, "sourceName": { "en": "Z'ranmaia" }, "detail": "216 gil" }
+    { "sourceType": "gil_vendor", "category": "vendor", "sourceId": 262211, "npcId": 1001015, "sourceName": { "en": "Z'ranmaia" }, "detail": "216 gil" }
   ]
 }
 ```
@@ -958,7 +958,7 @@ Convenience tools (`get_jobs`, `get_duties`, `get_actions`, `get_items`) use `Lu
 
 4. **Bump `KnownGoodGameVersion.Value`** in `ServerConstants.cs` to the new game version string (from `game/ffxivgame.ver`).
 
-5. **Run the full test suite** — all 273 tests should run (160 unit pass without a game install; 113 integration require `FFXIV_GAME_PATH`).
+5. **Run the full test suite** — all 279 tests should run (162 unit pass without a game install; 117 integration require `FFXIV_GAME_PATH`).
 
 6. **Refresh EXDSchema** if configured:
    ```

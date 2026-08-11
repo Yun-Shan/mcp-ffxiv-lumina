@@ -17,6 +17,7 @@ public sealed class ItemSourcesIntegrationTests : IntegrationTestBase
     private const int WolfMarkItemId   = 25;    // offered by a special (currency) shop
     private const int ForagerHatItemId = 7522;  // has several distinct exchanges in one special shop
     private const int SparklerItemId   = 5893;  // a special exchange grants a stack (ReceiveCount > 1)
+    private const int ZoniItemId       = 4680;  // sold by shops that carry a ShopName label + multiple NPCs
 
     private static readonly JsonSerializerOptions DeserializeOpts = new()
     {
@@ -186,13 +187,34 @@ public sealed class ItemSourcesIntegrationTests : IntegrationTestBase
     {
         SkipIfNoGamePath();
 
-        // Whenever a shop's English descriptive label is attached, it must sit under the "en" key,
-        // never mislabelled as the requested (possibly non-English) primary language.
-        var response = Sources(itemId: ForagerHatItemId, category: "vendor", langs: ["ja"], limit: 200);
+        // Request Japanese: the shop's English descriptive label must still sit under the "en" key,
+        // never mislabelled as the requested primary language.
+        var response = Sources(itemId: ZoniItemId, category: "vendor", langs: ["ja"], limit: 200);
 
-        Assert.All(
-            response.Sources.Where(s => s.Context is not null),
-            s => Assert.Equal(new[] { "en" }, s.Context!.Keys.ToArray()));
+        var contexts = response.Sources
+            .Where(s => s.Context is not null)
+            .Select(s => s.Context!)
+            .ToArray();
+
+        Assert.NotEmpty(contexts);  // guard against a vacuous pass
+        Assert.All(contexts, ctx => Assert.Equal(new[] { "en" }, ctx.Keys.ToArray()));
+    }
+
+    [SkippableFact]
+    public void Vendor_MultiNpcShop_ExposesStableShopIdWithDistinctNpcIds()
+    {
+        SkipIfNoGamePath();
+
+        var response = Sources(itemId: ZoniItemId, category: "vendor", limit: 200);
+
+        // A shop staffed by several NPCs yields several entries sharing one sourceId (the shop),
+        // each with its own npcId.
+        var multi = response.Sources
+            .Where(s => s.SourceId is not null && s.NpcId is not null)
+            .GroupBy(s => s.SourceId)
+            .FirstOrDefault(g => g.Select(s => s.NpcId).Distinct().Count() >= 2);
+
+        Assert.NotNull(multi);
     }
 
     [SkippableFact]
