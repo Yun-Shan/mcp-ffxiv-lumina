@@ -805,6 +805,7 @@ Aggregates **every known way to obtain a single item** across the [LuminaSupplem
 |---|---|
 | `itemId` | Exact Item row ID (takes precedence over `query`) |
 | `query` | Item name substring; resolves to the first matching item |
+| `category` | Restrict to one category: `drop` \| `crafting` \| `dungeon` \| `content` \| `exploration` \| `vendor` \| `quest`. Omit for all |
 | `limit` / `offset` | Pagination over the source list (max limit 200) |
 
 Sources are grouped by a coarse `category` for filtering:
@@ -837,7 +838,7 @@ Each source carries a localised `sourceName` (mob, source item, duty, FATE, vend
 }
 ```
 
-> Identify the item by `itemId` for an exact lookup, or by `query` to resolve the first item whose name contains the substring. `categoryCounts` reflects the full result set before paging.
+> Identify the item by `itemId` for an exact lookup, or by `query` to resolve the first item whose name contains the substring. `categoryCounts` always reflects the full result set (before any `category` filter or paging), so it doubles as a table of contents for choosing a filter.
 
 ---
 
@@ -956,7 +957,7 @@ Convenience tools (`get_jobs`, `get_duties`, `get_actions`, `get_items`) use `Lu
 
 4. **Bump `KnownGoodGameVersion.Value`** in `ServerConstants.cs` to the new game version string (from `game/ffxivgame.ver`).
 
-5. **Run the full test suite** — all 271 tests should run (160 unit pass without a game install; 111 integration require `FFXIV_GAME_PATH`).
+5. **Run the full test suite** — all 273 tests should run (160 unit pass without a game install; 113 integration require `FFXIV_GAME_PATH`).
 
 6. **Refresh EXDSchema** if configured:
    ```

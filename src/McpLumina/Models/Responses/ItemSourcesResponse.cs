@@ -12,6 +12,10 @@ public sealed record ItemSourcesResponse : BaseResponse
     public uint ItemId                     { get; init; }
     public Dictionary<string, string> ItemName { get; init; } = new();
     public bool ItemFound                  { get; init; }
+
+    /// <summary>The applied category filter, or null when all categories are returned.</summary>
+    public string? Category                { get; init; }
+
     public string[] LanguagesRequested     { get; init; } = [];
     public string[] LanguagesReturned      { get; init; } = [];
     public bool FallbackUsed               { get; init; }

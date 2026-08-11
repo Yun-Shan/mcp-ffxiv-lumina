@@ -138,11 +138,13 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
         "submarine/airship voyages), vendors (gil and special-currency), and the quests that consume it. " +
         "Identify the item by itemId (exact) or query (first item whose name contains the substring). " +
         "Each source carries a coarse 'category' (drop | crafting | dungeon | content | exploration | vendor | quest) " +
-        "for filtering, plus a localised source name and free-form detail (drop rate, quantity, gil price). " +
-        "Use limit and offset to page the source list.")]
+        "plus a localised source name and free-form detail (drop rate, quantity, gil price). " +
+        "Filter to one category with the category parameter; categoryCounts always reports the full breakdown " +
+        "(before filtering) so you can see what is available. Use limit and offset to page the source list.")]
     public string GetItemSources(
         [Description("Exact Item row ID to look up. Takes precedence over query.")] int? itemId = null,
         [Description("Item name substring; resolves to the first matching item (case-insensitive). Ignored if itemId is set.")] string? query = null,
+        [Description("Restrict sources to one category: drop | crafting | dungeon | content | exploration | vendor | quest. Omit for all.")] string? category = null,
         [Description("Maximum number of sources to return (1–200). Default 50.")] int? limit = null,
         [Description("Number of sources to skip for pagination. Default 0.")] int? offset = null,
         [Description("Comma-separated language codes, e.g. 'en,ja'. Defaults to server default.")] string? languages = null) =>
@@ -151,17 +153,30 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
             var lim   = InputValidator.ValidateLimit(limit);
             var off   = InputValidator.ValidateOffset(offset);
             var langs = gameData.Languages.Resolve(InputValidator.ParseLanguages(languages));
+            var cat   = NormalizeCategory(category);
 
             if (itemId is < 0)
                 throw new ValidationException("itemId must be >= 0.");
             if (itemId is null && string.IsNullOrWhiteSpace(query))
                 throw new ValidationException("Provide either itemId or query to identify an item.");
 
-            return ToolHelper.Ok(BuildItemSourcesResponse(itemId is null ? null : (uint)itemId.Value, query, lim, off, langs));
+            return ToolHelper.Ok(BuildItemSourcesResponse(itemId is null ? null : (uint)itemId.Value, query, cat, lim, off, langs));
         });
 
+    private static readonly IReadOnlyList<string> SourceCategories =
+        ["drop", "crafting", "dungeon", "content", "exploration", "vendor", "quest"];
+
+    private static string? NormalizeCategory(string? category)
+    {
+        if (string.IsNullOrWhiteSpace(category)) return null;
+        var c = category.Trim().ToLowerInvariant();
+        if (!SourceCategories.Contains(c))
+            throw new ValidationException($"category must be one of: {string.Join(", ", SourceCategories)}.");
+        return c;
+    }
+
     private ItemSourcesResponse BuildItemSourcesResponse(
-        uint? itemId, string? query, int limit, int offset, string[] langs)
+        uint? itemId, string? query, string? category, int limit, int offset, string[] langs)
     {
         var (returned, fallback) = gameData.Languages.ApplyFallback(langs);
         var primaryLang = returned.Contains(gameData.Languages.DefaultLanguage)
@@ -331,9 +346,14 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
                 Detail = QuantityDetail(q.Quantity) is { } qd ? (q.IsHq ? qd + " HQ" : qd) : (q.IsHq ? "HQ" : null),
             });
 
+        // categoryCounts always reflects the full breakdown (before any category filter),
+        // so callers can see what is available and pick a filter.
         var categoryCounts = sources
             .GroupBy(s => s.Category)
             .ToDictionary(g => g.Key, g => g.Count());
+
+        if (category is not null)
+            sources = sources.Where(s => s.Category == category).ToList();
 
         var total = sources.Count;
         var page  = sources.Skip(offset).Take(limit).ToArray();
@@ -343,6 +363,7 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
             ItemId             = id,
             ItemName           = itemName,
             ItemFound          = itemName.Count > 0,
+            Category           = category,
             LanguagesRequested = langs,
             LanguagesReturned  = returned,
             FallbackUsed       = fallback,

@@ -161,14 +161,40 @@ public sealed class ItemSourcesIntegrationTests : IntegrationTestBase
         Assert.NotEmpty(airNames);
     }
 
+    [SkippableFact]
+    public void CategoryFilter_RestrictsSources_ButKeepsFullBreakdown()
+    {
+        SkipIfNoGamePath();
+
+        var all      = Sources(itemId: GrenadeAshItemId, limit: 200);
+        var dropOnly = Sources(itemId: GrenadeAshItemId, category: "drop", limit: 200);
+
+        Assert.Equal("drop", dropOnly.Category);
+        Assert.All(dropOnly.Sources, s => Assert.Equal("drop", s.Category));
+        // Filtered total equals the drop count; categoryCounts still reports every category.
+        Assert.Equal(all.CategoryCounts["drop"], dropOnly.TotalSources);
+        Assert.Equal(all.CategoryCounts, dropOnly.CategoryCounts);
+        Assert.True(dropOnly.CategoryCounts.Count > 1, "Full breakdown should survive filtering.");
+    }
+
+    [SkippableFact]
+    public void CategoryFilter_Invalid_ReturnsValidationError()
+    {
+        SkipIfNoGamePath();
+
+        var json = _tools!.GetItemSources(GrenadeAshItemId, null, "bogus", null, null, null);
+
+        Assert.Contains("ValidationError", json, StringComparison.OrdinalIgnoreCase);
+    }
+
     // ── Helper ───────────────────────────────────────────────────────────────
 
     private ItemSourcesResponse Sources(
-        int? itemId = null, string? query = null,
+        int? itemId = null, string? query = null, string? category = null,
         string[]? langs = null, int? limit = null, int? offset = null)
     {
         var json = _tools!.GetItemSources(
-            itemId, query, limit, offset,
+            itemId, query, category, limit, offset,
             langs is null ? null : string.Join(",", langs));
         return JsonSerializer.Deserialize<ItemSourcesResponse>(json, DeserializeOpts)!;
     }
