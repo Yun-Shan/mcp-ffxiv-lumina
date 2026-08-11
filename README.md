@@ -797,6 +797,50 @@ Returns monster drop data from the community-maintained [LuminaSupplemental](htt
 
 ---
 
+### `get_item_sources(itemId?, query?, limit?, offset?, languages?)`
+
+Aggregates **every known way to obtain a single item** across the [LuminaSupplemental](https://github.com/Critical-Impact/LuminaSupplemental) datasets and the game's shop sheets. Answers "where does this item come from?" in one call.
+
+| Parameter | Description |
+|---|---|
+| `itemId` | Exact Item row ID (takes precedence over `query`) |
+| `query` | Item name substring; resolves to the first matching item |
+| `limit` / `offset` | Pagination over the source list (max limit 200) |
+
+Sources are grouped by a coarse `category` for filtering:
+
+| Category | `sourceType` values | Backing data |
+|---|---|---|
+| `drop` | `mob_drop` | MobDrop |
+| `crafting` | `desynth`, `reduction`, `gardening`, `skybuilder` | ItemSupplement |
+| `dungeon` | `dungeon_chest`, `dungeon_boss`, `dungeon_boss_chest`, `dungeon_drop` | Dungeon* datasets → ContentFinderCondition |
+| `content` | `fate`, `loot`, `coffer`, `card_pack` | FateItem, ItemSupplement |
+| `exploration` | `retainer_venture`, `submarine`, `airship`, `deep_dungeon`, `eureka`, `bozja`, `occult_crescent` | RetainerVentureItem, Submarine/AirshipDrop, ItemSupplement |
+| `vendor` | `gil_vendor`, `special_vendor` | GilShopItem / SpecialShop → ShopName / ENpcShop |
+| `quest` | `quest_required` (obtained *for*, not *from*) | QuestRequiredItem |
+
+Each source carries a localised `sourceName`, an optional `context` (e.g. the vendor NPC), and a free-form `detail` (drop rate, quantity, gil price).
+
+```json
+{
+  "itemId": 5526,
+  "itemName": { "en": "Grenade Ash" },
+  "itemFound": true,
+  "categoryCounts": { "drop": 4, "crafting": 3, "exploration": 1, "vendor": 1 },
+  "totalSources": 9,
+  "sources": [
+    { "sourceType": "mob_drop", "category": "drop", "sourceId": 1749, "sourceName": { "en": "napalm" } },
+    { "sourceType": "desynth", "category": "crafting", "sourceId": 6512, "sourceName": { "en": "Amdapori Beacon" }, "detail": "x2-8 (22.08%)" },
+    { "sourceType": "retainer_venture", "category": "exploration", "sourceId": 30021, "detail": "venture table #30021" },
+    { "sourceType": "gil_vendor", "category": "vendor", "sourceId": 262211, "sourceName": { "en": "Z'ranmaia" }, "detail": "216 gil" }
+  ]
+}
+```
+
+> Identify the item by `itemId` for an exact lookup, or by `query` to resolve the first item whose name contains the substring. `categoryCounts` reflects the full result set before paging.
+
+---
+
 ### `get_triple_triad_cards(query?, limit?, offset?, languages?)`
 
 Returns Triple Triad card data joined from `TripleTriadCard` and `TripleTriadCardResident`. Includes directional gameplay values, star rarity, card type, sell price, flavor text, and acquisition source.
@@ -912,7 +956,7 @@ Convenience tools (`get_jobs`, `get_duties`, `get_actions`, `get_items`) use `Lu
 
 4. **Bump `KnownGoodGameVersion.Value`** in `ServerConstants.cs` to the new game version string (from `game/ffxivgame.ver`).
 
-5. **Run the full test suite** — all 261 tests should run (160 unit pass without a game install; 101 integration require `FFXIV_GAME_PATH`).
+5. **Run the full test suite** — all 269 tests should run (160 unit pass without a game install; 109 integration require `FFXIV_GAME_PATH`).
 
 6. **Refresh EXDSchema** if configured:
    ```
