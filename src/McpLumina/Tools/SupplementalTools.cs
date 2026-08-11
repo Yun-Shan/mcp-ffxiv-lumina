@@ -137,14 +137,14 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
         "gardening), dungeon loot (coffers and boss drops), FATE rewards, exploration (retainer ventures, " +
         "submarine/airship voyages), vendors (gil and special-currency), and the quests that consume it. " +
         "Identify the item by itemId (exact) or query (first item whose name contains the substring). " +
-        "Each source carries a coarse 'category' (drop | crafting | dungeon | content | exploration | vendor | quest) " +
+        "Each source carries a coarse 'category' (drop | crafting | gathering | dungeon | content | exploration | vendor | quest) " +
         "plus a localised source name and free-form detail (drop rate, quantity, gil price). " +
         "Filter to one category with the category parameter; categoryCounts always reports the full breakdown " +
         "(before filtering) so you can see what is available. Use limit and offset to page the source list.")]
     public string GetItemSources(
         [Description("Exact Item row ID to look up. Takes precedence over query.")] int? itemId = null,
         [Description("Item name substring; resolves to the first matching item (case-insensitive). Ignored if itemId is set.")] string? query = null,
-        [Description("Restrict sources to one category: drop | crafting | dungeon | content | exploration | vendor | quest. Omit for all.")] string? category = null,
+        [Description("Restrict sources to one category: drop | crafting | gathering | dungeon | content | exploration | vendor | quest. Omit for all.")] string? category = null,
         [Description("Maximum number of sources to return (1–200). Default 50.")] int? limit = null,
         [Description("Number of sources to skip for pagination. Default 0.")] int? offset = null,
         [Description("Comma-separated language codes, e.g. 'en,ja'. Defaults to server default.")] string? languages = null) =>
@@ -163,8 +163,8 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
             return ToolHelper.Ok(BuildItemSourcesResponse(itemId is null ? null : (uint)itemId.Value, query, cat, lim, off, langs));
         });
 
-    private static readonly IReadOnlyList<string> SourceCategories =
-        ["drop", "crafting", "dungeon", "content", "exploration", "vendor", "quest"];
+    internal static readonly IReadOnlyList<string> SourceCategories =
+        ["drop", "crafting", "gathering", "dungeon", "content", "exploration", "vendor", "quest"];
 
     private static string? NormalizeCategory(string? category)
     {
@@ -224,6 +224,20 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
                 return $"{c.Count.ToString("N0", CultureInfo.InvariantCulture)}x {n}";
             });
             return string.Join(" + ", parts);
+        }
+
+        // "x10 for 2x Wet Bombard Ash" — received quantity (when >1) plus the currency cost.
+        string FormatOffer(SpecialShopOffer offer)
+        {
+            var cost = FormatCost(offer.Cost);
+            var recv = offer.ReceiveCount > 1 ? $"x{offer.ReceiveCount}" : null;
+            return (recv, cost) switch
+            {
+                (null, null)         => "special-currency exchange",
+                (not null, null)     => $"{recv} (special-currency exchange)",
+                (null, not null)     => cost!,
+                _                    => $"{recv} for {cost}",
+            };
         }
 
         var sources = new List<ItemSourceEntry>();
@@ -314,28 +328,25 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
                 Detail = $"sector #{pointId}",
             });
 
-        // ── Vendors ──
-        foreach (var shopId in supplemental.GetGilShops(id))
-        {
-            var (name, ctx) = VendorNames(shopId, primaryLang, Loc);
-            sources.Add(new ItemSourceEntry
-            {
-                SourceType = "gil_vendor", Category = "vendor",
-                SourceId = shopId, SourceName = name, Context = ctx,
-                Detail = gilPrice > 0 ? $"{gilPrice.ToString("N0", CultureInfo.InvariantCulture)} gil" : null,
-            });
-        }
+        // ── Vendors (one entry per vendor NPC of each shop) ──
+        var gilDetail = gilPrice > 0 ? $"{gilPrice.ToString("N0", CultureInfo.InvariantCulture)} gil" : null;
+        foreach (var shopId in supplemental.GetGilShops(id).Distinct())
+            foreach (var (srcId, name, ctx) in VendorTargets(shopId, Loc))
+                sources.Add(new ItemSourceEntry
+                {
+                    SourceType = "gil_vendor", Category = "vendor",
+                    SourceId = srcId, SourceName = name, Context = ctx,
+                    Detail = gilDetail,
+                });
 
-        foreach (var offer in supplemental.GetSpecialShops(id).GroupBy(o => o.ShopId).Select(g => g.First()))
-        {
-            var (name, ctx) = VendorNames(offer.ShopId, primaryLang, Loc);
-            sources.Add(new ItemSourceEntry
-            {
-                SourceType = "special_vendor", Category = "vendor",
-                SourceId = offer.ShopId, SourceName = name, Context = ctx,
-                Detail = FormatCost(offer.Cost) ?? "special-currency exchange",
-            });
-        }
+        foreach (var offer in DistinctOffers(supplemental.GetSpecialShops(id)))
+            foreach (var (srcId, name, ctx) in VendorTargets(offer.ShopId, Loc))
+                sources.Add(new ItemSourceEntry
+                {
+                    SourceType = "special_vendor", Category = "vendor",
+                    SourceId = srcId, SourceName = name, Context = ctx,
+                    Detail = FormatOffer(offer),
+                });
 
         // ── Quests that consume the item (obtained-for, not obtained-from) ──
         foreach (var q in supplemental.GetQuestUses(id))
@@ -377,23 +388,46 @@ public sealed class SupplementalTools(SupplementalDataService supplemental, Game
         };
     }
 
-    private (Dictionary<string, string>? Name, Dictionary<string, string>? Context) VendorNames(
-        uint shopId, string primaryLang, Func<uint, Func<string, IReadOnlyDictionary<uint, string>>, Dictionary<string, string>?> loc)
+    /// <summary>
+    /// Yields one target per vendor NPC that offers the shop (a shop can have several), so callers
+    /// see every merchant rather than just the first. The localised NPC name is the source name; the
+    /// shop's descriptive label is English-only community data, exposed as context under the "en" key.
+    /// When no NPC is known, falls back to the English label (or nothing) as the name.
+    /// </summary>
+    private IEnumerable<(uint SourceId, Dictionary<string, string>? Name, Dictionary<string, string>? Context)> VendorTargets(
+        uint shopId, Func<uint, Func<string, IReadOnlyDictionary<uint, string>>, Dictionary<string, string>?> loc)
     {
-        var npcIds  = supplemental.GetShopNpcs(shopId).ToList();
-        var npcName = npcIds.Count > 0 ? loc(npcIds[0], supplemental.GetNpcNames) : null;
-
         var label = supplemental.GetShopLabel(shopId);
-        var shopName = label is not null
-            ? new Dictionary<string, string> { [primaryLang] = label }
-            : null;
+        Dictionary<string, string>? LabelDict() => label is not null ? new() { ["en"] = label } : null;
 
-        // Prefer the descriptive shop label as the name and the NPC as context;
-        // fall back to the NPC name when no label exists.
-        return shopName is not null ? (shopName, npcName) : (npcName, null);
+        var npcIds = supplemental.GetShopNpcs(shopId).Distinct().ToList();
+        if (npcIds.Count == 0)
+        {
+            yield return (shopId, LabelDict(), null);
+            yield break;
+        }
+
+        foreach (var npc in npcIds)
+        {
+            var name = loc(npc, supplemental.GetNpcNames);
+            yield return name is not null
+                ? (npc, name, LabelDict())
+                : (shopId, LabelDict(), null);
+        }
     }
 
-    private static (string Type, string Category) MapSupplementSource(ItemSupplementSource source) => source switch
+    /// <summary>Removes exact-duplicate offers while preserving genuinely distinct cost/quantity variants of the same shop.</summary>
+    private static IEnumerable<SpecialShopOffer> DistinctOffers(IEnumerable<SpecialShopOffer> offers)
+    {
+        var seen = new HashSet<string>();
+        foreach (var o in offers)
+        {
+            var key = $"{o.ShopId}|{o.ReceiveCount}|{string.Join(",", o.Cost.Select(c => $"{c.ItemId}x{c.Count}"))}";
+            if (seen.Add(key)) yield return o;
+        }
+    }
+
+    internal static (string Type, string Category) MapSupplementSource(ItemSupplementSource source) => source switch
     {
         ItemSupplementSource.Desynth          => ("desynth", "crafting"),
         ItemSupplementSource.Reduction        => ("reduction", "crafting"),

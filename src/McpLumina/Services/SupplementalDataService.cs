@@ -194,10 +194,10 @@ public sealed class SupplementalDataService
                         if (give.ItemCost.RowId != 0 && give.CurrencyCost > 0)
                             cost.Add(new CostItem(give.ItemCost.RowId, give.CurrencyCost));
 
-                    var offer = new SpecialShopOffer(shop.RowId, cost);
+                    // ReceiveCount is per received item, so build the offer inside the loop.
                     foreach (var recv in entry.ReceiveItems)
                         if (recv.Item.RowId != 0)
-                            special.Add((recv.Item.RowId, offer));
+                            special.Add((recv.Item.RowId, new SpecialShopOffer(shop.RowId, recv.ReceiveCount, cost)));
                 }
         }
         catch (Exception ex) { logger.LogWarning(ex, "SpecialShop scan failed; special vendors unavailable"); }
@@ -270,5 +270,5 @@ public sealed class SupplementalDataService
 /// <summary>An item and quantity that must be given to complete a special-shop exchange.</summary>
 public sealed record CostItem(uint ItemId, uint Count);
 
-/// <summary>A special (currency) shop that offers an item, along with what it costs.</summary>
-public sealed record SpecialShopOffer(uint ShopId, IReadOnlyList<CostItem> Cost);
+/// <summary>A special (currency) shop that offers an item: how many you receive, and what it costs.</summary>
+public sealed record SpecialShopOffer(uint ShopId, uint ReceiveCount, IReadOnlyList<CostItem> Cost);

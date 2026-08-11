@@ -15,6 +15,8 @@ public sealed class ItemSourcesIntegrationTests : IntegrationTestBase
     private const int NapalmBNpcNameId = 1749;
     private const int PotionItemId     = 4551;  // sold by gil vendors (priceMid 28)
     private const int WolfMarkItemId   = 25;    // offered by a special (currency) shop
+    private const int ForagerHatItemId = 7522;  // has several distinct exchanges in one special shop
+    private const int SparklerItemId   = 5893;  // a special exchange grants a stack (ReceiveCount > 1)
 
     private static readonly JsonSerializerOptions DeserializeOpts = new()
     {
@@ -145,6 +147,52 @@ public sealed class ItemSourcesIntegrationTests : IntegrationTestBase
         // Cost is rendered as "<count>x <currency name>", e.g. "1x Wolf Collar".
         Assert.NotNull(special.Detail);
         Assert.Matches(@"\d+x \S", special.Detail!);
+    }
+
+    [SkippableFact]
+    public void SpecialVendor_PreservesDistinctOffersInSameShop()
+    {
+        SkipIfNoGamePath();
+
+        var response = Sources(itemId: ForagerHatItemId, limit: 200);
+
+        // Multiple distinct exchanges of the same item in one shop must survive (not collapsed to one).
+        var specialDetails = response.Sources
+            .Where(s => s.SourceType == "special_vendor")
+            .GroupBy(s => s.SourceId)
+            .Select(g => g.Select(x => x.Detail).Distinct().Count())
+            .DefaultIfEmpty(0)
+            .Max();
+
+        Assert.True(specialDetails >= 2,
+            $"Expected a shop with multiple distinct exchanges, saw at most {specialDetails}.");
+    }
+
+    [SkippableFact]
+    public void SpecialVendor_ReportsReceivedQuantity()
+    {
+        SkipIfNoGamePath();
+
+        var response = Sources(itemId: SparklerItemId, limit: 200);
+
+        // A stack-granting exchange renders as "x<n> for <cost>".
+        Assert.Contains(response.Sources,
+            s => s.SourceType == "special_vendor" && s.Detail is not null &&
+                 System.Text.RegularExpressions.Regex.IsMatch(s.Detail, @"^x\d+ for "));
+    }
+
+    [SkippableFact]
+    public void Vendor_ShopLabel_IsExposedAsEnglishContextOnly()
+    {
+        SkipIfNoGamePath();
+
+        // Whenever a shop's English descriptive label is attached, it must sit under the "en" key,
+        // never mislabelled as the requested (possibly non-English) primary language.
+        var response = Sources(itemId: ForagerHatItemId, category: "vendor", langs: ["ja"], limit: 200);
+
+        Assert.All(
+            response.Sources.Where(s => s.Context is not null),
+            s => Assert.Equal(new[] { "en" }, s.Context!.Keys.ToArray()));
     }
 
     [SkippableFact]

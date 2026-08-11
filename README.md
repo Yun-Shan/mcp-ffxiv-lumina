@@ -797,7 +797,7 @@ Returns monster drop data from the community-maintained [LuminaSupplemental](htt
 
 ---
 
-### `get_item_sources(itemId?, query?, limit?, offset?, languages?)`
+### `get_item_sources(itemId?, query?, category?, limit?, offset?, languages?)`
 
 Aggregates **every known way to obtain a single item** across the [LuminaSupplemental](https://github.com/Critical-Impact/LuminaSupplemental) datasets and the game's shop sheets. Answers "where does this item come from?" in one call.
 
@@ -813,14 +813,15 @@ Sources are grouped by a coarse `category` for filtering:
 | Category | `sourceType` values | Backing data |
 |---|---|---|
 | `drop` | `mob_drop` | MobDrop |
-| `crafting` | `desynth`, `reduction`, `gardening`, `skybuilder` | ItemSupplement |
+| `crafting` | `desynth`, `reduction`, `skybuilder` | ItemSupplement |
+| `gathering` | `gardening` | ItemSupplement |
 | `dungeon` | `dungeon_chest`, `dungeon_boss`, `dungeon_boss_chest`, `dungeon_drop` | Dungeon* datasets → ContentFinderCondition |
 | `content` | `fate`, `loot`, `coffer`, `card_pack` | FateItem, ItemSupplement |
 | `exploration` | `retainer_venture`, `submarine`, `airship`, `deep_dungeon`, `eureka`, `bozja`, `occult_crescent` | RetainerVentureItem, Submarine/AirshipDrop, ItemSupplement |
-| `vendor` | `gil_vendor`, `special_vendor` | GilShopItem / SpecialShop → ShopName / ENpcShop |
+| `vendor` | `gil_vendor`, `special_vendor` | GilShopItem / SpecialShop → ENpcBase / ShopName |
 | `quest` | `quest_required` (obtained *for*, not *from*) | QuestRequiredItem |
 
-Each source carries a localised `sourceName` (mob, source item, duty, FATE, vendor NPC, submarine/airship destination…), an optional `context` (e.g. the vendor NPC behind a named shop), and a free-form `detail` — drop rate, quantity, gil price, or a special-shop currency cost such as `"1x Wolf Collar"`.
+Each source carries a localised `sourceName` (mob, source item, duty, FATE, vendor NPC, submarine/airship destination…). Vendors emit one entry per merchant NPC; the shop's English descriptive label, when present, is exposed as `context` under the `en` key. `detail` is free-form — drop rate, quantity, gil price, or a special-shop cost such as `"x10 for 2x Wet Bombard Ash"`.
 
 ```json
 {
