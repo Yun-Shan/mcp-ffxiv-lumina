@@ -69,4 +69,26 @@ public sealed class SheetTools(GameDataService gameData, ResponseCacheService ca
             var fields = InputValidator.ParseReturnFields(returnFields);
             return ToolHelper.Ok(gameData.GetRows(sheet, rowIds, langs, fields));
         });
+
+    [McpServerTool(Name = "list_rows")]
+    [Description(
+        "Batched version of get_row. Returns multiple rows in a single call. " +
+        "Maximum 100 row IDs per call. Missing row IDs are reported in missingRowIds. " +
+        "Use return_fields to limit the response to specific columns and reduce token usage.")]
+    public string ListRows(
+        [Description("Sheet name.")] string sheet,
+        [Description("Result offset for pagination. Default 0.")] int? offset = null,
+        [Description("Max results to return, -1 for all rows. Default 50.")] int? limit = null,
+        [Description("Comma-separated language codes. Defaults to server default.")] string? languages = null,
+        [Description("Comma-separated field names to include, e.g. 'Name,ClassJob' or 'Column_0,Column_10'. Empty = all fields.")] string? returnFields = null) =>
+        ToolHelper.Execute(() =>
+        {
+            // No upper bound since the total row count is unknown.
+            uint _offset = (uint)(offset > 0 ? offset : 0);
+            int _limit = (limit > 1 || limit == -1) ? (int)limit : 50;
+            var langs = gameData.Languages.Resolve(InputValidator.ParseLanguages(languages));
+            var fields = InputValidator.ParseReturnFields(returnFields);
+
+            return ToolHelper.Ok(gameData.ListRows(sheet, _offset, _limit, langs, fields));
+        });
 }

@@ -32,7 +32,7 @@ public sealed class SheetToolsIntegrationTests : IntegrationTestBase
         var response = GameData.DescribeSheet("ClassJob");
         Assert.Equal("ClassJob", response.Sheet);
         Assert.NotEmpty(response.Columns);
-        Assert.True(response.RowCountApprox > 0);
+        Assert.True(response.RowCount > 0);
     }
 
     [SkippableFact]

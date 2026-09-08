@@ -3,7 +3,7 @@ namespace McpLumina.Models.Responses;
 public sealed record SheetDescribeResponse : BaseResponse
 {
     public string         Sheet          { get; init; } = string.Empty;
-    public int            RowCountApprox { get; init; }
+    public int            RowCount       { get; init; }
     public ColumnInfo[]   Columns        { get; init; } = [];
     public string[]       Languages      { get; init; } = [];
     public SchemaInfo?    Schema         { get; init; }

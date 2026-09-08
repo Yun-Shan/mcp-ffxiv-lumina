@@ -201,7 +201,7 @@ public sealed class GameDataService : IDisposable
         return new SheetDescribeResponse
         {
             Sheet          = sheetName,
-            RowCountApprox = sheet.Count,
+            RowCount       = sheet.Count,
             Columns        = columns,
             Languages      = sheetLangs.Length > 0 ? sheetLangs : ["(language-neutral)"],
             Schema         = schemaInfo,
@@ -303,6 +303,59 @@ public sealed class GameDataService : IDisposable
             MissingRowIds      = [.. missingIds],
             GameVersion        = _gameVersion,
             Timestamp          = DateTimeOffset.UtcNow.ToString("O"),
+        };
+    }
+
+    // ── list_rows() ───────────────────────────────────────────────────────
+
+    public RowsResponse ListRows(string sheetName, uint offset, int limit, string[] languages, string[]? returnFields = null)
+    {
+        var (returned, fallback) = _languages.ApplyFallback(languages);
+        var primaryCode = returned.FirstOrDefault() ?? _config.LanguageDefault;
+        var primaryLang = LanguageService.ToLuminaLanguage(primaryCode);
+
+        var sheet = _genericReader.LoadSheet(sheetName, primaryLang);
+        var schemaNames = _schema.GetColumnNames(sheetName, sheet.Columns.Count);
+
+        var returnIndices = ResolveReturnFields(sheetName, returnFields, sheet.Columns.Count, schemaNames);
+
+        var rows = new List<RowResponse>();
+
+        // Single pass through the sheet to collect all requested rows.
+        var foundRows = _genericReader.ReadAllRows(sheet)
+            .Skip((int)offset);
+        if (limit >= 0) foundRows = foundRows.Take(limit);
+
+        foreach (var row in foundRows)
+        {
+            var fields = _genericReader.RowToFields(
+                sheet, row, returned,
+                lang => TryLoadSheet(sheetName, LanguageService.ToLuminaLanguage(lang)),
+                schemaNames, returnIndices);
+
+            rows.Add(new RowResponse
+            {
+                Sheet = sheetName,
+                RowId = row.RowId,
+                LanguagesRequested = languages,
+                LanguagesReturned = returned,
+                FallbackUsed = fallback,
+                Fields = fields,
+                GameVersion = _gameVersion,
+                Timestamp = DateTimeOffset.UtcNow.ToString("O"),
+            });
+        }
+
+        return new RowsResponse
+        {
+            Sheet = sheetName,
+            RowIds = [.. rows.Select(it => it.RowId)],
+            LanguagesRequested = languages,
+            LanguagesReturned = returned,
+            FallbackUsed = fallback,
+            Rows = [.. rows],
+            GameVersion = _gameVersion,
+            Timestamp = DateTimeOffset.UtcNow.ToString("O"),
         };
     }
 

@@ -106,6 +106,8 @@ public sealed class GenericSheetReader(GameData gameData)
         }
     }
 
+    private static readonly Dictionary<int, ValueTuple<int, ExcelColumnDefinition>[]> SheetColumnMap = [];
+
     /// <summary>
     /// Builds the fields dictionary for a row response.
     /// String columns are returned as a per-language map when multiple languages are requested.
@@ -120,11 +122,16 @@ public sealed class GenericSheetReader(GameData gameData)
         string[]? columnNames = null,
         HashSet<int>? returnFieldIndices = null)
     {
-        var columns  = primarySheet.Columns.Select((col, idx) => (colIdx: idx, col)).OrderBy(it => it.col.Offset).ToImmutableList();
-        var capacity = returnFieldIndices?.Count ?? columns.Count;
+        // Lumina returns the same object instance for identical sheets, so GetHashCode() can be used as a cache key.
+        if (!SheetColumnMap.TryGetValue(primarySheet.GetHashCode(), out var columns))
+        {
+            columns = [.. primarySheet.Columns.Select((col, idx) => (colIdx: idx, col)).OrderBy(it => it.col.Offset)];
+            SheetColumnMap[primarySheet.GetHashCode()] = columns;
+        }
+        var capacity = returnFieldIndices?.Count ?? columns.Length;
         var fields   = new Dictionary<string, object?>(capacity);
 
-        for (int i = 0; i < columns.Count; i++)
+        for (int i = 0; i < columns.Length; i++)
         {
             if (returnFieldIndices is not null && !returnFieldIndices.Contains(i))
                 continue;

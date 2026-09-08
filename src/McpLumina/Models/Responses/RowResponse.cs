@@ -26,3 +26,14 @@ public sealed record RowsResponse : BaseResponse
     public RowResponse[] Rows              { get; init; } = [];
     public uint[]       MissingRowIds      { get; init; } = [];
 }
+
+public sealed record ListRowsResponse : BaseResponse
+{
+    public string Sheet { get; init; } = string.Empty;
+    public string[] LanguagesRequested { get; init; } = [];
+    public string[] LanguagesReturned { get; init; } = [];
+    public bool FallbackUsed { get; init; }
+    public RowResponse[] Rows { get; init; } = [];
+    public uint Offset { get; init; }
+    public uint Total { get; init; }
+}
