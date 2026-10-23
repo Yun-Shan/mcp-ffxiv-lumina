@@ -1,0 +1,80 @@
+{
+  "sheet": "Recipe",
+  "rowIds": [
+    5316
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "Recipe",
+      "rowId": 5316,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuality": 0,
+        "Quest": 0,
+        "Number": 1,
+        "CraftType": 3,
+        "ItemResult": 36188,
+        "Ingredient[0]": 36180,
+        "Ingredient[1]": 0,
+        "Ingredient[2]": 0,
+        "Ingredient[3]": 0,
+        "Ingredient[4]": 0,
+        "Ingredient[5]": 0,
+        "Ingredient[6]": 10,
+        "Ingredient[7]": -1,
+        "StatusRequired": 0,
+        "ItemRequired": 0,
+        "RecipeLevelTable": 517,
+        "MaxAdjustableJobLevel": 0,
+        "RecipeNotebookList": 0,
+        "DisplayPriority": 0,
+        "DifficultyFactor": 50,
+        "QualityFactor": 100,
+        "DurabilityFactor": 50,
+        "RequiredCraftsmanship": 0,
+        "RequiredControl": 0,
+        "QuickSynthCraftsmanship": 0,
+        "QuickSynthControl": 0,
+        "SecretRecipeBook": 0,
+        "CollectableMetadata": 65535,
+        "PatchNumber": 600,
+        "AmountResult": 1,
+        "AmountIngredient[0]": 4,
+        "AmountIngredient[1]": 0,
+        "AmountIngredient[2]": 0,
+        "AmountIngredient[3]": 0,
+        "AmountIngredient[4]": 0,
+        "AmountIngredient[5]": 0,
+        "AmountIngredient[6]": 8,
+        "AmountIngredient[7]": 0,
+        "MaterialQualityFactor": 0,
+        "CollectableMetadataKey": 0,
+        "IsSecondary": true,
+        "CanQuickSynth": true,
+        "CanHq": true,
+        "ExpRewarded": true,
+        "Unknown1": false,
+        "IsSpecializationRequired": false,
+        "IsExpert": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:41.0281363+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:01:41.0281417+00:00"
+}

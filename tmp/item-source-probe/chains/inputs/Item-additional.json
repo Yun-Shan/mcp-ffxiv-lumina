@@ -1,0 +1,537 @@
+{
+  "sheet": "Item",
+  "rowIds": [
+    34391,
+    35686,
+    32161,
+    36182,
+    36249,
+    36210,
+    36237,
+    36188,
+    36180,
+    36174,
+    36244,
+    36241,
+    36204,
+    36162,
+    27799,
+    27782,
+    10,
+    11,
+    12,
+    13
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "Item",
+      "rowId": 34391,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "",
+        "Name": "赛加羚羊革魔导典",
+        "LevelEquip": 84,
+        "ClassJobCategory": 29,
+        "LevelItem": 533,
+        "ItemAction": 0,
+        "ItemUICategory": 98,
+        "IsUntradable": false,
+        "CanBeHq": true,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623606+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 35686,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "里面装着武器的弗里金材质的箱子。\r\n使用后便能获得相应职业或特职的武器。\r\n可装备等级：84（装备品级：533）\r\n可以在主城及野外使用。",
+        "Name": "弗里金武器箱（品级533）",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 1,
+        "ItemAction": 388,
+        "ItemUICategory": 61,
+        "IsUntradable": true,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623715+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 32161,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "雇员带回来的宝箱，还没有确认里面装的是什么……",
+        "Name": "雇员的宝箱",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 1,
+        "ItemAction": 388,
+        "ItemUICategory": 61,
+        "IsUntradable": true,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623759+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36182,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "紫水晶和黄水晶伴生形成的稀有宝石。",
+        "Name": "紫黄晶",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 515,
+        "ItemAction": 0,
+        "ItemUICategory": 48,
+        "IsUntradable": false,
+        "CanBeHq": true,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623780+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36249,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "经过鞣制的赛加羚羊革。",
+        "Name": "赛加羚羊革",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 533,
+        "ItemAction": 0,
+        "ItemUICategory": 52,
+        "IsUntradable": false,
+        "CanBeHq": true,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623810+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36210,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "未经染色的雪亚麻布。",
+        "Name": "雪亚麻布",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 533,
+        "ItemAction": 0,
+        "ItemUICategory": 51,
+        "IsUntradable": false,
+        "CanBeHq": true,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623841+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36237,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "墨水中混有辉翠银砂的粉末，能够提高以太的传导率。",
+        "Name": "辉翠银附魔墨水",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 520,
+        "ItemAction": 0,
+        "ItemUICategory": 54,
+        "IsUntradable": false,
+        "CanBeHq": true,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623863+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36188,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "用来研磨金属及石材等道具的绿片岩。",
+        "Name": "绿片岩磨刀石",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 520,
+        "ItemAction": 0,
+        "ItemUICategory": 48,
+        "IsUntradable": false,
+        "CanBeHq": true,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623907+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36180,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "在低温低压环境下生成的结晶状片岩。",
+        "Name": "绿片岩",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 520,
+        "ItemAction": 0,
+        "ItemUICategory": 48,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623937+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36174,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "含有紫黄晶成分的原石。",
+        "Name": "紫黄晶原石",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 515,
+        "ItemAction": 0,
+        "ItemUICategory": 48,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623958+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36244,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "赛加羚羊厚重的粗皮。",
+        "Name": "赛加羚羊的粗皮",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 533,
+        "ItemAction": 0,
+        "ItemUICategory": 52,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7623992+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36241,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "艾布拉纳冰原出产的明矾，是制作皮革鞣制剂的原料。",
+        "Name": "艾布拉纳明矾",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 533,
+        "ItemAction": 0,
+        "ItemUICategory": 54,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624053+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36204,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "原产于伊尔萨巴德大陆北部的纤维作物。",
+        "Name": "雪亚麻",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 533,
+        "ItemAction": 0,
+        "ItemUICategory": 51,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624334+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36162,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "含有辉翠银的矿砂。",
+        "Name": "辉翠银沙",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 515,
+        "ItemAction": 0,
+        "ItemUICategory": 48,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624396+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 27799,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "散发着恶臭的卡部斯的膏状肉。",
+        "Name": "卡部斯的肉",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 418,
+        "ItemAction": 0,
+        "ItemUICategory": 54,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624435+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 27782,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "从地下水脉涌出的天然水。",
+        "Name": "地下天然水",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 415,
+        "ItemAction": 0,
+        "ItemUICategory": 54,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624474+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 10,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "风媒介的结晶。",
+        "Name": "风之水晶",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 25,
+        "ItemAction": 0,
+        "ItemUICategory": 59,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624498+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 11,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "土媒介的结晶。",
+        "Name": "土之水晶",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 25,
+        "ItemAction": 0,
+        "ItemUICategory": 59,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624519+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 12,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "雷媒介的结晶。",
+        "Name": "雷之水晶",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 25,
+        "ItemAction": 0,
+        "ItemUICategory": 59,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624539+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 13,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "水媒介的结晶。",
+        "Name": "水之水晶",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "LevelItem": 25,
+        "ItemAction": 0,
+        "ItemUICategory": 59,
+        "IsUntradable": false,
+        "CanBeHq": false,
+        "IsCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:47.7624556+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:01:47.7624573+00:00"
+}

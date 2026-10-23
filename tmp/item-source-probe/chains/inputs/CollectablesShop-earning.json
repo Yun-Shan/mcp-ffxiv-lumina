@@ -1,0 +1,257 @@
+{
+  "sheet": "CollectablesShop",
+  "rowIds": [
+    3866624,
+    3866625,
+    3866626,
+    3866627,
+    3866628,
+    3866629,
+    3866630,
+    3866631
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866624,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "",
+        "Quest": 0,
+        "ShopItems[0]": 0,
+        "ShopItems[1]": 0,
+        "ShopItems[2]": 0,
+        "ShopItems[3]": 0,
+        "ShopItems[4]": 0,
+        "ShopItems[5]": 0,
+        "ShopItems[6]": 0,
+        "ShopItems[7]": 0,
+        "ShopItems[8]": 0,
+        "ShopItems[9]": 0,
+        "ShopItems[10]": 0,
+        "RewardType": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267537+00:00"
+    },
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866625,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "交换能工巧匠改良用材料",
+        "Quest": 69428,
+        "ShopItems[0]": 1,
+        "ShopItems[1]": 2,
+        "ShopItems[2]": 3,
+        "ShopItems[3]": 4,
+        "ShopItems[4]": 5,
+        "ShopItems[5]": 6,
+        "ShopItems[6]": 7,
+        "ShopItems[7]": 8,
+        "ShopItems[8]": 0,
+        "ShopItems[9]": 0,
+        "ShopItems[10]": 0,
+        "RewardType": 2
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267557+00:00"
+    },
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866626,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "収集品納品",
+        "Quest": 67631,
+        "ShopItems[0]": 23,
+        "ShopItems[1]": 24,
+        "ShopItems[2]": 25,
+        "ShopItems[3]": 26,
+        "ShopItems[4]": 27,
+        "ShopItems[5]": 28,
+        "ShopItems[6]": 29,
+        "ShopItems[7]": 30,
+        "ShopItems[8]": 31,
+        "ShopItems[9]": 32,
+        "ShopItems[10]": 14,
+        "RewardType": 1
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267568+00:00"
+    },
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866627,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "●収集品回収",
+        "Quest": 0,
+        "ShopItems[0]": 15,
+        "ShopItems[1]": 16,
+        "ShopItems[2]": 17,
+        "ShopItems[3]": 18,
+        "ShopItems[4]": 19,
+        "ShopItems[5]": 20,
+        "ShopItems[6]": 21,
+        "ShopItems[7]": 22,
+        "ShopItems[8]": 12,
+        "ShopItems[9]": 13,
+        "ShopItems[10]": 0,
+        "RewardType": 1
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267609+00:00"
+    },
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866628,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "交换最终改良用材料",
+        "Quest": 69518,
+        "ShopItems[0]": 33,
+        "ShopItems[1]": 34,
+        "ShopItems[2]": 35,
+        "ShopItems[3]": 36,
+        "ShopItems[4]": 37,
+        "ShopItems[5]": 38,
+        "ShopItems[6]": 39,
+        "ShopItems[7]": 40,
+        "ShopItems[8]": 41,
+        "ShopItems[9]": 42,
+        "ShopItems[10]": 43,
+        "RewardType": 2
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267615+00:00"
+    },
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866629,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "交换老式辉煌工具用材料",
+        "Quest": 69139,
+        "ShopItems[0]": 44,
+        "ShopItems[1]": 45,
+        "ShopItems[2]": 46,
+        "ShopItems[3]": 47,
+        "ShopItems[4]": 48,
+        "ShopItems[5]": 49,
+        "ShopItems[6]": 50,
+        "ShopItems[7]": 51,
+        "ShopItems[8]": 0,
+        "ShopItems[9]": 0,
+        "ShopItems[10]": 0,
+        "RewardType": 2
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267625+00:00"
+    },
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866630,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "交换辉煌工具用材料",
+        "Quest": 69139,
+        "ShopItems[0]": 52,
+        "ShopItems[1]": 53,
+        "ShopItems[2]": 54,
+        "ShopItems[3]": 55,
+        "ShopItems[4]": 56,
+        "ShopItems[5]": 57,
+        "ShopItems[6]": 58,
+        "ShopItems[7]": 59,
+        "ShopItems[8]": 0,
+        "ShopItems[9]": 0,
+        "ShopItems[10]": 0,
+        "RewardType": 2
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267630+00:00"
+    },
+    {
+      "sheet": "CollectablesShop",
+      "rowId": 3866631,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "递交交易资本",
+        "Quest": 0,
+        "ShopItems[0]": 60,
+        "ShopItems[1]": 61,
+        "ShopItems[2]": 62,
+        "ShopItems[3]": 63,
+        "ShopItems[4]": 64,
+        "ShopItems[5]": 65,
+        "ShopItems[6]": 66,
+        "ShopItems[7]": 67,
+        "ShopItems[8]": 68,
+        "ShopItems[9]": 69,
+        "ShopItems[10]": 70,
+        "RewardType": 2
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:46.7267635+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:00:46.7267699+00:00"
+}

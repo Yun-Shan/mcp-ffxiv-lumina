@@ -1,0 +1,458 @@
+{
+  "sheet": "Item",
+  "rowIds": [
+    1,
+    28,
+    47,
+    48,
+    49,
+    33913,
+    33914,
+    41784,
+    41785,
+    5379,
+    7778,
+    23310,
+    2928,
+    41778,
+    41775,
+    35247,
+    35826,
+    40091,
+    40016,
+    46314
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "Item",
+      "rowId": 1,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "金币",
+        "StackSize": 999999999,
+        "PriceMid": 0,
+        "FilterGroup": 16,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9390825+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 28,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "亚拉戈诗学神典石",
+        "StackSize": 2000,
+        "PriceMid": 1,
+        "FilterGroup": 16,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9390902+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 47,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "亚拉戈天道神典石",
+        "StackSize": 2000,
+        "PriceMid": 2,
+        "FilterGroup": 16,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9390947+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 48,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "亚拉戈数理神典石",
+        "StackSize": 2000,
+        "PriceMid": 2,
+        "FilterGroup": 16,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9390959+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 49,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "亚拉戈记忆神典石",
+        "StackSize": 2000,
+        "PriceMid": 99999,
+        "FilterGroup": 16,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9390972+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 33913,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "巧手紫票",
+        "StackSize": 4000,
+        "PriceMid": 2,
+        "FilterGroup": 29,
+        "ItemUICategory": 100,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391013+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 33914,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "大地紫票",
+        "StackSize": 4000,
+        "PriceMid": 2,
+        "FilterGroup": 29,
+        "ItemUICategory": 100,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391043+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 41784,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "巧手橙票",
+        "StackSize": 4000,
+        "PriceMid": 2,
+        "FilterGroup": 29,
+        "ItemUICategory": 100,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391065+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 41785,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "大地橙票",
+        "StackSize": 4000,
+        "PriceMid": 2,
+        "FilterGroup": 29,
+        "ItemUICategory": 100,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391079+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 5379,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "硬化云杉木材",
+        "StackSize": 999,
+        "PriceMid": 1330,
+        "FilterGroup": 12,
+        "ItemUICategory": 50,
+        "CanBeHq": true
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391098+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 7778,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "木工秘籍第一卷",
+        "StackSize": 1,
+        "PriceMid": 3000,
+        "FilterGroup": 23,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391120+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 23310,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "天青图腾·破防",
+        "StackSize": 1,
+        "PriceMid": 2,
+        "FilterGroup": 16,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391152+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 2928,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "矿工头灯帽",
+        "StackSize": 1,
+        "PriceMid": 8575,
+        "FilterGroup": 4,
+        "ItemUICategory": 34,
+        "CanBeHq": true
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391204+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 41778,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "名匠魔晶石拾贰型",
+        "StackSize": 999,
+        "PriceMid": 99999,
+        "FilterGroup": 13,
+        "ItemUICategory": 58,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391216+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 41775,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "达识魔晶石拾贰型",
+        "StackSize": 999,
+        "PriceMid": 99999,
+        "FilterGroup": 13,
+        "ItemUICategory": 58,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391228+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 35247,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "日影兰战锤",
+        "StackSize": 1,
+        "PriceMid": 99999,
+        "FilterGroup": 1,
+        "ItemUICategory": 3,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391275+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 35826,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "第4页边境的断章",
+        "StackSize": 999,
+        "PriceMid": 2,
+        "FilterGroup": 16,
+        "ItemUICategory": 61,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391292+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 40091,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "改良型龙须拳",
+        "StackSize": 1,
+        "PriceMid": 99999,
+        "FilterGroup": 1,
+        "ItemUICategory": 1,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391310+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 40016,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "龙须拳",
+        "StackSize": 1,
+        "PriceMid": 99999,
+        "FilterGroup": 1,
+        "ItemUICategory": 1,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391323+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 46314,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "木工秘籍第十二卷",
+        "StackSize": 1,
+        "PriceMid": 2,
+        "FilterGroup": 23,
+        "ItemUICategory": 63,
+        "CanBeHq": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:02:14.9391352+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:02:14.9391380+00:00",
+  "transport": "configured Lumina MCP get_rows; no source API"
+}

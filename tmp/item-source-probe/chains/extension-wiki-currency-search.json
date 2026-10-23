@@ -1,0 +1,135 @@
+{
+  "fetchedAtUtc": "2026-10-23T17:01:08.324Z",
+  "credentials": "omit",
+  "endpoint": "https://ff14.huijiwiki.com/api.php",
+  "searches": [
+    {
+      "term": "巧手紫票",
+      "url": "https://ff14.huijiwiki.com/api.php?action=query&list=search&srsearch=%E5%B7%A7%E6%89%8B%E7%B4%AB%E7%A5%A8&srnamespace=0&srlimit=5&format=json&formatversion=2",
+      "httpStatus": 200,
+      "data": {
+        "batchcomplete": true,
+        "continue": {
+          "sroffset": 5,
+          "continue": "-||"
+        },
+        "query": {
+          "searchinfo": {
+            "totalhits": 20
+          },
+          "search": [
+            {
+              "ns": 0,
+              "title": "巧手紫票",
+              "pageid": 365370,
+              "size": 1503,
+              "wordcount": 262,
+              "snippet": "<span class=\"searchmatch\">巧手紫票</span> 基本信息 类型：货币 分类：其他 - 能工巧匠 持有上限：4000 历史版本 添加版本：版本 6.0 各语言名称 日文名：クラフタースクリップ:<span class=\"searchmatch\">紫</span>貨 英文名：Purple Crafters' Scrip <span class=\"searchmatch\">巧手紫票</span>是 版本 6.0 新增的能工巧匠工<span class=\"searchmatch\">票</span>，属于其他类货币，持有上限为4000。完成",
+              "timestamp": "2026-09-08T03:17:37Z"
+            },
+            {
+              "ns": 0,
+              "title": "魔晶石",
+              "pageid": 171,
+              "size": 19489,
+              "wordcount": 1176,
+              "snippet": "惰性水晶 大地<span class=\"searchmatch\">紫票</span> 伍型魔晶石 玛哈物质 格尔莫拉陶器碎片 天之陶器碎片 半玛哈物质 <span class=\"searchmatch\">巧手紫票</span> 半玛哈物质 大地<span class=\"searchmatch\">紫票</span> 肆型魔晶石 <span class=\"searchmatch\">巧手紫票</span> 大地<span class=\"searchmatch\">紫票</span> 叁型魔晶石 栎木币 栎木币 贰型魔晶石 栎木币 栎木币 壹型魔晶石 栎木币 栎木币",
+              "timestamp": "2026-07-24T13:27:54Z"
+            },
+            {
+              "ns": 0,
+              "title": "货币",
+              "pageid": 61828,
+              "size": 26386,
+              "wordcount": 1385,
+              "snippet": "大国防联军发行的货币黑涡团军<span class=\"searchmatch\">票</span>双蛇党军<span class=\"searchmatch\">票</span>恒辉队军<span class=\"searchmatch\">票</span>，详见词条军<span class=\"searchmatch\">票</span>或大国防联军。 可获取和使用的军<span class=\"searchmatch\">票</span>种类根据所属军队的不同而有差异。 可以通过筹备任务、随机任务：练级迷宫、随机任务：行会令、临危受命(版本 2.0版本 3.0版本 4.0)、挑战笔记、军队讨伐笔记、军队理符、冒险者分队来获得。 持有军<span class=\"searchmatch\">票</span>上限随着军衔的提升而增加，最低上限为10",
+              "timestamp": "2026-09-08T06:34:50Z"
+            },
+            {
+              "ns": 0,
+              "title": "校服",
+              "pageid": 254950,
+              "size": 5433,
+              "wordcount": 998,
+              "snippet": "尔达哈来生回廊的泪男子拉图加处使用同盟徽章购买。仅防具可双染色。 制作采集AF4。在各地的工<span class=\"searchmatch\">票</span>交易员处通过<span class=\"searchmatch\">巧手紫票</span>和大地<span class=\"searchmatch\">紫票</span>兑换（副手为470品级），均不可染色。 双染色版本的防具需在天穹街使用天穹街振兴<span class=\"searchmatch\">票</span>购买生活80级时尚系列的装备箱获取。 战斗AF5。完成流星与太阳的轨迹后，在瓦尔萨如德旧萨雷安",
+              "timestamp": "2026-09-13T11:02:40Z"
+            },
+            {
+              "ns": 0,
+              "title": "老主顾交易",
+              "pageid": 112235,
+              "size": 24042,
+              "wordcount": 1571,
+              "snippet": "片。 所交道具的收藏价值越高，交纳时获得的报酬就越丰厚（满足每档的最低就可以获得当前档位的奖励）。 交纳收藏品可获得金币、经验值、<span class=\"searchmatch\">巧手</span>橙<span class=\"searchmatch\">票</span>及<span class=\"searchmatch\">巧手紫票</span>、大地橙<span class=\"searchmatch\">票</span>及大地<span class=\"searchmatch\">紫票</span>等。 收藏品的报酬随NPC的信赖等级和收藏品价值提升而增加；当NPC的信赖度达满级时，无论交付何种收藏品都能获得相同数值的奖励。 ●",
+              "timestamp": "2026-06-09T17:21:31Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "term": "亚拉戈诗学神典石",
+      "url": "https://ff14.huijiwiki.com/api.php?action=query&list=search&srsearch=%E4%BA%9A%E6%8B%89%E6%88%88%E8%AF%97%E5%AD%A6%E7%A5%9E%E5%85%B8%E7%9F%B3&srnamespace=0&srlimit=5&format=json&formatversion=2",
+      "httpStatus": 200,
+      "data": {
+        "batchcomplete": true,
+        "continue": {
+          "sroffset": 5,
+          "continue": "-||"
+        },
+        "query": {
+          "searchinfo": {
+            "totalhits": 622
+          },
+          "search": [
+            {
+              "ns": 0,
+              "title": "亚拉戈诗学神典石",
+              "pageid": 88687,
+              "size": 1871,
+              "wordcount": 140,
+              "snippet": "<span class=\"searchmatch\">亚拉戈诗学神典石</span> 基本信息 类型：货币 分类：战斗 - <span class=\"searchmatch\">亚拉戈神典石</span> 持有上限：2000 历史版本 添加版本：版本 2.4 各语言名称 日文名：アラガントームストーン:<span class=\"searchmatch\">詩学</span> 英文名：Allagan Tomestone of Poetics <span class=\"searchmatch\">亚拉戈诗学神典石</span>是 版本 2.4 新增的<span class=\"searchmatch\">亚拉戈神典石</span>，属于战",
+              "timestamp": "2026-05-25T05:47:36Z"
+            },
+            {
+              "ns": 0,
+              "title": "版本:5.0",
+              "pageid": 162039,
+              "size": 4215,
+              "wordcount": 53,
+              "snippet": "伊甸零式希望乐园 觉醒之章3 • 伊甸零式希望乐园 觉醒之章4 战斗-其他 加入<span class=\"searchmatch\">亚拉戈</span>幻想<span class=\"searchmatch\">神典石</span> 增加全新恶名精英 伪造天界格鲁格火山中部分地面贴图修改 亲信战友系统中，伙伴获得的经验值提升 随机任务中可以获得的<span class=\"searchmatch\">亚拉戈神典石</span>的数量变更 道具相关 新增家具 • 管弦乐琴乐谱 新增道具 • 制作配方 • 秘籍",
+              "timestamp": "2026-04-10T01:39:36Z"
+            },
+            {
+              "ns": 0,
+              "title": "版本:6.0",
+              "pageid": 325025,
+              "size": 16392,
+              "wordcount": 54,
+              "snippet": "恒冰之地产出「速度腰带」变更为「闪袭指环」，现有的可在失物管理人处交换 水晶都追加可通过<span class=\"searchmatch\">神典石</span>和工票交换各种道具的「综合贸易店」 · 「综合贸易店」的主副分类下<span class=\"searchmatch\">拉</span>菜单中追加图标显示 <span class=\"searchmatch\">亚拉戈</span>幻想/奇谭/默示<span class=\"searchmatch\">神典石</span>可交换的装备，其强化素材停产，现在只能使用<span class=\"searchmatch\">诗学</span>兑换强化后的装备或使用<span class=\"searchmatch\">诗学</span>强化 强化元灵武器所需的「水晶砂」与「硬灵性岩」的最大数量从各80个变更为各60个",
+              "timestamp": "2026-07-29T20:06:29Z"
+            },
+            {
+              "ns": 0,
+              "title": "亚拉戈神典石",
+              "pageid": 109457,
+              "size": 14285,
+              "wordcount": 287,
+              "snippet": " —— 苏菲 <span class=\"searchmatch\">亚拉戈神典石</span>（日文︰アラガントームストーン，英文︰Allagan tomestone）是古代<span class=\"searchmatch\">亚拉戈</span>帝国使用的用于记载信息的石头。被发掘出来的<span class=\"searchmatch\">亚拉戈神典石</span>具有一定的考古价值，在游戏中也作为玩家的货币与重要道具进行流通。 用于兑换装备和其他物品的货币，详见：货币#<span class=\"searchmatch\">亚拉戈神典石</span> 于各版本可搭",
+              "timestamp": "2026-09-06T14:07:32Z"
+            },
+            {
+              "ns": 0,
+              "title": "多变迷宫 六根山",
+              "pageid": 463217,
+              "size": 1035,
+              "wordcount": 1534,
+              "snippet": "编辑机制 掉落战利品 5 <span class=\"searchmatch\">亚拉戈诗学神典石</span> 货币 宝箱1中的战利品 六根山遗物 杂货 付丧<span class=\"searchmatch\">神</span>油纸伞 杂货 送行提灯 宠物 忍犬白丸 宠物 忍犬黑丸 宠物 东方篝火 桌上 狛犬石像 庭具 <span class=\"searchmatch\">石</span>灯笼 庭具 基桩<span class=\"searchmatch\">石</span>灯笼 庭具 紫州灵<span class=\"searchmatch\">石</span> 石材 B 编辑机制 掉落战利品 10 <span class=\"searchmatch\">亚拉戈诗学神典石</span> 货币 宝箱1中的战利品",
+              "timestamp": "2026-03-09T07:35:22Z"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

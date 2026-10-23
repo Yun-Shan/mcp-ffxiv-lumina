@@ -1,0 +1,272 @@
+{
+  "repository": "Critical-Impact/LuminaSupplemental",
+  "commit": "e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a",
+  "packageVersion": "5.1.4",
+  "fetchedAt": "2026-10-23T16:17:04.507Z",
+  "entries": [
+    {
+      "name": "AirshipDrop.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/AirshipDrop.csv",
+      "sha": "abe86777137dea28828dcdd30b155978c9b65156",
+      "size": 2068,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/AirshipDrop.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/AirshipDrop.csv"
+    },
+    {
+      "name": "AirshipUnlock.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/AirshipUnlock.csv",
+      "sha": "ecb8cd4ee12795a95cd0d91a680820acd90c604b",
+      "size": 335,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/AirshipUnlock.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/AirshipUnlock.csv"
+    },
+    {
+      "name": "BGMOrchestrion.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/BGMOrchestrion.csv",
+      "sha": "98764ade1323cf1716c26217c79fde904d884bbc",
+      "size": 13434,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/BGMOrchestrion.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/BGMOrchestrion.csv"
+    },
+    {
+      "name": "BNpcLink.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/BNpcLink.csv",
+      "sha": "e15f4b7a3fd8d0a4006e2e60f18e31a1636c19cc",
+      "size": 218789,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/BNpcLink.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/BNpcLink.csv"
+    },
+    {
+      "name": "BNpcLinkNoGubal.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/BNpcLinkNoGubal.csv",
+      "sha": "ceab42f944f68b87a3dba0d450b9b518777a15c6",
+      "size": 213819,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/BNpcLinkNoGubal.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/BNpcLinkNoGubal.csv"
+    },
+    {
+      "name": "DungeonBoss.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/DungeonBoss.csv",
+      "sha": "3d667e0ed7419f43fcc350cd251beb3f07ae6b8c",
+      "size": 8908,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonBoss.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonBoss.csv"
+    },
+    {
+      "name": "DungeonBossChest.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/DungeonBossChest.csv",
+      "sha": "874255ed17874e1c9f011bf41ba538a67deaa01b",
+      "size": 188753,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonBossChest.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonBossChest.csv"
+    },
+    {
+      "name": "DungeonBossDrop.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/DungeonBossDrop.csv",
+      "sha": "736d5136f3fe2710ab68e6a9cb27f3eddb3ade9e",
+      "size": 5194,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonBossDrop.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonBossDrop.csv"
+    },
+    {
+      "name": "DungeonChest.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/DungeonChest.csv",
+      "sha": "a9dbdebd9fd72fc7dbdfcc75ade38f49b79f4126",
+      "size": 76730,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonChest.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonChest.csv"
+    },
+    {
+      "name": "DungeonChestItem.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/DungeonChestItem.csv",
+      "sha": "6facb011501b890a1690c3ee5508027c51320a1b",
+      "size": 524521,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonChestItem.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonChestItem.csv"
+    },
+    {
+      "name": "DungeonDrop.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/DungeonDrop.csv",
+      "sha": "e9affee48029b5405d44032fd3c61a54d7d1f96c",
+      "size": 5108,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonDrop.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/DungeonDrop.csv"
+    },
+    {
+      "name": "ENpcPlace.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/ENpcPlace.csv",
+      "sha": "64325b29cffa90d20eccbcb5e174f9c29b391093",
+      "size": 225256,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ENpcPlace.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ENpcPlace.csv"
+    },
+    {
+      "name": "ENpcShop.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/ENpcShop.csv",
+      "sha": "dbf0d03490a6a09e48dafa9936096925598242c2",
+      "size": 549,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ENpcShop.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ENpcShop.csv"
+    },
+    {
+      "name": "FateItem.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/FateItem.csv",
+      "sha": "98e295da0a0cf2c5cacad8d28b407a79e4b6f0a4",
+      "size": 14090,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FateItem.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FateItem.csv"
+    },
+    {
+      "name": "FauxHollowsPattern.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/FauxHollowsPattern.csv",
+      "sha": "0c95a40717ad53c71c85321ec494bb7a72568f62",
+      "size": 10037,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FauxHollowsPattern.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FauxHollowsPattern.csv"
+    },
+    {
+      "name": "FestivalName.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/FestivalName.csv",
+      "sha": "c62c42fe7f183b4b146af381576af9fb07c1cac3",
+      "size": 3445,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FestivalName.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FestivalName.csv"
+    },
+    {
+      "name": "FieldOpCoffer.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/FieldOpCoffer.csv",
+      "sha": "72a91b118ea601b146323ab1967abd43b2699e55",
+      "size": 23286,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FieldOpCoffer.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/FieldOpCoffer.csv"
+    },
+    {
+      "name": "GardeningCrossbreed.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/GardeningCrossbreed.csv",
+      "sha": "685b2071e472453d008b0827a85bc2a823c450f9",
+      "size": 57969,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/GardeningCrossbreed.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/GardeningCrossbreed.csv"
+    },
+    {
+      "name": "Gearset.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/Gearset.csv",
+      "sha": "75822e4828a0e45e19bd421245d887d4dd34c535",
+      "size": 242576,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/Gearset.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/Gearset.csv"
+    },
+    {
+      "name": "HouseVendor.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/HouseVendor.csv",
+      "sha": "98ad0beae33e2281f20f4a73c10451054c093321",
+      "size": 1774,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/HouseVendor.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/HouseVendor.csv"
+    },
+    {
+      "name": "ItemPatch.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/ItemPatch.csv",
+      "sha": "503ecc49428c5edb19b16aa38ad05de1914d35a2",
+      "size": 40101,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ItemPatch.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ItemPatch.csv"
+    },
+    {
+      "name": "ItemSupplement.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/ItemSupplement.csv",
+      "sha": "f3699e8afea9cadb6912faba04585ad8350f0bec",
+      "size": 2707713,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ItemSupplement.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ItemSupplement.csv"
+    },
+    {
+      "name": "MobDrop.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/MobDrop.csv",
+      "sha": "1c935be824641ba1ce783dccd8e5960309a5c0ae",
+      "size": 28439,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/MobDrop.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/MobDrop.csv"
+    },
+    {
+      "name": "MobSpawn.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/MobSpawn.csv",
+      "sha": "c4dac030146321ed786f8e7da727790d45765f0d",
+      "size": 897156,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/MobSpawn.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/MobSpawn.csv"
+    },
+    {
+      "name": "QuestRequiredItem.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/QuestRequiredItem.csv",
+      "sha": "7ee08fad0c62480758da336efde7aaa4f350fa1d",
+      "size": 11006,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/QuestRequiredItem.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/QuestRequiredItem.csv"
+    },
+    {
+      "name": "RelicTool.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/RelicTool.csv",
+      "sha": "d95efe9e5d403a59407a9624c6287175e843b0d0",
+      "size": 10054,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/RelicTool.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/RelicTool.csv"
+    },
+    {
+      "name": "RelicWeapon.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/RelicWeapon.csv",
+      "sha": "0b97f6b47cb12e54e9b634a87d3ecd78a3df219a",
+      "size": 19617,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/RelicWeapon.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/RelicWeapon.csv"
+    },
+    {
+      "name": "RetainerVentureItem.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/RetainerVentureItem.csv",
+      "sha": "a9223af93584d23a88cd7fc8c8222b8ba711a42c",
+      "size": 9121,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/RetainerVentureItem.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/RetainerVentureItem.csv"
+    },
+    {
+      "name": "ShopName.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/ShopName.csv",
+      "sha": "f7d5e6a13a3d055ae7e75d47a9ee1da25988eb9d",
+      "size": 2051,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ShopName.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/ShopName.csv"
+    },
+    {
+      "name": "StoreItem.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/StoreItem.csv",
+      "sha": "b12b184864f293188cb3dda77840db9e26e50cd6",
+      "size": 119300,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/StoreItem.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/StoreItem.csv"
+    },
+    {
+      "name": "SubmarineDrop.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/SubmarineDrop.csv",
+      "sha": "0595bcfc98dfe4f2a822e5314d6beffbf9e95daa",
+      "size": 35299,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/SubmarineDrop.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/SubmarineDrop.csv"
+    },
+    {
+      "name": "SubmarineUnlock.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/SubmarineUnlock.csv",
+      "sha": "14d07afffa21d1fea5a5a79ec5fec4aa1d4ff431",
+      "size": 1478,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/SubmarineUnlock.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/SubmarineUnlock.csv"
+    },
+    {
+      "name": "UnobtainableItem.csv",
+      "path": "src/LuminaSupplemental.Excel/Generated/UnobtainableItem.csv",
+      "sha": "2e49dbabb58e3f126ab2bab07713878acb4c0fcb",
+      "size": 14764,
+      "download_url": "https://raw.githubusercontent.com/Critical-Impact/LuminaSupplemental/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/UnobtainableItem.csv",
+      "html_url": "https://github.com/Critical-Impact/LuminaSupplemental/blob/e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a/src/LuminaSupplemental.Excel/Generated/UnobtainableItem.csv"
+    }
+  ]
+}

@@ -1,0 +1,1436 @@
+{
+  "gameVersion": "2026.10.06.0000.0000",
+  "observedAtUtc": "2026-10-23T16:01:15.0382920+00:00",
+  "readMethod": "Configured Lumina MCP generic sheet tools; no executable launched",
+  "samples": {
+    "gatler_item": {
+      "sheet": "Item",
+      "rowId": 50777,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "加特勒",
+        "LevelEquip": 50,
+        "ClassJobCategory": 203,
+        "AdditionalData": 0,
+        "PriceMid": 99999,
+        "LevelItem": 135,
+        "ItemAction": 0,
+        "IsUntradable": true
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:56:00.4683547+00:00"
+    },
+    "gatler_offer": {
+      "sheet": "SpecialShop",
+      "rowId": 1771020,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "高纯度兽核晶",
+        "Item[37]ReceiveCount[0]": 1,
+        "Item[37]ReceiveCount[1]": 1,
+        "Item[37]CurrencyCost[0]": 1,
+        "Item[37]CurrencyCost[1]": 20,
+        "Item[37]CurrencyCost[2]": 0,
+        "Item[37]Item[0]": 50777,
+        "Item[37]Item[1]": 0,
+        "Item[37]Category[0]": 1,
+        "Item[37]Category[1]": 0,
+        "Item[37]ItemCost[0]": 50770,
+        "Item[37]ItemCost[1]": 51735,
+        "Item[37]ItemCost[2]": 0,
+        "Item[37]Quest": 71037,
+        "Item[37]Unknown0[0]": 0,
+        "Item[37]Unknown0[1]": 0,
+        "Item[37]Unknown0[2]": 0,
+        "Item[37]Unknown0[3]": 0,
+        "Item[37]AchievementUnlock": 0,
+        "Item[37]Unknown2": 0,
+        "Item[37]CollectabilityCost[0]": 0,
+        "Item[37]CollectabilityCost[1]": 0,
+        "Item[37]CollectabilityCost[2]": 0,
+        "Item[37]PatchNumber": 750,
+        "Item[37]CostType[0]": 0,
+        "Item[37]CostType[1]": 0,
+        "Item[37]CostType[2]": 0,
+        "Item[37]Unknown1[0]": 0,
+        "Item[37]Unknown1[1]": 0,
+        "Item[37]Unknown1[2]": 0,
+        "Item[37]Unknown1[3]": 0,
+        "Item[37]Unknown1[4]": 0,
+        "Item[37]Order": 100,
+        "Item[37]ReceiveHq[0]": false,
+        "Item[37]ReceiveHq[1]": false,
+        "Quest": 71034,
+        "CustomTalk": 0,
+        "RequiredContentFinderCondition": 0,
+        "CompleteText": 0,
+        "NotCompleteText": 0,
+        "RequiredFestival": 0,
+        "RequiredFestivalPhase": 0,
+        "UseCurrencyType": 2,
+        "Unknown3": true,
+        "RequiredContentFinderConditionComplete": false,
+        "Unknown4": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:56:31.5236906+00:00"
+    },
+    "gatler_npc": {
+      "sheet": "ENpcResident",
+      "rowId": 1059408,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Singular": "科纳格流派商人",
+        "Title": "贸易人员",
+        "Map": 3
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:37.8267804+00:00"
+    },
+    "gatler_npc_links": {
+      "sheet": "ENpcBase",
+      "rowId": 1059408,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "ENpcData[0]": 1704323,
+        "ENpcData[1]": 1771019,
+        "ENpcData[2]": 1771020,
+        "ENpcData[3]": 1771036,
+        "ENpcData[4]": 0,
+        "ENpcData[5]": 0,
+        "ENpcData[6]": 0,
+        "ENpcData[7]": 0,
+        "ENpcData[8]": 0,
+        "ENpcData[9]": 0,
+        "ENpcData[10]": 0,
+        "ENpcData[11]": 0,
+        "ENpcData[12]": 0,
+        "ENpcData[13]": 0,
+        "ENpcData[14]": 0,
+        "ENpcData[15]": 0,
+        "ENpcData[16]": 0,
+        "ENpcData[17]": 0,
+        "ENpcData[18]": 0,
+        "ENpcData[19]": 0,
+        "ENpcData[20]": 0,
+        "ENpcData[21]": 0,
+        "ENpcData[22]": 0,
+        "ENpcData[23]": 0,
+        "ENpcData[24]": 0,
+        "ENpcData[25]": 0,
+        "ENpcData[26]": 0,
+        "ENpcData[27]": 0,
+        "ENpcData[28]": 0,
+        "ENpcData[29]": 0,
+        "ENpcData[30]": 0,
+        "ENpcData[31]": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:40.3720242+00:00"
+    },
+    "gatler_quest_shop": {
+      "sheet": "Quest",
+      "rowId": 71034,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "贪食无厌加特勒",
+        "PreviousQuest[0]": 71033,
+        "PreviousQuest[1]": 0,
+        "PreviousQuest[2]": 0,
+        "IsRepeatable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:42.5037868+00:00"
+    },
+    "gatler_quest_offer": {
+      "sheet": "Quest",
+      "rowId": 71037,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "奇盘上的王者：高段第二盘",
+        "PreviousQuest[0]": 71036,
+        "PreviousQuest[1]": 0,
+        "PreviousQuest[2]": 0,
+        "IsRepeatable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:46.5751986+00:00"
+    },
+    "gatler_cost_weapon": {
+      "sheet": "Item",
+      "rowId": 50770,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "兽主手斧+4"
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:48.5888628+00:00"
+    },
+    "gatler_cost_crystal": {
+      "sheet": "Item",
+      "rowId": 51735,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "高纯度兽核晶"
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:51.2556383+00:00"
+    },
+    "fishing_spot": {
+      "sheet": "FishingSpot",
+      "rowId": 39,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "BigFishOnReach": "",
+        "BigFishOnEnd": "",
+        "BigFishOnRefresh": "",
+        "Item[0]": 4925,
+        "Item[1]": 4926,
+        "Item[2]": 4928,
+        "Item[3]": 4930,
+        "Item[4]": 4946,
+        "Item[5]": 7679,
+        "Item[6]": 0,
+        "Item[7]": 0,
+        "Item[8]": 0,
+        "Item[9]": 0,
+        "TerritoryType": 134,
+        "PlaceNameMain": 0,
+        "PlaceNameSub": 0,
+        "Radius": 400,
+        "PlaceName": 182,
+        "Order": 4,
+        "X": 1054,
+        "Z": 1058,
+        "GatheringLevel": 1,
+        "FishingSpotCategory": 2,
+        "Unknown0": 3,
+        "Rare": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:59:04.3307914+00:00"
+    },
+    "achievement_item": {
+      "sheet": "Item",
+      "rowId": 2907,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "残戮者之冠"
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:59:58.3799056+00:00"
+    },
+    "quest_reward_item": {
+      "sheet": "Item",
+      "rowId": 4551,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "恢复药"
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:00:01.0677518+00:00"
+    },
+    "recipe_index": [
+      {
+        "sheet": "Recipe",
+        "rowId": 153,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Quest": 0,
+          "CraftType": 1,
+          "ItemResult": 5059,
+          "Ingredient[0]": 5116,
+          "Ingredient[1]": 5111,
+          "Ingredient[6]": 2,
+          "Ingredient[7]": -1,
+          "RecipeLevelTable": 42,
+          "SecretRecipeBook": 0,
+          "AmountResult": 1,
+          "AmountIngredient[0]": 2,
+          "AmountIngredient[1]": 1,
+          "AmountIngredient[6]": 5,
+          "AmountIngredient[7]": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:41.5396425+00:00"
+      },
+      {
+        "sheet": "Recipe",
+        "rowId": 273,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Quest": 0,
+          "CraftType": 2,
+          "ItemResult": 5059,
+          "Ingredient[0]": 5116,
+          "Ingredient[1]": 5111,
+          "Ingredient[6]": 3,
+          "Ingredient[7]": -1,
+          "RecipeLevelTable": 42,
+          "SecretRecipeBook": 0,
+          "AmountResult": 1,
+          "AmountIngredient[0]": 2,
+          "AmountIngredient[1]": 1,
+          "AmountIngredient[6]": 5,
+          "AmountIngredient[7]": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:41.5397800+00:00"
+      }
+    ],
+    "gather_index": [
+      {
+        "sheet": "GatheringItem",
+        "rowId": 65,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "RequiredQuest": 0,
+          "Item": 5116,
+          "GatheringItemLevel": 47,
+          "IsHidden": false
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:43.6493521+00:00"
+      }
+    ],
+    "gather_base_index": [
+      {
+        "sheet": "GatheringPointBase",
+        "rowId": 189,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "GatheringType": 0,
+          "Item[0]": 65,
+          "Item[1]": 40,
+          "Item[2]": 64,
+          "Item[3]": 53,
+          "Item[4]": 0,
+          "Item[5]": 0,
+          "Item[6]": 0,
+          "Item[7]": 3,
+          "GatheringLevel": 50
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:45.6644745+00:00"
+      }
+    ],
+    "gather_point_index": [
+      {
+        "sheet": "GatheringPoint",
+        "rowId": 30536,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "GatheringPointBase": 189,
+          "TerritoryType": 147,
+          "PlaceName": 258
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:58:59.1444168+00:00"
+      },
+      {
+        "sheet": "GatheringPoint",
+        "rowId": 30537,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "GatheringPointBase": 189,
+          "TerritoryType": 147,
+          "PlaceName": 258
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:58:59.1444170+00:00"
+      },
+      {
+        "sheet": "GatheringPoint",
+        "rowId": 30538,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "GatheringPointBase": 189,
+          "TerritoryType": 147,
+          "PlaceName": 258
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:58:59.1444178+00:00"
+      },
+      {
+        "sheet": "GatheringPoint",
+        "rowId": 30539,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "GatheringPointBase": 189,
+          "TerritoryType": 147,
+          "PlaceName": 258
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:58:59.1444180+00:00"
+      }
+    ],
+    "retainer_index": [
+      {
+        "sheet": "RetainerTaskNormal",
+        "rowId": 157,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Item": 5116,
+          "GatheringLog": 65,
+          "FishingLog": 0,
+          "Quantity[0]": 15,
+          "Quantity[1]": 20,
+          "Quantity[2]": 30,
+          "Quantity[3]": 40,
+          "Quantity[4]": 50
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:50.7342871+00:00"
+      },
+      {
+        "sheet": "RetainerTaskNormal",
+        "rowId": 311,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Item": 4930,
+          "GatheringLog": 0,
+          "FishingLog": 11,
+          "Quantity[0]": 3,
+          "Quantity[1]": 5,
+          "Quantity[2]": 7,
+          "Quantity[3]": 8,
+          "Quantity[4]": 9
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:50.7343318+00:00"
+      }
+    ],
+    "retainer_task_index": [
+      {
+        "sheet": "RetainerTask",
+        "rowId": 157,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Experience": 61900,
+          "Unknown0": 47,
+          "RetainerTaskParameter": 47,
+          "VentureCost": 1,
+          "MaxTimemin": 60,
+          "RequiredItemLevel": 0,
+          "RequiredGathering": 142,
+          "Unknown1": 0,
+          "Task": 157,
+          "ClassJobCategory": 17,
+          "RetainerLevel": 47,
+          "ConditionParam0": 72,
+          "ConditionParam1": 0,
+          "IsRandom": false
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:59:01.9984556+00:00"
+      },
+      {
+        "sheet": "RetainerTask",
+        "rowId": 311,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Experience": 1400,
+          "Unknown0": 0,
+          "RetainerTaskParameter": 5,
+          "VentureCost": 1,
+          "MaxTimemin": 60,
+          "RequiredItemLevel": 0,
+          "RequiredGathering": 0,
+          "Unknown1": 0,
+          "Task": 311,
+          "ClassJobCategory": 19,
+          "RetainerLevel": 5,
+          "ConditionParam0": 0,
+          "ConditionParam1": 0,
+          "IsRandom": false
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:59:01.9985367+00:00"
+      }
+    ],
+    "fish_index": [
+      {
+        "sheet": "FishParameter",
+        "rowId": 11,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Item": 4930,
+          "GatheringItemLevel": 5,
+          "FishingSpot": 39,
+          "IsHidden": false,
+          "IsInLog": true
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:47.5030740+00:00"
+      }
+    ],
+    "quest_index": [
+      {
+        "sheet": "Quest",
+        "rowId": 65537,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "招募冒险者",
+          "Reward[0]": 4551,
+          "Reward[1]": 0,
+          "Reward[2]": 0,
+          "Reward[3]": 0,
+          "Reward[4]": 0,
+          "Reward[5]": 0,
+          "Reward[6]": 0,
+          "OptionalItemReward[0]": 0,
+          "OptionalItemReward[1]": 0,
+          "OptionalItemReward[2]": 0,
+          "OptionalItemReward[3]": 0,
+          "OptionalItemReward[4]": 0,
+          "ItemCountReward[0]": 2,
+          "ItemCountReward[1]": 0,
+          "ItemCountReward[2]": 0,
+          "ItemCountReward[3]": 0,
+          "ItemCountReward[4]": 0,
+          "ItemCountReward[5]": 0,
+          "ItemCountReward[6]": 0,
+          "OptionalItemCountReward[0]": 0,
+          "OptionalItemCountReward[1]": 0,
+          "OptionalItemCountReward[2]": 0,
+          "OptionalItemCountReward[3]": 0,
+          "OptionalItemCountReward[4]": 0,
+          "IsRepeatable": false
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:58:55.2837957+00:00"
+      }
+    ],
+    "achievement_index": [
+      {
+        "sheet": "Achievement",
+        "rowId": 7,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "战争女神的垂青",
+          "Item": 2907
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:57:53.3173765+00:00"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "sheet": "Item",
+      "rowCount": 52801,
+      "columnCount": 91,
+      "columns": [
+        "Singular",
+        "Plural",
+        "Description",
+        "Name",
+        "Adjective",
+        "PossessivePronoun",
+        "StartsWithVowel",
+        "Countability",
+        "Pronoun",
+        "Article",
+        "ModelMain",
+        "ModelSub",
+        "DamagePhys",
+        "DamageMag",
+        "Delayms",
+        "BlockRate",
+        "Block",
+        "DefensePhys",
+        "DefenseMag",
+        "BaseParamValue[0]",
+        "BaseParamValueSpecial[0]",
+        "LevelEquip",
+        "RequiredPvpRank",
+        "EquipRestriction",
+        "ClassJobCategory",
+        "GrandCompany",
+        "ItemSeries",
+        "BaseParamModifier",
+        "ClassJobUse",
+        "DamagePhysType",
+        "DefaultActionRange",
+        "BaseParam[0]",
+        "ItemSpecialBonus",
+        "ItemSpecialBonusParam",
+        "BaseParamSpecial[0]",
+        "MaterializeType",
+        "MateriaSlotCount",
+        "SubStatCategory",
+        "IsAdvancedMeldingPermitted",
+        "IsPvP",
+        "IsGlamorous",
+        "AdditionalData",
+        "StackSize",
+        "PriceMid",
+        "PriceLow",
+        "ItemRepair",
+        "ItemGlamour",
+        "Icon",
+        "LevelItem",
+        "SubcategorySort",
+        "ItemAction",
+        "Cooldowns",
+        "Desynth",
+        "AetherialReduce",
+        "Rarity",
+        "FilterGroup",
+        "ItemUICategory",
+        "ItemSearchCategory",
+        "EquipSlotCategory",
+        "ItemSortCategory",
+        "DyeCount",
+        "CastTimeSeconds",
+        "ClassJobRepair",
+        "IsUnique",
+        "IsUntradable",
+        "IsIndisposable",
+        "Lot",
+        "CanBeHq",
+        "IsCrestWorthy",
+        "IsCollectable",
+        "AlwaysCollectable"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "SpecialShop",
+      "rowCount": 1489,
+      "columnCount": 2052,
+      "columns": [
+        "Name",
+        "Item[0]ReceiveCount[0]",
+        "Item[0]CurrencyCost[0]",
+        "Item[0]Item[0]",
+        "Item[0]Category[0]",
+        "Item[0]ItemCost[0]",
+        "Item[0]Quest",
+        "Item[0]Unknown0[0]",
+        "Item[0]AchievementUnlock",
+        "Item[0]Unknown2",
+        "Item[0]CollectabilityCost[0]",
+        "Item[0]PatchNumber",
+        "Item[0]CostType[0]",
+        "Item[0]Unknown1[0]",
+        "Item[0]Order",
+        "Item[0]ReceiveHq[0]",
+        "Quest",
+        "CustomTalk",
+        "RequiredContentFinderCondition",
+        "CompleteText",
+        "NotCompleteText",
+        "RequiredFestival",
+        "RequiredFestivalPhase",
+        "UseCurrencyType",
+        "Unknown3",
+        "RequiredContentFinderConditionComplete",
+        "Unknown4"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "Recipe",
+      "rowCount": 14909,
+      "columnCount": 47,
+      "columns": [
+        "RequiredQuality",
+        "Quest",
+        "Number",
+        "CraftType",
+        "ItemResult",
+        "Ingredient[0]",
+        "StatusRequired",
+        "ItemRequired",
+        "RecipeLevelTable",
+        "MaxAdjustableJobLevel",
+        "RecipeNotebookList",
+        "DisplayPriority",
+        "DifficultyFactor",
+        "QualityFactor",
+        "DurabilityFactor",
+        "RequiredCraftsmanship",
+        "RequiredControl",
+        "QuickSynthCraftsmanship",
+        "QuickSynthControl",
+        "SecretRecipeBook",
+        "CollectableMetadata",
+        "PatchNumber",
+        "AmountResult",
+        "AmountIngredient[0]",
+        "MaterialQualityFactor",
+        "CollectableMetadataKey",
+        "IsSecondary",
+        "CanQuickSynth",
+        "CanHq",
+        "ExpRewarded",
+        "Unknown1",
+        "IsSpecializationRequired",
+        "IsExpert"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowCount": 2148,
+      "columnCount": 10,
+      "columns": [
+        "RequiredQuest",
+        "SublimeVariant",
+        "Item",
+        "GatheringItemLevel",
+        "PerceptionReq",
+        "Unknown2",
+        "Unknown3",
+        "Unknown4",
+        "Unknown5",
+        "IsHidden"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "GatheringPointBase",
+      "rowCount": 1426,
+      "columnCount": 10,
+      "columns": [
+        "GatheringType",
+        "Item[0]",
+        "GatheringLevel"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "Quest",
+      "rowCount": 5533,
+      "columnCount": 1653,
+      "columns": [
+        "Name",
+        "QuestParams[0]ScriptInstruction",
+        "QuestParams[0]ScriptArg",
+        "QuestListenerParams[0]Listener",
+        "QuestListenerParams[0]ConditionValue",
+        "QuestListenerParams[0]Behavior",
+        "QuestListenerParams[0]ActorSpawnSeq",
+        "QuestListenerParams[0]ActorDespawnSeq",
+        "QuestListenerParams[0]Unknown0",
+        "QuestListenerParams[0]Unknown1",
+        "QuestListenerParams[0]QuestUInt8A",
+        "QuestListenerParams[0]ConditionType",
+        "QuestListenerParams[0]ConditionOperator",
+        "QuestListenerParams[0]VisibleBool",
+        "QuestListenerParams[0]ConditionBool",
+        "QuestListenerParams[0]ItemBool",
+        "QuestListenerParams[0]AnnounceBool",
+        "QuestListenerParams[0]BehaviorBool",
+        "QuestListenerParams[0]AcceptBool",
+        "QuestListenerParams[0]QualifiedBool",
+        "QuestListenerParams[0]CanTargetBool",
+        "TodoParams[0]ToDoLocation[0]",
+        "TodoParams[0]ToDoCompleteSeq",
+        "TodoParams[0]ToDoQty",
+        "TodoParams[0]CountableNum",
+        "GilReward",
+        "CurrencyReward",
+        "CurrencyRewardCount",
+        "Reward[0]",
+        "OptionalItemReward[0]",
+        "InstanceContentUnlock",
+        "ExpFactor",
+        "EmoteReward",
+        "ActionReward",
+        "SystemReward[0]",
+        "GCTypeReward",
+        "ItemCatalyst[0]",
+        "ItemCountCatalyst[0]",
+        "ItemRewardType",
+        "ItemCountReward[0]",
+        "RewardStain[0]",
+        "OptionalItemCountReward[0]",
+        "OptionalItemStainReward[0]",
+        "GeneralActionReward[0]",
+        "OtherReward",
+        "Tomestone",
+        "TomestoneReward",
+        "TomestoneCountReward",
+        "ReputationReward",
+        "Unknown0",
+        "Unknown1",
+        "Unknown2",
+        "Unknown3",
+        "Unknown4",
+        "Unknown5",
+        "Unknown6",
+        "OptionalItemIsHQReward[0]",
+        "Id",
+        "PreviousQuest[0]",
+        "QuestLock[0]",
+        "InstanceContent[0]",
+        "IssuerStart",
+        "IssuerLocation",
+        "TargetEnd",
+        "JournalGenre",
+        "Icon",
+        "IconSpecial",
+        "MountRequired",
+        "ClassJobLevel[0]",
+        "Header",
+        "Festival",
+        "BellStart",
+        "BellEnd",
+        "BeastReputationValue",
+        "ClientBehavior",
+        "QuestClassJobSupply",
+        "PlaceName",
+        "SortKey",
+        "Expansion",
+        "ClassJobCategory0",
+        "QuestLevelOffset",
+        "ClassJobCategory1",
+        "PreviousQuestJoin",
+        "Unknown7",
+        "QuestLockJoin",
+        "Unknown8",
+        "Unknown9",
+        "ClassJobUnlock",
+        "GrandCompany",
+        "GrandCompanyRank",
+        "InstanceContentJoin",
+        "FestivalBegin",
+        "FestivalEnd",
+        "BeastTribe",
+        "BeastReputationRank",
+        "SatisfactionNpc",
+        "SatisfactionLevel",
+        "DeliveryQuest",
+        "RepeatIntervalType",
+        "QuestRepeatFlag",
+        "Type",
+        "Unknown_70",
+        "LevelMax",
+        "ClassJobRequired",
+        "QuestRewardOtherDisplay",
+        "Unknown10",
+        "EventIconType",
+        "DailyQuestPool",
+        "IsHouseRequired",
+        "IsRepeatable",
+        "CanCancel",
+        "Introduction",
+        "HideOfferIcon",
+        "Unknown12",
+        "HideInScenarioGuide"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "ENpcBase",
+      "rowCount": 59851,
+      "columnCount": 110,
+      "columns": [
+        "ENpcData[0]",
+        "ModelMainHand",
+        "ModelOffHand",
+        "Scale",
+        "ModelHead",
+        "ModelBody",
+        "ModelHands",
+        "ModelLegs",
+        "ModelFeet",
+        "ModelEars",
+        "ModelNeck",
+        "ModelWrists",
+        "ModelLeftRing",
+        "ModelRightRing",
+        "EventHandler",
+        "ModelChara",
+        "NpcEquip",
+        "Behavior",
+        "Unknown_70_1",
+        "Unknown_70_2",
+        "Balloon",
+        "Race",
+        "Gender",
+        "BodyType",
+        "Height",
+        "Tribe",
+        "Face",
+        "HairStyle",
+        "HairHighlight",
+        "SkinColor",
+        "EyeHeterochromia",
+        "HairColor",
+        "HairHighlightColor",
+        "FacialFeature",
+        "FacialFeatureColor",
+        "Eyebrows",
+        "EyeColor",
+        "EyeShape",
+        "Nose",
+        "Jaw",
+        "Mouth",
+        "LipColor",
+        "BustOrTone1",
+        "ExtraFeature1",
+        "ExtraFeature2OrBust",
+        "FacePaint",
+        "FacePaintColor",
+        "Unknown0",
+        "DyeMainHand",
+        "Dye2MainHand",
+        "DyeOffHand",
+        "Dye2OffHand",
+        "DyeHead",
+        "DyeBody",
+        "DyeHands",
+        "DyeLegs",
+        "DyeFeet",
+        "DyeEars",
+        "DyeNeck",
+        "DyeWrists",
+        "DyeLeftRing",
+        "DyeRightRing",
+        "Dye2Head",
+        "Dye2Body",
+        "Dye2Hands",
+        "Dye2Legs",
+        "Dye2Feet",
+        "Dye2Ears",
+        "Dye2Neck",
+        "Dye2Wrists",
+        "Dye2LeftRing",
+        "Dye2RightRing",
+        "Invisibility",
+        "DefaultBalloon",
+        "Unknown1",
+        "Important",
+        "Visor",
+        "NotRewriteHeight",
+        "Unknown2"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "RetainerTask",
+      "rowCount": 1115,
+      "columnCount": 14,
+      "columns": [
+        "Experience",
+        "Unknown0",
+        "RetainerTaskParameter",
+        "VentureCost",
+        "MaxTimemin",
+        "RequiredItemLevel",
+        "RequiredGathering",
+        "Unknown1",
+        "Task",
+        "ClassJobCategory",
+        "RetainerLevel",
+        "ConditionParam0",
+        "ConditionParam1",
+        "IsRandom"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "Achievement",
+      "rowCount": 4078,
+      "columnCount": 26,
+      "columns": [
+        "Name",
+        "Description",
+        "Item",
+        "Icon",
+        "Key",
+        "Data[0]",
+        "Title",
+        "Order",
+        "AchievementCategory",
+        "AchievementTarget",
+        "Unknown0",
+        "Points",
+        "Unknown1",
+        "Unknown2",
+        "Unknown3",
+        "Unknown4",
+        "Type",
+        "Unknown5",
+        "AchievementHideCondition"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "GatheringPoint",
+      "rowCount": 5857,
+      "columnCount": 10,
+      "columns": [
+        "GatheringPointBase",
+        "GatheringPointBonus[0]",
+        "TerritoryType",
+        "PlaceName",
+        "GatheringSubCategory",
+        "Type",
+        "Unknown0",
+        "Count",
+        "Unknown1"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "GatheringPointTransient",
+      "rowCount": 5857,
+      "columnCount": 3,
+      "columns": [
+        "GatheringRarePopTimeTable",
+        "EphemeralStartTime",
+        "EphemeralEndTime"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "FishParameter",
+      "rowCount": 2512,
+      "columnCount": 14,
+      "columns": [
+        "Text",
+        "Unknown_70_1",
+        "Unknown_70_2",
+        "Unknown_70_3",
+        "AchievementCredit",
+        "Item",
+        "GatheringItemLevel",
+        "Unknown1",
+        "FishingSpot",
+        "GatheringSubCategory",
+        "OceanStars",
+        "FishingRecordType",
+        "IsHidden",
+        "IsInLog"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "FishingSpot",
+      "rowCount": 576,
+      "columnCount": 25,
+      "columns": [
+        "BigFishOnReach",
+        "BigFishOnEnd",
+        "BigFishOnRefresh",
+        "Item[0]",
+        "TerritoryType",
+        "PlaceNameMain",
+        "PlaceNameSub",
+        "Radius",
+        "PlaceName",
+        "Order",
+        "X",
+        "Z",
+        "GatheringLevel",
+        "FishingSpotCategory",
+        "Unknown0",
+        "Rare"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "RetainerTaskNormal",
+      "rowCount": 983,
+      "columnCount": 8,
+      "columns": [
+        "Item",
+        "GatheringLog",
+        "FishingLog",
+        "Quantity[0]"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "GilShopItem",
+      "rowCount": 1115,
+      "columnCount": 10,
+      "columns": [
+        "Item",
+        "QuestRequired[0]",
+        "AchievementRequired",
+        "StateRequired",
+        "Patch",
+        "Unknown_70_1",
+        "Unknown_70_2",
+        "Unknown1",
+        "IsHQ"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "InclusionShop",
+      "rowCount": 16,
+      "columnCount": 33,
+      "columns": [
+        "ShopName",
+        "Category[0]",
+        "UnlockQuest",
+        "InclusionShopWelcom"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "InclusionShopCategory",
+      "rowCount": 87,
+      "columnCount": 3,
+      "columns": [
+        "Name",
+        "InclusionShopSeries",
+        "ClassJobCategory"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "InclusionShopSeries",
+      "rowCount": 87,
+      "columnCount": 1,
+      "columns": [
+        "SpecialShop"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "GCScripShopItem",
+      "rowCount": 37,
+      "columnCount": 4,
+      "columns": [
+        "CostGCSeals",
+        "Item",
+        "RequiredGrandCompanyRank",
+        "SortKey"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "ENpcResident",
+      "rowCount": 59851,
+      "columnCount": 11,
+      "columns": [
+        "Singular",
+        "Plural",
+        "Title",
+        "Adjective",
+        "PossessivePronoun",
+        "StartsWithVowel",
+        "Countability",
+        "Pronoun",
+        "Article",
+        "Map",
+        "Unknown1"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "Level",
+      "rowCount": 61349,
+      "columnCount": 10,
+      "columns": [
+        "X",
+        "Y",
+        "Z",
+        "Yaw",
+        "Radius",
+        "Object",
+        "EventId",
+        "Map",
+        "Territory",
+        "Type"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "Map",
+      "rowCount": 1268,
+      "columnCount": 21,
+      "columns": [
+        "Id",
+        "DiscoveryFlag",
+        "MapMarkerRange",
+        "SizeFactor",
+        "PlaceNameRegion",
+        "PlaceName",
+        "PlaceNameSub",
+        "TerritoryType",
+        "OffsetX",
+        "OffsetY",
+        "DiscoveryIndex",
+        "MapCondition",
+        "PriorityCategoryUI",
+        "PriorityUI",
+        "MapType",
+        "Unknown2",
+        "MapReplace",
+        "MapIndex",
+        "DiscoveryArrayByte",
+        "IsEvent",
+        "Unknown1"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "CraftType",
+      "rowCount": 8,
+      "columnCount": 3,
+      "columns": [
+        "Name",
+        "MainPhysical",
+        "SubPhysical"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "RecipeLevelTable",
+      "rowCount": 800,
+      "columnCount": 11,
+      "columns": [
+        "Quality",
+        "SuggestedCraftsmanship",
+        "Difficulty",
+        "Durability",
+        "ConditionsFlag",
+        "ClassJobLevel",
+        "Stars",
+        "ProgressDivider",
+        "QualityDivider",
+        "ProgressModifier",
+        "QualityModifier"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "PlaceName",
+      "rowCount": 5616,
+      "columnCount": 12,
+      "columns": [
+        "Name",
+        "NameNoArticle",
+        "NamePrepositional",
+        "Adjective",
+        "PossessivePronoun",
+        "StartsWithVowel",
+        "Countability",
+        "Pronoun",
+        "Article",
+        "Order",
+        "Unknown8",
+        "MapCondition"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    },
+    {
+      "sheet": "TerritoryType",
+      "rowCount": 1290,
+      "columnCount": 46,
+      "columns": [
+        "Name",
+        "Bg",
+        "ArrayEventHandler",
+        "PlaceNameRegionIcon",
+        "PlaceNameIcon",
+        "Aetheryte",
+        "FixedTime",
+        "PlaceNameRegion",
+        "PlaceNameZone",
+        "PlaceName",
+        "Map",
+        "ContentFinderCondition",
+        "BGM",
+        "QuestBattle",
+        "Resident",
+        "NotoriousMonsterTerritory",
+        "BattalionMode",
+        "LoadingImage",
+        "ExclusiveType",
+        "TerritoryIntendedUse",
+        "WeatherRate",
+        "Unknown1",
+        "ExVersion",
+        "Unknown2",
+        "ZoneSharedGroup",
+        "AetherCurrentCompFlgSet",
+        "MountSpeed",
+        "IndividualWeather",
+        "AchievementIndex",
+        "Unknown6",
+        "Unknown7",
+        "PCSearch",
+        "Stealth",
+        "Mount",
+        "Unknown8",
+        "IsPvpZone",
+        "Unknown9",
+        "IsInUse",
+        "Unknown11",
+        "Unknown12",
+        "Unknown13",
+        "Unknown14",
+        "Unknown15",
+        "Unknown16",
+        "Unknown17",
+        "Unknown18"
+      ],
+      "arrayNote": "Only index 0 shown for repeated field families; omitted members exist in original MCP describe_sheet response."
+    }
+  ]
+}

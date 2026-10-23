@@ -1,0 +1,99 @@
+{
+  "generatedAtUtc": "2026-10-23T17:06:14.475Z",
+  "scope": "Independent current decoder execution versus preserved Wiki Data; no local graph writes.",
+  "checks": [
+    {
+      "itemId": 7778,
+      "shopId": 1769503,
+      "offerIndex": 7,
+      "status": "match",
+      "local": {
+        "itemId": 5379,
+        "quantity": 1,
+        "hq": true
+      },
+      "decoderStatus": "resolved",
+      "decoderRule": "cost_type_1_hq_item",
+      "wiki": {
+        "itemId": 5379,
+        "quantity": 1,
+        "hq": true
+      },
+      "wikiRevision": 2184972
+    },
+    {
+      "itemId": 2928,
+      "shopId": 1770114,
+      "offerIndex": 0,
+      "status": "match",
+      "local": {
+        "itemId": 33914,
+        "quantity": 50,
+        "hq": false
+      },
+      "decoderStatus": "resolved",
+      "decoderRule": "cost_type_3_verified_7x_scrip_bucket",
+      "wiki": {
+        "itemId": 33914,
+        "quantity": 50,
+        "hq": false
+      },
+      "wikiRevision": 2180159
+    },
+    {
+      "itemId": 41778,
+      "shopId": 1770507,
+      "offerIndex": 0,
+      "status": "match",
+      "local": {
+        "itemId": 41784,
+        "quantity": 500,
+        "hq": false
+      },
+      "decoderStatus": "resolved",
+      "decoderRule": "cost_type_3_verified_7x_scrip_bucket",
+      "wiki": {
+        "itemId": 41784,
+        "quantity": 500,
+        "hq": false
+      },
+      "wikiRevision": 2331638
+    },
+    {
+      "itemId": 41775,
+      "shopId": 1770510,
+      "offerIndex": 0,
+      "status": "match",
+      "local": {
+        "itemId": 41785,
+        "quantity": 500,
+        "hq": false
+      },
+      "decoderStatus": "resolved",
+      "decoderRule": "cost_type_3_verified_7x_scrip_bucket",
+      "wiki": {
+        "itemId": 41785,
+        "quantity": 500,
+        "hq": false
+      },
+      "wikiRevision": 2331633
+    },
+    {
+      "itemId": 23310,
+      "shopId": 1769933,
+      "offerIndex": 0,
+      "status": "unverified",
+      "local": {
+        "itemId": 1,
+        "quantity": null,
+        "hq": false
+      },
+      "decoderStatus": "unverified",
+      "decoderRule": "mode_8_price_mid_candidate",
+      "wiki": null,
+      "wikiRevision": 2200057,
+      "wikiBasePrice": 2,
+      "note": "Base item price does not independently confirm this shop offer."
+    }
+  ]
+}

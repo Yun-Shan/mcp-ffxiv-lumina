@@ -1,0 +1,248 @@
+{
+  "sheet": "Item",
+  "rowIds": [
+    6053,
+    8202,
+    12056,
+    13722,
+    20642,
+    29064,
+    29697,
+    32161,
+    34391,
+    35686,
+    36635
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "Item",
+      "rowId": 6053,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "",
+        "Name": "精骑锁甲靴",
+        "LevelEquip": 50,
+        "ClassJobCategory": 20,
+        "ItemAction": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634070+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 8202,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "获得新宠物“食果花鼠”。\r\n有些害羞的小花鼠，最喜欢拉诺西亚产的铁帽橡果。",
+        "Name": "食果花鼠",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 451
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634126+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 12056,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "获得新宠物“小熊猫”。\r\n小熊猫的幼崽。双腿站立是它的拿手好戏。",
+        "Name": "小熊猫",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 654
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634181+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 13722,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "可以给装备染色的万能染色剂，十分罕见。",
+        "Name": "金属靛染剂",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634204+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 20642,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "里面装着一整套精骑装备。\r\n可装备等级：50（装备品级：90）\r\n可以在主城及野外使用。",
+        "Name": "精骑装备箱（品级90）",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 388
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634237+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 29064,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "",
+        "Name": "伊甸之律制敌腿甲",
+        "LevelEquip": 80,
+        "ClassJobCategory": 76,
+        "ItemAction": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634263+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 29697,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "里面装着伊甸之律腿部装备的箱子。\r\n使用后便能获得相应职业或特职的腿部装备。\r\n可装备等级：80（装备品级：500）\r\n可以在主城及野外使用。",
+        "Name": "伊甸之律腿部装备箱（品级500）",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 388
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634291+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 32161,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "雇员带回来的宝箱，还没有确认里面装的是什么……",
+        "Name": "雇员的宝箱",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 388
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634312+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 34391,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "",
+        "Name": "赛加羚羊革魔导典",
+        "LevelEquip": 84,
+        "ClassJobCategory": 29,
+        "ItemAction": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634350+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 35686,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "里面装着武器的弗里金材质的箱子。\r\n使用后便能获得相应职业或特职的武器。\r\n可装备等级：84（装备品级：533）\r\n可以在主城及野外使用。",
+        "Name": "弗里金武器箱（品级533）",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 388
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634383+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36635,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装有特殊礼品的货箱，用于表彰那些对大国防联军有特殊贡献的士兵。\r\n使用后可随机获得一款重生之境及苍穹之禁城时期导入的可交易宠物或坐骑道具。",
+        "Name": "特殊配给货箱（重生/苍穹）",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 388
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:50:56.5634409+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T16:50:56.5634435+00:00"
+}

@@ -1,0 +1,311 @@
+{
+  "commit": "e9bf1495bf8588d2cf21441ef03f0d9dfe0f790a",
+  "packageVersion": "5.1.4",
+  "datasetCount": 33,
+  "errors": [],
+  "types": {
+    "mob_drop": {
+      "candidateItems": 342,
+      "rawRelations": 2652,
+      "note": "ItemId -> BNpcNameId; MobSpawn can supply multiple observed places; quantities and probabilities absent.",
+      "wikiKeys": [
+        "怪物",
+        "怪物掉落",
+        "掉落",
+        "其他"
+      ]
+    },
+    "dungeon_chest": {
+      "candidateItems": 6996,
+      "rawRelations": 21258,
+      "note": "ItemId -> ChestId -> DungeonChest; concrete chest, coordinates, optional Min/Max/Probability.",
+      "wikiKeys": [
+        "副本",
+        "宝箱"
+      ]
+    },
+    "dungeon_boss": {
+      "candidateItems": 246,
+      "rawRelations": 298,
+      "note": "ItemId -> duty + FightNo -> DungeonBoss; Quantity retained.",
+      "wikiKeys": [
+        "副本"
+      ]
+    },
+    "dungeon_boss_chest": {
+      "candidateItems": 6188,
+      "rawRelations": 9240,
+      "note": "ItemId -> duty + FightNo + CofferNo; Quantity retained.",
+      "wikiKeys": [
+        "副本"
+      ]
+    },
+    "dungeon_drop": {
+      "candidateItems": 295,
+      "rawRelations": 372,
+      "note": "ItemId -> duty only; not silently upgraded to a particular boss or coffer.",
+      "wikiKeys": [
+        "副本"
+      ]
+    },
+    "fate": {
+      "candidateItems": 146,
+      "rawRelations": 1354,
+      "note": "ItemId -> FateId; no contribution tier, quantity, trigger or probability.",
+      "wikiKeys": [
+        "危命任务",
+        "危命",
+        "FATE",
+        "其他"
+      ]
+    },
+    "gardening_crossbreed": {
+      "candidateItems": 49,
+      "rawRelations": 3768,
+      "note": "ItemResultId is output, both ItemRequirement IDs are joint inputs; soil/layout/chance absent.",
+      "wikiKeys": [
+        "栽培",
+        "种植",
+        "园艺",
+        "其他"
+      ]
+    },
+    "retainer_random": {
+      "candidateItems": 463,
+      "rawRelations": 802,
+      "note": "ItemId -> RetainerTaskRandomId; join task metadata separately.",
+      "wikiKeys": [
+        "雇员探险"
+      ]
+    },
+    "submarine": {
+      "candidateItems": 412,
+      "rawRelations": 1348,
+      "note": "ItemId -> sector; LootTier and normal/poor/optimal quantity ranges retained.",
+      "wikiKeys": [
+        "潜水艇",
+        "潜水艇探索",
+        "潜水艇探险",
+        "其他"
+      ]
+    },
+    "airship": {
+      "candidateItems": 102,
+      "rawRelations": 261,
+      "note": "ItemId -> AirshipExplorationPointId; quantity/probability absent.",
+      "wikiKeys": [
+        "飞空艇",
+        "飞空艇探索",
+        "飞空艇探险",
+        "其他"
+      ]
+    },
+    "store": {
+      "candidateItems": 1248,
+      "rawRelations": 1460,
+      "note": "International store product URL and USD cents; not equivalent to CN store availability/pricing.",
+      "wikiKeys": [
+        "商城",
+        "道具商城",
+        "其他"
+      ]
+    },
+    "fieldop_coffer": {
+      "candidateItems": 302,
+      "rawRelations": 668,
+      "note": "Type + ChestType + optional observed Min/Max/Probability; no item source ID.",
+      "wikiKeys": [
+        "宝箱",
+        "其他"
+      ]
+    },
+    "desynth": {
+      "candidateItems": 1837,
+      "rawRelations": 118687,
+      "note": "ItemSupplementSource=1; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "分解",
+        "其他"
+      ]
+    },
+    "reduction": {
+      "candidateItems": 66,
+      "rawRelations": 227,
+      "note": "ItemSupplementSource=2; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "精制",
+        "以太精制",
+        "其他"
+      ]
+    },
+    "loot": {
+      "candidateItems": 5027,
+      "rawRelations": 5413,
+      "note": "ItemSupplementSource=3; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "gardening": {
+      "candidateItems": 282,
+      "rawRelations": 282,
+      "note": "ItemSupplementSource=4; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "栽培",
+        "种植",
+        "其他"
+      ]
+    },
+    "skybuilder_handin": {
+      "candidateItems": 214,
+      "rawRelations": 214,
+      "note": "ItemSupplementSource=5; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他"
+      ]
+    },
+    "card_pack": {
+      "candidateItems": 79,
+      "rawRelations": 142,
+      "note": "ItemSupplementSource=6; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他"
+      ]
+    },
+    "coffer": {
+      "candidateItems": 203,
+      "rawRelations": 227,
+      "note": "ItemSupplementSource=7; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "宝箱",
+        "其他"
+      ]
+    },
+    "palace_of_the_dead": {
+      "candidateItems": 315,
+      "rawRelations": 403,
+      "note": "ItemSupplementSource=8; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "heaven_on_high": {
+      "candidateItems": 201,
+      "rawRelations": 300,
+      "note": "ItemSupplementSource=9; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "eureka_orthos": {
+      "candidateItems": 242,
+      "rawRelations": 348,
+      "note": "ItemSupplementSource=10; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "anemos": {
+      "candidateItems": 53,
+      "rawRelations": 53,
+      "note": "ItemSupplementSource=11; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "pagos": {
+      "candidateItems": 40,
+      "rawRelations": 57,
+      "note": "ItemSupplementSource=12; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "pyros": {
+      "candidateItems": 33,
+      "rawRelations": 43,
+      "note": "ItemSupplementSource=13; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "hydatos": {
+      "candidateItems": 33,
+      "rawRelations": 44,
+      "note": "ItemSupplementSource=14; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "bozja": {
+      "candidateItems": 208,
+      "rawRelations": 277,
+      "note": "ItemSupplementSource=15; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "logogram": {
+      "candidateItems": 127,
+      "rawRelations": 130,
+      "note": "ItemSupplementSource=16; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "pilgrims_traverse": {
+      "candidateItems": 296,
+      "rawRelations": 381,
+      "note": "ItemSupplementSource=17; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "oizys": {
+      "candidateItems": 79,
+      "rawRelations": 119,
+      "note": "ItemSupplementSource=18; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "auxesia": {
+      "candidateItems": 78,
+      "rawRelations": 116,
+      "note": "ItemSupplementSource=19; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    },
+    "supplement_unknown": {
+      "candidateItems": 0,
+      "rawRelations": 0,
+      "note": "ItemSupplementSource=999; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof.",
+      "wikiKeys": [
+        "其他",
+        "宝箱"
+      ]
+    }
+  },
+  "excluded": {
+    "QuestRequiredItem": "Item is consumed/required by a quest, not a quest reward.",
+    "UnobtainableItem": "Availability annotation; a lone ItemId is not an acquisition path.",
+    "RelicWeapon": "Stage/previous-stage/quest metadata; does not prove actual acquisition output/costs.",
+    "RelicTool": "Stage/previous-stage/quest metadata; does not prove actual acquisition output/costs.",
+    "Gearset": "Membership metadata, not a source.",
+    "ItemPatch": "Patch range metadata, not a source."
+  }
+}

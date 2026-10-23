@@ -1,0 +1,684 @@
+{
+  "generatedAt": "2026-10-23T17:20:05.493Z",
+  "scope": "Targeted integration checks, separate from random sample and from complete obtainability validation",
+  "summary": {
+    "match": 25,
+    "difference": 3
+  },
+  "currencySummary": {
+    "slots": 26025,
+    "resolved": 25459,
+    "unverified": 566,
+    "rules": {
+      "cost_type_0_item": 19477,
+      "cost_type_2_tomestones_value_join": 3472,
+      "cost_type_1_hq_item": 88,
+      "cost_type_3_verified_7x_scrip_bucket": 2422,
+      "implicit_gil_price_requires_output_price_mid": 566
+    }
+  },
+  "edgeStates": {
+    "one_attempt_only": 71,
+    "terminal_evidence": 233,
+    "expanded": 40
+  },
+  "targetsWithSupportedPath": 21,
+  "targets": 22,
+  "openItems": [
+    {
+      "itemId": 36635,
+      "name": "特殊配给货箱（重生/苍穹）",
+      "targets": [
+        12056,
+        8202
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 36611,
+      "name": "陈旧的赛加羚羊革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 39591,
+      "name": "陈旧的蛇牛革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 26807,
+      "name": "双色宝石",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 12241,
+      "name": "陈旧的古鸟革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 12242,
+      "name": "陈旧的飞龙革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 12243,
+      "name": "陈旧的巨龙革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 17835,
+      "name": "陈旧的迦迦纳怪鸟革地图",
+      "targets": [
+        34391,
+        41680
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 17836,
+      "name": "陈旧的瞪羚革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 26744,
+      "name": "陈旧的绿飘龙革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 26745,
+      "name": "陈旧的缠尾蛟革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 43556,
+      "name": "陈旧的银狼革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 36612,
+      "name": "陈旧的金毗罗鳄革地图",
+      "targets": [
+        34391
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 33913,
+      "name": "巧手紫票",
+      "targets": [
+        46314
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 6690,
+      "name": "陈旧的巨蟾蜍革地图",
+      "targets": [
+        41680
+      ],
+      "wikiSourceKeys": [],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 40016,
+      "name": "龙须拳",
+      "targets": [
+        41680
+      ],
+      "wikiSourceKeys": [
+        "Unobtainable"
+      ],
+      "wikiUnobtainable": "不再使用的点数装备"
+    },
+    {
+      "itemId": 12995,
+      "name": "白银陆行鸟的羽毛",
+      "targets": [
+        41680
+      ],
+      "wikiSourceKeys": [
+        "其他",
+        "道具商城"
+      ],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 41080,
+      "name": "阿罗阿罗岛书籍",
+      "targets": [
+        41680
+      ],
+      "wikiSourceKeys": [
+        "副本"
+      ],
+      "wikiUnobtainable": null
+    },
+    {
+      "itemId": 49125,
+      "name": "科尔沃书籍",
+      "targets": [
+        41680
+      ],
+      "wikiSourceKeys": [
+        "副本"
+      ],
+      "wikiUnobtainable": null
+    }
+  ],
+  "checks": [
+    {
+      "label": "报价 46314 / 1770627:16",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 33913,
+          "quantity": 1200,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 33913,
+          "quantity": 1200,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 46314,
+      "revision": 2222224,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 46314 / 1770874:16",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 33913,
+          "quantity": 1200,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 33913,
+          "quantity": 1200,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 46314,
+      "revision": 2222224,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 41680 / 1770733:1",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 40091,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        },
+        {
+          "itemId": 41699,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 40091,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        },
+        {
+          "itemId": 41699,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 41680,
+      "revision": 2217735,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 40091 / 1770699:1",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 28,
+          "quantity": 600,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 28,
+          "quantity": 600,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 40091,
+      "revision": 2216205,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 40091 / 1770700:1",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 28,
+          "quantity": 100,
+          "hq": false,
+          "collectability": 0
+        },
+        {
+          "itemId": 40016,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 28,
+          "quantity": 100,
+          "hq": false,
+          "collectability": 0
+        },
+        {
+          "itemId": 40016,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 40091,
+      "revision": 2216205,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 40091 / 1770756:1",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 12995,
+          "quantity": 5,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 12995,
+          "quantity": 5,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 40091,
+      "revision": 2216205,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 40091 / 1770823:0",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 28,
+          "quantity": 600,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 28,
+          "quantity": 600,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 40091,
+      "revision": 2216205,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 41699 / 1770727:1",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 41080,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 41080,
+          "quantity": 1,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 41699,
+      "revision": 2217754,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 41699 / 1771004:3",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 50847,
+          "quantity": 40,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 50847,
+          "quantity": 40,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 41699,
+      "revision": 2217754,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "报价 41699 / 1771005:17",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 49125,
+          "quantity": 20,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 49125,
+          "quantity": 20,
+          "hq": false,
+          "collectability": 0
+        }
+      ],
+      "itemId": 41699,
+      "revision": 2217754,
+      "note": "材料为 AND；比较一次报价，不比较 NPC/解锁/可达性。"
+    },
+    {
+      "label": "来源箱集合 13722",
+      "status": "difference",
+      "local": [
+        32161
+      ],
+      "wiki": [
+        32161,
+        33441
+      ],
+      "itemId": 13722,
+      "revision": 2254004,
+      "note": "完整集合比较；找出一条路径不消除其他来源箱缺失。"
+    },
+    {
+      "label": "来源箱集合 34391",
+      "status": "match",
+      "local": [
+        35686
+      ],
+      "wiki": [
+        35686
+      ],
+      "itemId": 34391,
+      "revision": 2210714,
+      "note": "完整集合比较；找出一条路径不消除其他来源箱缺失。"
+    },
+    {
+      "label": "雇员宝箱任务 ID / 探险币 / 分钟",
+      "status": "match",
+      "local": {
+        "id": 395,
+        "cost": 2,
+        "minutes": 60
+      },
+      "wiki": {
+        "id": 395,
+        "cost": 2,
+        "minutes": 60
+      },
+      "itemId": 32161,
+      "revision": 2240725,
+      "note": ""
+    },
+    {
+      "label": "弗里金武器箱任务集合",
+      "status": "match",
+      "local": [
+        69935
+      ],
+      "wiki": [
+        69935
+      ],
+      "itemId": 35686,
+      "revision": 2211934,
+      "note": ""
+    },
+    {
+      "label": "书籍副本集合 41080",
+      "status": "difference",
+      "local": [],
+      "wiki": [
+        37006
+      ],
+      "itemId": 41080,
+      "revision": 2217161,
+      "note": "Wiki 外部线索不注入本地图，保留缺失。"
+    },
+    {
+      "label": "书籍副本集合 49125",
+      "status": "difference",
+      "local": [],
+      "wiki": [
+        37007
+      ],
+      "itemId": 49125,
+      "revision": 2224985,
+      "note": "Wiki 外部线索不注入本地图，保留缺失。"
+    },
+    {
+      "label": "Instance 24 / 最终 Boss",
+      "status": "match",
+      "local": 25,
+      "wiki": 25,
+      "itemId": 28,
+      "revision": 2095913,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/24.json"
+    },
+    {
+      "label": "Instance 24 / 道中 Boss",
+      "status": "match",
+      "local": [
+        10,
+        15
+      ],
+      "wiki": [
+        10,
+        15
+      ],
+      "itemId": 28,
+      "revision": 2095913,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/24.json"
+    },
+    {
+      "label": "Instance 24 / 基础合计",
+      "status": "match",
+      "local": 50,
+      "wiki": 50,
+      "itemId": 28,
+      "revision": 2095913,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/24.json"
+    },
+    {
+      "label": "Instance 24 / 新手额外",
+      "status": "match",
+      "local": 60,
+      "wiki": 60,
+      "itemId": 28,
+      "revision": 2095913,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/24.json"
+    },
+    {
+      "label": "Instance 90 / 最终 Boss",
+      "status": "match",
+      "local": 35,
+      "wiki": 35,
+      "itemId": 28,
+      "revision": 2096178,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/90.json"
+    },
+    {
+      "label": "Instance 90 / 道中 Boss",
+      "status": "match",
+      "local": [
+        15,
+        20
+      ],
+      "wiki": [
+        15,
+        20
+      ],
+      "itemId": 28,
+      "revision": 2096178,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/90.json"
+    },
+    {
+      "label": "Instance 90 / 基础合计",
+      "status": "match",
+      "local": 70,
+      "wiki": 70,
+      "itemId": 28,
+      "revision": 2096178,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/90.json"
+    },
+    {
+      "label": "Instance 90 / 新手额外",
+      "status": "match",
+      "local": 70,
+      "wiki": 70,
+      "itemId": 28,
+      "revision": 2096178,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/90.json"
+    },
+    {
+      "label": "Instance 91 / 最终 Boss",
+      "status": "match",
+      "local": 50,
+      "wiki": 50,
+      "itemId": 28,
+      "revision": 2096180,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/91.json"
+    },
+    {
+      "label": "Instance 91 / 道中 Boss",
+      "status": "match",
+      "local": [
+        20,
+        30
+      ],
+      "wiki": [
+        20,
+        30
+      ],
+      "itemId": 28,
+      "revision": 2096180,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/91.json"
+    },
+    {
+      "label": "Instance 91 / 基础合计",
+      "status": "match",
+      "local": 100,
+      "wiki": 100,
+      "itemId": 28,
+      "revision": 2096180,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/91.json"
+    },
+    {
+      "label": "Instance 91 / 新手额外",
+      "status": "match",
+      "local": 80,
+      "wiki": 80,
+      "itemId": 28,
+      "revision": 2096180,
+      "note": "只验证三个已选副本的 CurrencyA；不推广 B/C 或所需刷本次数。",
+      "wikiTitle": "Data:Instance/91.json"
+    }
+  ]
+}

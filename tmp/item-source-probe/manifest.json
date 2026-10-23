@@ -1,0 +1,6365 @@
+{
+  "schemaVersion": 1,
+  "seed": "2026-10-24-lumina-wiki-01",
+  "perType": 3,
+  "selection": "Unique named local Item IDs, sorted by SHA-256(seed|type|itemId), first N per category; sampled BEFORE Wiki, no replacement on missing/mismatch.",
+  "createdAt": "2026-10-23T16:21:39.682Z",
+  "gameVersion": "2026.10.06.0000.0000",
+  "itemUniverse": 51225,
+  "categories": [
+    {
+      "type": "achievement",
+      "eligibleUniqueItems": 192,
+      "sampleCount": 3
+    },
+    {
+      "type": "airship",
+      "eligibleUniqueItems": 102,
+      "sampleCount": 3
+    },
+    {
+      "type": "anemos",
+      "eligibleUniqueItems": 53,
+      "sampleCount": 3
+    },
+    {
+      "type": "auxesia",
+      "eligibleUniqueItems": 78,
+      "sampleCount": 3
+    },
+    {
+      "type": "bozja",
+      "eligibleUniqueItems": 208,
+      "sampleCount": 3
+    },
+    {
+      "type": "card_pack",
+      "eligibleUniqueItems": 79,
+      "sampleCount": 3
+    },
+    {
+      "type": "coffer",
+      "eligibleUniqueItems": 203,
+      "sampleCount": 3
+    },
+    {
+      "type": "desynth",
+      "eligibleUniqueItems": 1837,
+      "sampleCount": 3
+    },
+    {
+      "type": "dungeon_boss",
+      "eligibleUniqueItems": 245,
+      "sampleCount": 3
+    },
+    {
+      "type": "dungeon_boss_chest",
+      "eligibleUniqueItems": 6188,
+      "sampleCount": 3
+    },
+    {
+      "type": "dungeon_chest",
+      "eligibleUniqueItems": 6996,
+      "sampleCount": 3
+    },
+    {
+      "type": "dungeon_drop",
+      "eligibleUniqueItems": 295,
+      "sampleCount": 3
+    },
+    {
+      "type": "eureka_orthos",
+      "eligibleUniqueItems": 242,
+      "sampleCount": 3
+    },
+    {
+      "type": "fate",
+      "eligibleUniqueItems": 146,
+      "sampleCount": 3
+    },
+    {
+      "type": "fieldop_coffer",
+      "eligibleUniqueItems": 302,
+      "sampleCount": 3
+    },
+    {
+      "type": "fishing",
+      "eligibleUniqueItems": 2461,
+      "sampleCount": 3
+    },
+    {
+      "type": "gardening",
+      "eligibleUniqueItems": 282,
+      "sampleCount": 3
+    },
+    {
+      "type": "gardening_crossbreed",
+      "eligibleUniqueItems": 49,
+      "sampleCount": 3
+    },
+    {
+      "type": "gathering",
+      "eligibleUniqueItems": 1592,
+      "sampleCount": 3
+    },
+    {
+      "type": "heaven_on_high",
+      "eligibleUniqueItems": 201,
+      "sampleCount": 3
+    },
+    {
+      "type": "hydatos",
+      "eligibleUniqueItems": 33,
+      "sampleCount": 3
+    },
+    {
+      "type": "leve",
+      "eligibleUniqueItems": 1109,
+      "sampleCount": 3
+    },
+    {
+      "type": "logogram",
+      "eligibleUniqueItems": 127,
+      "sampleCount": 3
+    },
+    {
+      "type": "loot",
+      "eligibleUniqueItems": 5027,
+      "sampleCount": 3
+    },
+    {
+      "type": "mob_drop",
+      "eligibleUniqueItems": 342,
+      "sampleCount": 3
+    },
+    {
+      "type": "oizys",
+      "eligibleUniqueItems": 79,
+      "sampleCount": 3
+    },
+    {
+      "type": "pagos",
+      "eligibleUniqueItems": 40,
+      "sampleCount": 3
+    },
+    {
+      "type": "palace_of_the_dead",
+      "eligibleUniqueItems": 315,
+      "sampleCount": 3
+    },
+    {
+      "type": "pilgrims_traverse",
+      "eligibleUniqueItems": 296,
+      "sampleCount": 3
+    },
+    {
+      "type": "pyros",
+      "eligibleUniqueItems": 33,
+      "sampleCount": 3
+    },
+    {
+      "type": "quest",
+      "eligibleUniqueItems": 3006,
+      "sampleCount": 3
+    },
+    {
+      "type": "recipe",
+      "eligibleUniqueItems": 11341,
+      "sampleCount": 3
+    },
+    {
+      "type": "reduction",
+      "eligibleUniqueItems": 66,
+      "sampleCount": 3
+    },
+    {
+      "type": "retainer_normal",
+      "eligibleUniqueItems": 948,
+      "sampleCount": 3
+    },
+    {
+      "type": "retainer_random",
+      "eligibleUniqueItems": 463,
+      "sampleCount": 3
+    },
+    {
+      "type": "skybuilder_handin",
+      "eligibleUniqueItems": 214,
+      "sampleCount": 3
+    },
+    {
+      "type": "spearfishing",
+      "eligibleUniqueItems": 304,
+      "sampleCount": 3
+    },
+    {
+      "type": "special_vendor",
+      "eligibleUniqueItems": 12987,
+      "sampleCount": 3
+    },
+    {
+      "type": "store",
+      "eligibleUniqueItems": 1248,
+      "sampleCount": 3
+    },
+    {
+      "type": "submarine",
+      "eligibleUniqueItems": 412,
+      "sampleCount": 3
+    }
+  ],
+  "samples": [
+    {
+      "type": "achievement",
+      "itemId": 9846,
+      "name": "九宫幻卡：斯考尔·莱昂哈特",
+      "randomKey": "0297b8a6c6a5e140d3125d042ae4967bd847e27c250932af58574fe562842dc0",
+      "localRefs": [
+        {
+          "sheet": "Achievement",
+          "rowId": 1104
+        }
+      ]
+    },
+    {
+      "type": "achievement",
+      "itemId": 2505,
+      "name": "流光平底锅",
+      "randomKey": "075f8e02d283f9adf38814fe3d8f2e75381361d21186dd166339b36cb0d49cf2",
+      "localRefs": [
+        {
+          "sheet": "Achievement",
+          "rowId": 184
+        }
+      ]
+    },
+    {
+      "type": "achievement",
+      "itemId": 16967,
+      "name": "赐福园野手斧",
+      "randomKey": "0958a71c5f5d4a20debd4d240b51a11822bdc789c70a7c8bea6a208e15b06acd",
+      "localRefs": [
+        {
+          "sheet": "Achievement",
+          "rowId": 1730
+        }
+      ]
+    },
+    {
+      "type": "airship",
+      "itemId": 13751,
+      "name": "浮岛陶石",
+      "randomKey": "008f1e23c21f3ee39175fa0ee78faab62af507f73d5a4704be01f80980b3e1d8",
+      "localRefs": [
+        {
+          "dataset": "AirshipDrop",
+          "recordIndex": 3
+        },
+        {
+          "dataset": "AirshipDrop",
+          "recordIndex": 91
+        }
+      ]
+    },
+    {
+      "type": "airship",
+      "itemId": 14934,
+      "name": "古代野兽的化石片",
+      "randomKey": "018c5f4846f5906d0d5d1237067cfb215a0d0e767c88675539e001e4f0ccd0d4",
+      "localRefs": [
+        {
+          "dataset": "AirshipDrop",
+          "recordIndex": 145
+        }
+      ]
+    },
+    {
+      "type": "airship",
+      "itemId": 5666,
+      "name": "神眼魔晶石叁型",
+      "randomKey": "054fc27f3ae99638188dbe6d097e01d82b9c66ce0e3a41749b53c390fc20bf3d",
+      "localRefs": [
+        {
+          "dataset": "AirshipDrop",
+          "recordIndex": 111
+        },
+        {
+          "dataset": "AirshipDrop",
+          "recordIndex": 137
+        },
+        {
+          "dataset": "AirshipDrop",
+          "recordIndex": 245
+        }
+      ]
+    },
+    {
+      "type": "anemos",
+      "itemId": 22514,
+      "name": "常风皮盔帽",
+      "randomKey": "0613d9a840cbda118d97be0dbdf132b87cc9381f3995c4873bea5f71ea79e644",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 96868
+        }
+      ]
+    },
+    {
+      "type": "anemos",
+      "itemId": 5668,
+      "name": "神眼魔晶石伍型",
+      "randomKey": "097a19d01cddee84ac3f2f950abfa6ac43b53d5fb1cf4bf8cc28da19a96640bf",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 42943
+        }
+      ]
+    },
+    {
+      "type": "anemos",
+      "itemId": 18021,
+      "name": "刚柔魔晶石陆型",
+      "randomKey": "11dbb9a8196f66fd10d53ec8cc6615d4fdee15d32db77d5b830d116cd9c73aa4",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89236
+        }
+      ]
+    },
+    {
+      "type": "auxesia",
+      "itemId": 31324,
+      "name": "沉稳方格阳伞",
+      "randomKey": "00a33c45dce97712220151ae708dbb37a9a2a7b5e56ade2627561d47dd124ddb",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107656
+        }
+      ]
+    },
+    {
+      "type": "auxesia",
+      "itemId": 20539,
+      "name": "迷你奇美拉",
+      "randomKey": "014522c374c6e7eedc04e6a3defcb31f67589fe07ff2fd985d38c3d53c22cecd",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 95638
+        }
+      ]
+    },
+    {
+      "type": "auxesia",
+      "itemId": 20528,
+      "name": "龙之孙",
+      "randomKey": "09d3cc9cff81493d867436ac27a5791d6b1350ef6c03025655c93f46af1ac1d3",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 95619
+        }
+      ]
+    },
+    {
+      "type": "bozja",
+      "itemId": 23098,
+      "name": "红色大丽花头花",
+      "randomKey": "004244a3201f9e62dd12c58aa1e1ebea081bf0bc8659eccb7027d0b2e1fd038a",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 96956
+        }
+      ]
+    },
+    {
+      "type": "bozja",
+      "itemId": 12082,
+      "name": "俾斯麦装甲",
+      "randomKey": "00495a764746ede527cdeec977bcfa3fc4759be4c19d39c19a1fa6762ac9a108",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79574
+        }
+      ]
+    },
+    {
+      "type": "bozja",
+      "itemId": 24331,
+      "name": "邪龙怨影魔导典",
+      "randomKey": "0052d2b6f68075efbbe7338782aff7ecc6c348a41ad14fa40d3b0c6010494370",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 97948
+        }
+      ]
+    },
+    {
+      "type": "card_pack",
+      "itemId": 16765,
+      "name": "九宫幻卡：晴天霹雳托佐尔·法托特尔",
+      "randomKey": "076a41a680cf9ffcd260b22eadc7cd53195d54f0c45894b7510949713b967030",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 88777
+        }
+      ]
+    },
+    {
+      "type": "card_pack",
+      "itemId": 9848,
+      "name": "九宫幻卡：提达",
+      "randomKey": "11e32cde98a680eaef8763cfb2a9332a13ab94af534635704e3d34df5072a527",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79223
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79224
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79225
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79226
+        }
+      ]
+    },
+    {
+      "type": "card_pack",
+      "itemId": 16775,
+      "name": "九宫幻卡：魔导炮艇",
+      "randomKey": "121087bbde99e5a20cbd3e3803f6c8c9bcbb20067585f49d37fc1a9cbf908a4e",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 88779
+        }
+      ]
+    },
+    {
+      "type": "coffer",
+      "itemId": 12056,
+      "name": "小熊猫",
+      "randomKey": "0218696e6139d9ab109f187d523b0f28a2e053b2b47983750be4a05e105fb022",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79559
+        }
+      ]
+    },
+    {
+      "type": "coffer",
+      "itemId": 8202,
+      "name": "食果花鼠",
+      "randomKey": "028d9ccf0bf5966e58c82ff64fbb500c99ae17e2c676a9184806d6a53561b926",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 78158
+        }
+      ]
+    },
+    {
+      "type": "coffer",
+      "itemId": 13722,
+      "name": "金属靛染剂",
+      "randomKey": "02f22c951002686aaf108a4521b0b2737fd1b433a132f026a431ae4e19db8d70",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 85947
+        }
+      ]
+    },
+    {
+      "type": "desynth",
+      "itemId": 27994,
+      "name": "古代银币",
+      "randomKey": "00065dc6babfd93a0758b2b629a99f25c2cb1890e970ce24d20f78294ff123f4",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104484
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104485
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104486
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104487
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104488
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104489
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104490
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104491
+        }
+      ]
+    },
+    {
+      "type": "desynth",
+      "itemId": 36262,
+      "name": "潜能量碎晶",
+      "randomKey": "000c804e1a8e5d0ae2658816687659299497c8fb85cd5c2b624198611e5efac6",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115615
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115616
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115617
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115618
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115619
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115620
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115621
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115622
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115623
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115624
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115625
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115626
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115627
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115628
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115629
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115630
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115631
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115632
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115633
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115634
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115635
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115636
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115637
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115638
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115639
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115640
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115641
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115642
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115643
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115644
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115645
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115646
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115647
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115648
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115649
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115650
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115651
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115652
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115653
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115654
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115655
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115656
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115657
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115658
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115659
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115660
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115661
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115662
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115663
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115664
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 115665
+        }
+      ]
+    },
+    {
+      "type": "desynth",
+      "itemId": 31266,
+      "name": "第三期重建用的特供藤条（检）",
+      "randomKey": "000df27675cc0afdc45a2f0fd251617cfca9a02f50ef1f499f246493660f8470",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107589
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107590
+        }
+      ]
+    },
+    {
+      "type": "dungeon_boss",
+      "itemId": 23916,
+      "name": "九宫幻卡：欧米茄",
+      "randomKey": "01e3403810880670f9b1a745f6c4df508d9479186927781afb34a0e954a1b15d",
+      "localRefs": [
+        {
+          "dataset": "DungeonBossDrop",
+          "recordIndex": 235,
+          "rowId": 236
+        },
+        {
+          "dataset": "DungeonBossDrop",
+          "recordIndex": 248,
+          "rowId": 249
+        }
+      ]
+    },
+    {
+      "type": "dungeon_boss",
+      "itemId": 24874,
+      "name": "九宫幻卡：青龙",
+      "randomKey": "04f11f276ccf0732ea32cd440782f833a627a4a24556c58d44e629e8e3f8ec9d",
+      "localRefs": [
+        {
+          "dataset": "DungeonBossDrop",
+          "recordIndex": 136,
+          "rowId": 137
+        },
+        {
+          "dataset": "DungeonBossDrop",
+          "recordIndex": 150,
+          "rowId": 151
+        }
+      ]
+    },
+    {
+      "type": "dungeon_boss",
+      "itemId": 12684,
+      "name": "第4页戈耳狄断章",
+      "randomKey": "066497249b8ef111a30fabce18faff57dc1e8ccfecc485afb0294aca193ef195",
+      "localRefs": [
+        {
+          "dataset": "DungeonBossDrop",
+          "recordIndex": 224,
+          "rowId": 225
+        }
+      ]
+    },
+    {
+      "type": "dungeon_boss_chest",
+      "itemId": 40786,
+      "name": "虚月游击上装",
+      "randomKey": "00006562a8ef28a593f22bf1441eebfdb41fd9ac386e779c1d3d06cf5c606ce5",
+      "localRefs": [
+        {
+          "dataset": "DungeonBossChest",
+          "recordIndex": 5088,
+          "rowId": 5089
+        },
+        {
+          "dataset": "DungeonBossChest",
+          "recordIndex": 5150,
+          "rowId": 5151
+        }
+      ]
+    },
+    {
+      "type": "dungeon_boss_chest",
+      "itemId": 35247,
+      "name": "日影兰战锤",
+      "randomKey": "0000c12bfbb481fb80d76e5e96d1e229d7bf635b168e4f1346bfaddd0cfb0764",
+      "localRefs": [
+        {
+          "dataset": "DungeonBossChest",
+          "recordIndex": 8993,
+          "rowId": 8994
+        }
+      ]
+    },
+    {
+      "type": "dungeon_boss_chest",
+      "itemId": 27626,
+      "name": "无瑕精准手镯",
+      "randomKey": "000e2447d58085902aff496c888d3447052e9912b5930c4f00c5f4dadfa24c23",
+      "localRefs": [
+        {
+          "dataset": "DungeonBossChest",
+          "recordIndex": 6290,
+          "rowId": 6291
+        }
+      ]
+    },
+    {
+      "type": "dungeon_chest",
+      "itemId": 40369,
+      "name": "海鹦",
+      "randomKey": "0002d1b6cb1fd77ef3a0e7fa4cda64b80e8ffee1f24ec8a6f762da3088bed6be",
+      "localRefs": [
+        {
+          "dataset": "DungeonChestItem",
+          "recordIndex": 10752,
+          "rowId": 10753
+        }
+      ]
+    },
+    {
+      "type": "dungeon_chest",
+      "itemId": 14664,
+      "name": "龙堡强袭护手",
+      "randomKey": "000dc40b1b8c1d725f1a70923c6306c5075cb4d4136a84c5bb70b82997db13a2",
+      "localRefs": [
+        {
+          "dataset": "DungeonChestItem",
+          "recordIndex": 4326,
+          "rowId": 4327
+        },
+        {
+          "dataset": "DungeonChestItem",
+          "recordIndex": 4341,
+          "rowId": 4342
+        },
+        {
+          "dataset": "DungeonChestItem",
+          "recordIndex": 4447,
+          "rowId": 4448
+        },
+        {
+          "dataset": "DungeonChestItem",
+          "recordIndex": 4468,
+          "rowId": 4469
+        }
+      ]
+    },
+    {
+      "type": "dungeon_chest",
+      "itemId": 26226,
+      "name": "拿巴示艾兰精准缠手带",
+      "randomKey": "001d53bedb8123a1748b86b32c22177b18494d5bd393a1e653b09425195fe4fd",
+      "localRefs": [
+        {
+          "dataset": "DungeonChestItem",
+          "recordIndex": 8141,
+          "rowId": 8142
+        },
+        {
+          "dataset": "DungeonChestItem",
+          "recordIndex": 8142,
+          "rowId": 8143
+        }
+      ]
+    },
+    {
+      "type": "dungeon_drop",
+      "itemId": 31672,
+      "name": "管弦乐琴乐谱：冬贝利之泪",
+      "randomKey": "0057f8cf296f705dbb98b694030dca5b86d22f36d585bed08b6726b483637eac",
+      "localRefs": [
+        {
+          "dataset": "DungeonDrop",
+          "recordIndex": 210,
+          "rowId": 211
+        }
+      ]
+    },
+    {
+      "type": "dungeon_drop",
+      "itemId": 31687,
+      "name": "陈旧的乐谱：末路尽头",
+      "randomKey": "01491cd67ff2db8e8dfa7270f0f729dfd63edcad60e21eea5e4631e0b1b7d6f0",
+      "localRefs": [
+        {
+          "dataset": "DungeonDrop",
+          "recordIndex": 282,
+          "rowId": 283
+        }
+      ]
+    },
+    {
+      "type": "dungeon_drop",
+      "itemId": 33844,
+      "name": "管弦乐琴乐谱：凯宁／最终幻想主题曲版",
+      "randomKey": "0410c19027bba220b42f0f11d90e8aa006bd07ac3f5dced63de8bff88f650cce",
+      "localRefs": [
+        {
+          "dataset": "DungeonDrop",
+          "recordIndex": 360,
+          "rowId": 361
+        }
+      ]
+    },
+    {
+      "type": "eureka_orthos",
+      "itemId": 35979,
+      "name": "河马幼崽",
+      "randomKey": "007c7d912b35fe123aa2ef2588e0799cdcb0d6ac688a15daf4354d381e41737d",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 109576
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 109577
+        }
+      ]
+    },
+    {
+      "type": "eureka_orthos",
+      "itemId": 23373,
+      "name": "风尚礼帽",
+      "randomKey": "0100582e192ee7f46de03ffd34fe55792bbdc0e1aa951b4d787e529149685700",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 97268
+        }
+      ]
+    },
+    {
+      "type": "eureka_orthos",
+      "itemId": 27987,
+      "name": "无瑕灵君装甲",
+      "randomKey": "016439eec925109a2c658feeb44d6ddf66d2bb327eddb75d291858c5d7c9040a",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 104480
+        }
+      ]
+    },
+    {
+      "type": "fate",
+      "itemId": 30347,
+      "name": "战果记录：慈悲为怀布拉兹",
+      "randomKey": "0075cb0f47553caa82133a096a10ebe4c2ad899a16a8574ce91e16b9d74cbe04",
+      "localRefs": [
+        {
+          "dataset": "FateItem",
+          "recordIndex": 1158
+        }
+      ]
+    },
+    {
+      "type": "fate",
+      "itemId": 30353,
+      "name": "战果记录：魔导技师长西西尼乌斯",
+      "randomKey": "00f7a1e16335daecf5301eec1e1ebde1f92ed992a920c8073d18afe48bacec25",
+      "localRefs": [
+        {
+          "dataset": "FateItem",
+          "recordIndex": 1150
+        }
+      ]
+    },
+    {
+      "type": "fate",
+      "itemId": 23214,
+      "name": "白泽的火之眼",
+      "randomKey": "012a01a3c69fb1517f576f43d3ddb0e3e4900438486e55b86234aab7419231d1",
+      "localRefs": [
+        {
+          "dataset": "FateItem",
+          "recordIndex": 887
+        },
+        {
+          "dataset": "FateItem",
+          "recordIndex": 893
+        }
+      ]
+    },
+    {
+      "type": "fieldop_coffer",
+      "itemId": 48156,
+      "name": "面部配饰：渐变色镜框眼镜",
+      "randomKey": "0094437c7d8b3ee2be0ddb9c4057231280ef9e5c1962cab702cf4d5a0053dc08",
+      "localRefs": [
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 308
+        },
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 533
+        }
+      ]
+    },
+    {
+      "type": "fieldop_coffer",
+      "itemId": 47987,
+      "name": "发型样式：蘑菇头",
+      "randomKey": "010235aea509416732289f6ce0149e87927aa8f3cecedf8d5fcb83096ad6a226",
+      "localRefs": [
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 306
+        },
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 531
+        }
+      ]
+    },
+    {
+      "type": "fieldop_coffer",
+      "itemId": 41768,
+      "name": "战技魔晶石拾壹型",
+      "randomKey": "0177581bbb780541cbef8f41362639b4eff5ccde08dcaeca0b9f5e9c11cb70b8",
+      "localRefs": [
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 288
+        },
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 513
+        },
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 558
+        },
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 585
+        },
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 617
+        },
+        {
+          "dataset": "FieldOpCoffer",
+          "recordIndex": 645
+        }
+      ]
+    },
+    {
+      "type": "fishing",
+      "itemId": 28069,
+      "name": "冠骨鱼",
+      "randomKey": "001d64555ae08a730966d1fe63a6d73ee25f8aa6225592398e522a48ccdc5dd1",
+      "localRefs": [
+        {
+          "sheet": "FishParameter",
+          "rowId": 813
+        }
+      ]
+    },
+    {
+      "type": "fishing",
+      "itemId": 45755,
+      "name": "月水晶刺鱼",
+      "randomKey": "00202ab1ab1d1e69506af716d34a9aed07831118894d80386ee1a167dbcb4885",
+      "localRefs": [
+        {
+          "sheet": "FishParameter",
+          "rowId": 15258
+        }
+      ]
+    },
+    {
+      "type": "fishing",
+      "itemId": 43687,
+      "name": "半饱鳟",
+      "randomKey": "00379a35b43c18ed542d8095b2e1a981749c97b02ed2a65bf7bd679759e44956",
+      "localRefs": [
+        {
+          "sheet": "FishParameter",
+          "rowId": 1307
+        }
+      ]
+    },
+    {
+      "type": "gardening",
+      "itemId": 12882,
+      "name": "库尔札斯茶叶",
+      "randomKey": "013365a7e1e80c018294fa8734a5089b50dcd95c747a360a983ff2c2f2ce4a27",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 85622
+        }
+      ]
+    },
+    {
+      "type": "gardening",
+      "itemId": 39900,
+      "name": "海岛红菜",
+      "randomKey": "01d25de4ceaafee692ef248ac1615c096778a15ada5baa71460bdfc6c299e1af",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 118189
+        }
+      ]
+    },
+    {
+      "type": "gardening",
+      "itemId": 33311,
+      "name": "橙色蝴蝶兰",
+      "randomKey": "0331ad4518e43e953486d03c60838fe9e0b1e1ed1077b5963dc3268b54a851f4",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 108713
+        }
+      ]
+    },
+    {
+      "type": "gardening_crossbreed",
+      "itemId": 20792,
+      "name": "白云花种子",
+      "randomKey": "02cbdc64624dda16ac924026b505fc28bc72b5a84416378057a90c57607ef2c8",
+      "localRefs": [
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 3766
+        }
+      ]
+    },
+    {
+      "type": "gardening_crossbreed",
+      "itemId": 7754,
+      "name": "伞叶无花果种子",
+      "randomKey": "04c5c83c3182346e9aaab9189d93228b6561b19178fac6046fe7b475dff369f0",
+      "localRefs": [
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2821
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2822
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2823
+        }
+      ]
+    },
+    {
+      "type": "gardening_crossbreed",
+      "itemId": 7750,
+      "name": "皇家可可豆种子",
+      "randomKey": "061a3a68155bb6bebae38af0ea11148db61eb2ac2d32f03720cdd944540d4100",
+      "localRefs": [
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2260
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2261
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2262
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2263
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2264
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2265
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2266
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2267
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2268
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2269
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2270
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2271
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2272
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2273
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2274
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2275
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2276
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2277
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2278
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2279
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2280
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2281
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2282
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2283
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2284
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2285
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2286
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2287
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2288
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2289
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2290
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2291
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2292
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2293
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2294
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2295
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2296
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2297
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2298
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2299
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2300
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2301
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2302
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2303
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2304
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2305
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2306
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2307
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2308
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2309
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2310
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2311
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2312
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2313
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2314
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2315
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2316
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2317
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2318
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2319
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2320
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2321
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2322
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2323
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2324
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2325
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2326
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2327
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2328
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2329
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2330
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2331
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2332
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2333
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2334
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2335
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2336
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2337
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2338
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2339
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2340
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2341
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2342
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2343
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2344
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2345
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2346
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2347
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2348
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2349
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2350
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2351
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2352
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2353
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2354
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2355
+        },
+        {
+          "dataset": "GardeningCrossbreed",
+          "recordIndex": 2356
+        }
+      ]
+    },
+    {
+      "type": "gathering",
+      "itemId": 29669,
+      "name": "改良用的乳胶",
+      "randomKey": "0027d2428a4561b64b244a906d8570d99ec9b06b99af2848537cbea4cb568fbd",
+      "localRefs": [
+        {
+          "sheet": "GatheringItem",
+          "rowId": 10520
+        }
+      ]
+    },
+    {
+      "type": "gathering",
+      "itemId": 17559,
+      "name": "黄昏苔藓",
+      "randomKey": "0056c4b7532316603c57519dc0a7998cdb74b25a53332fa4e4fe750aeea73647",
+      "localRefs": [
+        {
+          "sheet": "GatheringItem",
+          "rowId": 425
+        }
+      ]
+    },
+    {
+      "type": "gathering",
+      "itemId": 41069,
+      "name": "魅惑猫咪必需品的素材",
+      "randomKey": "0059476aff7deef0ac566cdb94b20e0edc7cebbb7fb80bceaa8844070b208a76",
+      "localRefs": [
+        {
+          "sheet": "GatheringItem",
+          "rowId": 740
+        }
+      ]
+    },
+    {
+      "type": "heaven_on_high",
+      "itemId": 17968,
+      "name": "东方午餐组合：荞麦面",
+      "randomKey": "005a96fc0842ff049cc37e836b3afa902389279e81e9c188801daad793d20049",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89137
+        }
+      ]
+    },
+    {
+      "type": "heaven_on_high",
+      "itemId": 20547,
+      "name": "俾斯麦之形",
+      "randomKey": "00a90cc974e14e8c98864ccebbb5fabd0afcbe1691e659113771ad9e5fc02d2a",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 95655
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 95656
+        }
+      ]
+    },
+    {
+      "type": "heaven_on_high",
+      "itemId": 17616,
+      "name": "生命之仪",
+      "randomKey": "030f0c7ee04f38c48dbd23859fe64cd77d20c568ce1b3c287119f8534b8cb88b",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 88996
+        }
+      ]
+    },
+    {
+      "type": "hydatos",
+      "itemId": 5723,
+      "name": "咏唱魔晶石伍型",
+      "randomKey": "0454dabee9dd12f41df44ee963c47b8ca58a97ff4a7c8a4b80e1c4394879a3be",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 43216
+        }
+      ]
+    },
+    {
+      "type": "hydatos",
+      "itemId": 18028,
+      "name": "战技魔晶石陆型",
+      "randomKey": "06f523ada059c7ee630979af197368d8e5cc1d8b6995ae4a75124ba9e1afe085",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89270
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89271
+        }
+      ]
+    },
+    {
+      "type": "hydatos",
+      "itemId": 18019,
+      "name": "武略魔晶石陆型",
+      "randomKey": "119f3ebf10bed757951f13cbbd664c1da4963fae1c03294f119919e56dafe7b7",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89211
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89212
+        }
+      ]
+    },
+    {
+      "type": "leve",
+      "itemId": 3,
+      "name": "冰之碎晶",
+      "randomKey": "000b2477743f8c9bba74a51e27bab5cb6a4de2a2be688d14f51c9ad4be83bed3",
+      "localRefs": [
+        {
+          "sheet": "Leve",
+          "rowId": 21,
+          "rewardId": 2,
+          "groupId": 1,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 21,
+          "rewardId": 2,
+          "groupId": 3,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 22,
+          "rewardId": 2,
+          "groupId": 1,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 22,
+          "rewardId": 2,
+          "groupId": 3,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 23,
+          "rewardId": 2,
+          "groupId": 1,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 23,
+          "rewardId": 2,
+          "groupId": 3,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 24,
+          "rewardId": 3,
+          "groupId": 2,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 24,
+          "rewardId": 3,
+          "groupId": 3,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 25,
+          "rewardId": 3,
+          "groupId": 2,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 25,
+          "rewardId": 3,
+          "groupId": 3,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 26,
+          "rewardId": 3,
+          "groupId": 2,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 26,
+          "rewardId": 3,
+          "groupId": 3,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 27,
+          "rewardId": 4,
+          "groupId": 4,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 27,
+          "rewardId": 4,
+          "groupId": 6,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 28,
+          "rewardId": 4,
+          "groupId": 4,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 28,
+          "rewardId": 4,
+          "groupId": 6,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 29,
+          "rewardId": 4,
+          "groupId": 4,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 29,
+          "rewardId": 4,
+          "groupId": 6,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 30,
+          "rewardId": 5,
+          "groupId": 5,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 30,
+          "rewardId": 5,
+          "groupId": 6,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 31,
+          "rewardId": 5,
+          "groupId": 5,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 31,
+          "rewardId": 5,
+          "groupId": 6,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 32,
+          "rewardId": 5,
+          "groupId": 5,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 32,
+          "rewardId": 5,
+          "groupId": 6,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 33,
+          "rewardId": 6,
+          "groupId": 7,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 33,
+          "rewardId": 6,
+          "groupId": 9,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 34,
+          "rewardId": 6,
+          "groupId": 7,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 34,
+          "rewardId": 6,
+          "groupId": 9,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 35,
+          "rewardId": 6,
+          "groupId": 7,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 35,
+          "rewardId": 6,
+          "groupId": 9,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 36,
+          "rewardId": 7,
+          "groupId": 8,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 36,
+          "rewardId": 7,
+          "groupId": 9,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 37,
+          "rewardId": 7,
+          "groupId": 8,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 37,
+          "rewardId": 7,
+          "groupId": 9,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 38,
+          "rewardId": 7,
+          "groupId": 8,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 38,
+          "rewardId": 7,
+          "groupId": 9,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 39,
+          "rewardId": 8,
+          "groupId": 10,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 39,
+          "rewardId": 8,
+          "groupId": 12,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 40,
+          "rewardId": 8,
+          "groupId": 10,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 40,
+          "rewardId": 8,
+          "groupId": 12,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 41,
+          "rewardId": 8,
+          "groupId": 10,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 41,
+          "rewardId": 8,
+          "groupId": 12,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 42,
+          "rewardId": 9,
+          "groupId": 11,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 42,
+          "rewardId": 9,
+          "groupId": 12,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 43,
+          "rewardId": 9,
+          "groupId": 11,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 43,
+          "rewardId": 9,
+          "groupId": 12,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 44,
+          "rewardId": 9,
+          "groupId": 11,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 44,
+          "rewardId": 9,
+          "groupId": 12,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 45,
+          "rewardId": 10,
+          "groupId": 13,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 45,
+          "rewardId": 10,
+          "groupId": 15,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 46,
+          "rewardId": 10,
+          "groupId": 13,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 46,
+          "rewardId": 10,
+          "groupId": 15,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 47,
+          "rewardId": 10,
+          "groupId": 13,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 47,
+          "rewardId": 10,
+          "groupId": 15,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 48,
+          "rewardId": 11,
+          "groupId": 14,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 48,
+          "rewardId": 11,
+          "groupId": 15,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 49,
+          "rewardId": 11,
+          "groupId": 14,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 49,
+          "rewardId": 11,
+          "groupId": 15,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 50,
+          "rewardId": 11,
+          "groupId": 14,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 50,
+          "rewardId": 11,
+          "groupId": 15,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 51,
+          "rewardId": 12,
+          "groupId": 16,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 51,
+          "rewardId": 12,
+          "groupId": 18,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 52,
+          "rewardId": 12,
+          "groupId": 16,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 52,
+          "rewardId": 12,
+          "groupId": 18,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 53,
+          "rewardId": 12,
+          "groupId": 16,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 53,
+          "rewardId": 12,
+          "groupId": 18,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 54,
+          "rewardId": 13,
+          "groupId": 17,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 54,
+          "rewardId": 13,
+          "groupId": 18,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 55,
+          "rewardId": 13,
+          "groupId": 17,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 55,
+          "rewardId": 13,
+          "groupId": 18,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 56,
+          "rewardId": 13,
+          "groupId": 17,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 56,
+          "rewardId": 13,
+          "groupId": 18,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 57,
+          "rewardId": 14,
+          "groupId": 19,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 57,
+          "rewardId": 14,
+          "groupId": 21,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 58,
+          "rewardId": 14,
+          "groupId": 19,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 58,
+          "rewardId": 14,
+          "groupId": 21,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 59,
+          "rewardId": 233,
+          "groupId": 19,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 59,
+          "rewardId": 233,
+          "groupId": 21,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 60,
+          "rewardId": 15,
+          "groupId": 20,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 60,
+          "rewardId": 15,
+          "groupId": 21,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 61,
+          "rewardId": 15,
+          "groupId": 20,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 61,
+          "rewardId": 15,
+          "groupId": 21,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 62,
+          "rewardId": 234,
+          "groupId": 20,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 62,
+          "rewardId": 234,
+          "groupId": 21,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 63,
+          "rewardId": 16,
+          "groupId": 22,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 63,
+          "rewardId": 16,
+          "groupId": 24,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 64,
+          "rewardId": 16,
+          "groupId": 22,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 64,
+          "rewardId": 16,
+          "groupId": 24,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 65,
+          "rewardId": 235,
+          "groupId": 22,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 65,
+          "rewardId": 235,
+          "groupId": 24,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 66,
+          "rewardId": 17,
+          "groupId": 23,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 66,
+          "rewardId": 17,
+          "groupId": 24,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 67,
+          "rewardId": 17,
+          "groupId": 23,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 67,
+          "rewardId": 17,
+          "groupId": 24,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 68,
+          "rewardId": 236,
+          "groupId": 23,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 68,
+          "rewardId": 236,
+          "groupId": 24,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 69,
+          "rewardId": 18,
+          "groupId": 25,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 69,
+          "rewardId": 18,
+          "groupId": 27,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 70,
+          "rewardId": 18,
+          "groupId": 25,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 70,
+          "rewardId": 18,
+          "groupId": 27,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 71,
+          "rewardId": 237,
+          "groupId": 25,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 71,
+          "rewardId": 237,
+          "groupId": 27,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 72,
+          "rewardId": 19,
+          "groupId": 26,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 72,
+          "rewardId": 19,
+          "groupId": 27,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 73,
+          "rewardId": 19,
+          "groupId": 26,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 73,
+          "rewardId": 19,
+          "groupId": 27,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 74,
+          "rewardId": 238,
+          "groupId": 26,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 74,
+          "rewardId": 238,
+          "groupId": 27,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 75,
+          "rewardId": 20,
+          "groupId": 28,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 75,
+          "rewardId": 20,
+          "groupId": 30,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 76,
+          "rewardId": 20,
+          "groupId": 28,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 76,
+          "rewardId": 20,
+          "groupId": 30,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 77,
+          "rewardId": 239,
+          "groupId": 28,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 50
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 77,
+          "rewardId": 239,
+          "groupId": 30,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 78,
+          "rewardId": 21,
+          "groupId": 29,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 78,
+          "rewardId": 21,
+          "groupId": 30,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 79,
+          "rewardId": 21,
+          "groupId": 29,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 79,
+          "rewardId": 21,
+          "groupId": 30,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 80,
+          "rewardId": 240,
+          "groupId": 29,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 50
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 80,
+          "rewardId": 240,
+          "groupId": 30,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 201,
+          "rewardId": 42,
+          "groupId": 61,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 201,
+          "rewardId": 42,
+          "groupId": 63,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 202,
+          "rewardId": 42,
+          "groupId": 61,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 202,
+          "rewardId": 42,
+          "groupId": 63,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 203,
+          "rewardId": 42,
+          "groupId": 61,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 203,
+          "rewardId": 42,
+          "groupId": 63,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 204,
+          "rewardId": 43,
+          "groupId": 62,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 204,
+          "rewardId": 43,
+          "groupId": 63,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 205,
+          "rewardId": 43,
+          "groupId": 62,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 205,
+          "rewardId": 43,
+          "groupId": 63,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 206,
+          "rewardId": 43,
+          "groupId": 62,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 206,
+          "rewardId": 43,
+          "groupId": 63,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 207,
+          "rewardId": 44,
+          "groupId": 64,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 207,
+          "rewardId": 44,
+          "groupId": 66,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 208,
+          "rewardId": 44,
+          "groupId": 64,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 208,
+          "rewardId": 44,
+          "groupId": 66,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 209,
+          "rewardId": 44,
+          "groupId": 64,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 209,
+          "rewardId": 44,
+          "groupId": 66,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 210,
+          "rewardId": 45,
+          "groupId": 65,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 210,
+          "rewardId": 45,
+          "groupId": 66,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 211,
+          "rewardId": 45,
+          "groupId": 65,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 211,
+          "rewardId": 45,
+          "groupId": 66,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 212,
+          "rewardId": 45,
+          "groupId": 65,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 212,
+          "rewardId": 45,
+          "groupId": 66,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 213,
+          "rewardId": 46,
+          "groupId": 67,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 213,
+          "rewardId": 46,
+          "groupId": 69,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 214,
+          "rewardId": 46,
+          "groupId": 67,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 214,
+          "rewardId": 46,
+          "groupId": 69,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 215,
+          "rewardId": 46,
+          "groupId": 67,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 215,
+          "rewardId": 46,
+          "groupId": 69,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 216,
+          "rewardId": 47,
+          "groupId": 68,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 216,
+          "rewardId": 47,
+          "groupId": 69,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 217,
+          "rewardId": 47,
+          "groupId": 68,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 217,
+          "rewardId": 47,
+          "groupId": 69,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 218,
+          "rewardId": 47,
+          "groupId": 68,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 218,
+          "rewardId": 47,
+          "groupId": 69,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 219,
+          "rewardId": 48,
+          "groupId": 70,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 219,
+          "rewardId": 48,
+          "groupId": 72,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 220,
+          "rewardId": 48,
+          "groupId": 70,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 220,
+          "rewardId": 48,
+          "groupId": 72,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 221,
+          "rewardId": 48,
+          "groupId": 70,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 221,
+          "rewardId": 48,
+          "groupId": 72,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 222,
+          "rewardId": 49,
+          "groupId": 71,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 222,
+          "rewardId": 49,
+          "groupId": 72,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 223,
+          "rewardId": 49,
+          "groupId": 71,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 223,
+          "rewardId": 49,
+          "groupId": 72,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 224,
+          "rewardId": 49,
+          "groupId": 71,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 224,
+          "rewardId": 49,
+          "groupId": 72,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 225,
+          "rewardId": 50,
+          "groupId": 73,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 225,
+          "rewardId": 50,
+          "groupId": 75,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 226,
+          "rewardId": 50,
+          "groupId": 73,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 226,
+          "rewardId": 50,
+          "groupId": 75,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 227,
+          "rewardId": 50,
+          "groupId": 73,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 227,
+          "rewardId": 50,
+          "groupId": 75,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 228,
+          "rewardId": 51,
+          "groupId": 74,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 228,
+          "rewardId": 51,
+          "groupId": 75,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 229,
+          "rewardId": 51,
+          "groupId": 74,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 229,
+          "rewardId": 51,
+          "groupId": 75,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 230,
+          "rewardId": 51,
+          "groupId": 74,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 230,
+          "rewardId": 51,
+          "groupId": 75,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 231,
+          "rewardId": 52,
+          "groupId": 76,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 231,
+          "rewardId": 52,
+          "groupId": 78,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 232,
+          "rewardId": 52,
+          "groupId": 76,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 232,
+          "rewardId": 52,
+          "groupId": 78,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 233,
+          "rewardId": 52,
+          "groupId": 76,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 233,
+          "rewardId": 52,
+          "groupId": 78,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 234,
+          "rewardId": 53,
+          "groupId": 77,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 234,
+          "rewardId": 53,
+          "groupId": 78,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 235,
+          "rewardId": 53,
+          "groupId": 77,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 235,
+          "rewardId": 53,
+          "groupId": 78,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 236,
+          "rewardId": 53,
+          "groupId": 77,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 236,
+          "rewardId": 53,
+          "groupId": 78,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 237,
+          "rewardId": 54,
+          "groupId": 79,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 237,
+          "rewardId": 54,
+          "groupId": 81,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 238,
+          "rewardId": 54,
+          "groupId": 79,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 238,
+          "rewardId": 54,
+          "groupId": 81,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 239,
+          "rewardId": 249,
+          "groupId": 79,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 239,
+          "rewardId": 249,
+          "groupId": 81,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 240,
+          "rewardId": 55,
+          "groupId": 80,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 240,
+          "rewardId": 55,
+          "groupId": 81,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 241,
+          "rewardId": 55,
+          "groupId": 80,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 241,
+          "rewardId": 55,
+          "groupId": 81,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 242,
+          "rewardId": 250,
+          "groupId": 80,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 242,
+          "rewardId": 250,
+          "groupId": 81,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 243,
+          "rewardId": 56,
+          "groupId": 82,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 243,
+          "rewardId": 56,
+          "groupId": 84,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 244,
+          "rewardId": 56,
+          "groupId": 82,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 244,
+          "rewardId": 56,
+          "groupId": 84,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 245,
+          "rewardId": 251,
+          "groupId": 82,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 245,
+          "rewardId": 251,
+          "groupId": 84,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 246,
+          "rewardId": 57,
+          "groupId": 83,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 246,
+          "rewardId": 57,
+          "groupId": 84,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 247,
+          "rewardId": 57,
+          "groupId": 83,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 247,
+          "rewardId": 57,
+          "groupId": 84,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 248,
+          "rewardId": 252,
+          "groupId": 83,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 248,
+          "rewardId": 252,
+          "groupId": 84,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 249,
+          "rewardId": 58,
+          "groupId": 85,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 249,
+          "rewardId": 58,
+          "groupId": 87,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 250,
+          "rewardId": 58,
+          "groupId": 85,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 250,
+          "rewardId": 58,
+          "groupId": 87,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 251,
+          "rewardId": 253,
+          "groupId": 85,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 251,
+          "rewardId": 253,
+          "groupId": 87,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 252,
+          "rewardId": 59,
+          "groupId": 86,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 252,
+          "rewardId": 59,
+          "groupId": 87,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 253,
+          "rewardId": 59,
+          "groupId": 86,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 80
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 253,
+          "rewardId": 59,
+          "groupId": 87,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 254,
+          "rewardId": 254,
+          "groupId": 86,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 90
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 254,
+          "rewardId": 254,
+          "groupId": 87,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 255,
+          "rewardId": 60,
+          "groupId": 88,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 255,
+          "rewardId": 60,
+          "groupId": 90,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 256,
+          "rewardId": 60,
+          "groupId": 88,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 256,
+          "rewardId": 60,
+          "groupId": 90,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 257,
+          "rewardId": 255,
+          "groupId": 88,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 50
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 257,
+          "rewardId": 255,
+          "groupId": 90,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 258,
+          "rewardId": 61,
+          "groupId": 89,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 258,
+          "rewardId": 61,
+          "groupId": 90,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 259,
+          "rewardId": 61,
+          "groupId": 89,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 40
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 259,
+          "rewardId": 61,
+          "groupId": 90,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 260,
+          "rewardId": 256,
+          "groupId": 89,
+          "groupIndex": 0,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 50
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 260,
+          "rewardId": 256,
+          "groupId": 90,
+          "groupIndex": 1,
+          "itemIndex": 0,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 674,
+          "rewardId": 213,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 674,
+          "rewardId": 213,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 675,
+          "rewardId": 213,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 675,
+          "rewardId": 213,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 676,
+          "rewardId": 213,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 676,
+          "rewardId": 213,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 677,
+          "rewardId": 213,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 677,
+          "rewardId": 213,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 678,
+          "rewardId": 214,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 678,
+          "rewardId": 214,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 679,
+          "rewardId": 214,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 679,
+          "rewardId": 214,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 680,
+          "rewardId": 214,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 680,
+          "rewardId": 214,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 681,
+          "rewardId": 214,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 681,
+          "rewardId": 214,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 682,
+          "rewardId": 215,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 682,
+          "rewardId": 215,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 683,
+          "rewardId": 215,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 683,
+          "rewardId": 215,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 684,
+          "rewardId": 215,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 684,
+          "rewardId": 215,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 685,
+          "rewardId": 215,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 685,
+          "rewardId": 215,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 686,
+          "rewardId": 216,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 686,
+          "rewardId": 216,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 687,
+          "rewardId": 216,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 687,
+          "rewardId": 216,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 688,
+          "rewardId": 216,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 688,
+          "rewardId": 216,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 689,
+          "rewardId": 216,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 689,
+          "rewardId": 216,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 690,
+          "rewardId": 217,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 690,
+          "rewardId": 217,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 691,
+          "rewardId": 217,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 691,
+          "rewardId": 217,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 692,
+          "rewardId": 217,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 692,
+          "rewardId": 217,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 693,
+          "rewardId": 217,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 693,
+          "rewardId": 217,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 694,
+          "rewardId": 218,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 694,
+          "rewardId": 218,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 695,
+          "rewardId": 218,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 695,
+          "rewardId": 218,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 696,
+          "rewardId": 218,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 696,
+          "rewardId": 218,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 697,
+          "rewardId": 218,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 697,
+          "rewardId": 218,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 698,
+          "rewardId": 219,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 698,
+          "rewardId": 219,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 699,
+          "rewardId": 219,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 699,
+          "rewardId": 219,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 700,
+          "rewardId": 219,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 700,
+          "rewardId": 219,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 701,
+          "rewardId": 219,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 701,
+          "rewardId": 219,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 702,
+          "rewardId": 220,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 702,
+          "rewardId": 220,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 703,
+          "rewardId": 220,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 703,
+          "rewardId": 220,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 704,
+          "rewardId": 220,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 704,
+          "rewardId": 220,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 705,
+          "rewardId": 220,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 705,
+          "rewardId": 220,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 706,
+          "rewardId": 221,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 706,
+          "rewardId": 221,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 707,
+          "rewardId": 221,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 707,
+          "rewardId": 221,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 708,
+          "rewardId": 221,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 708,
+          "rewardId": 221,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 709,
+          "rewardId": 221,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 709,
+          "rewardId": 221,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 710,
+          "rewardId": 222,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 710,
+          "rewardId": 222,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 711,
+          "rewardId": 222,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 711,
+          "rewardId": 222,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 712,
+          "rewardId": 222,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 712,
+          "rewardId": 222,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 713,
+          "rewardId": 222,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 713,
+          "rewardId": 222,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 714,
+          "rewardId": 223,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 714,
+          "rewardId": 223,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 715,
+          "rewardId": 223,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 715,
+          "rewardId": 223,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 716,
+          "rewardId": 223,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 716,
+          "rewardId": 223,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 717,
+          "rewardId": 223,
+          "groupId": 351,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 717,
+          "rewardId": 223,
+          "groupId": 352,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 718,
+          "rewardId": 224,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 718,
+          "rewardId": 224,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 719,
+          "rewardId": 224,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 719,
+          "rewardId": 224,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 720,
+          "rewardId": 224,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 720,
+          "rewardId": 224,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 721,
+          "rewardId": 224,
+          "groupId": 353,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 721,
+          "rewardId": 224,
+          "groupId": 354,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 722,
+          "rewardId": 225,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 722,
+          "rewardId": 225,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 723,
+          "rewardId": 225,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 723,
+          "rewardId": 225,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 724,
+          "rewardId": 225,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 724,
+          "rewardId": 225,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 725,
+          "rewardId": 225,
+          "groupId": 355,
+          "groupIndex": 0,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 75
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 725,
+          "rewardId": 225,
+          "groupId": 356,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 25
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 726,
+          "rewardId": 226,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 726,
+          "rewardId": 226,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 727,
+          "rewardId": 226,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 727,
+          "rewardId": 226,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 728,
+          "rewardId": 226,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 728,
+          "rewardId": 226,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 729,
+          "rewardId": 226,
+          "groupId": 357,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 729,
+          "rewardId": 226,
+          "groupId": 358,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 730,
+          "rewardId": 227,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 730,
+          "rewardId": 227,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 731,
+          "rewardId": 227,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 731,
+          "rewardId": 227,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 732,
+          "rewardId": 227,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 732,
+          "rewardId": 227,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 733,
+          "rewardId": 227,
+          "groupId": 359,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 733,
+          "rewardId": 227,
+          "groupId": 360,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 734,
+          "rewardId": 228,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 734,
+          "rewardId": 228,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 735,
+          "rewardId": 228,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 735,
+          "rewardId": 228,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 736,
+          "rewardId": 228,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 736,
+          "rewardId": 228,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 737,
+          "rewardId": 228,
+          "groupId": 361,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 737,
+          "rewardId": 228,
+          "groupId": 362,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 738,
+          "rewardId": 229,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 738,
+          "rewardId": 229,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 739,
+          "rewardId": 229,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 739,
+          "rewardId": 229,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 740,
+          "rewardId": 229,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 740,
+          "rewardId": 229,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 741,
+          "rewardId": 229,
+          "groupId": 363,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 741,
+          "rewardId": 229,
+          "groupId": 364,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 742,
+          "rewardId": 230,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 742,
+          "rewardId": 230,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 743,
+          "rewardId": 230,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 743,
+          "rewardId": 230,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 744,
+          "rewardId": 230,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 744,
+          "rewardId": 230,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 745,
+          "rewardId": 230,
+          "groupId": 365,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 745,
+          "rewardId": 230,
+          "groupId": 366,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 746,
+          "rewardId": 231,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 746,
+          "rewardId": 231,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 747,
+          "rewardId": 231,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 747,
+          "rewardId": 231,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 748,
+          "rewardId": 231,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 748,
+          "rewardId": 231,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 749,
+          "rewardId": 231,
+          "groupId": 367,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 749,
+          "rewardId": 231,
+          "groupId": 368,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 750,
+          "rewardId": 232,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 750,
+          "rewardId": 232,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 751,
+          "rewardId": 232,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 751,
+          "rewardId": 232,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 752,
+          "rewardId": 232,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 752,
+          "rewardId": 232,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 753,
+          "rewardId": 232,
+          "groupId": 369,
+          "groupIndex": 1,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 753,
+          "rewardId": 232,
+          "groupId": 370,
+          "groupIndex": 2,
+          "itemIndex": 1,
+          "groupProbabilityPercent": 20
+        }
+      ]
+    },
+    {
+      "type": "leve",
+      "itemId": 4153,
+      "name": "盗龙革手环",
+      "randomKey": "001638cf789bdea09b8cb64a56bb40aaa8f600791e21becf1f999540b5ea0368",
+      "localRefs": [
+        {
+          "sheet": "Leve",
+          "rowId": 656,
+          "rewardId": 182,
+          "groupId": 338,
+          "groupIndex": 5,
+          "itemIndex": 5,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 657,
+          "rewardId": 182,
+          "groupId": 338,
+          "groupIndex": 5,
+          "itemIndex": 5,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 658,
+          "rewardId": 182,
+          "groupId": 338,
+          "groupIndex": 5,
+          "itemIndex": 5,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 659,
+          "rewardId": 182,
+          "groupId": 338,
+          "groupIndex": 5,
+          "itemIndex": 5,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 660,
+          "rewardId": 182,
+          "groupId": 338,
+          "groupIndex": 5,
+          "itemIndex": 5,
+          "groupProbabilityPercent": 10
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 661,
+          "rewardId": 182,
+          "groupId": 338,
+          "groupIndex": 5,
+          "itemIndex": 5,
+          "groupProbabilityPercent": 10
+        }
+      ]
+    },
+    {
+      "type": "leve",
+      "itemId": 36170,
+      "name": "铋金锭",
+      "randomKey": "009771261687115fcc794bfa00a13a3abe40a993bbf37e46343e7310a5881c14",
+      "localRefs": [
+        {
+          "sheet": "Leve",
+          "rowId": 1582,
+          "rewardId": 762,
+          "groupId": 973,
+          "groupIndex": 0,
+          "itemIndex": 2,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 1582,
+          "rewardId": 762,
+          "groupId": 974,
+          "groupIndex": 1,
+          "itemIndex": 2,
+          "groupProbabilityPercent": 30
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 1583,
+          "rewardId": 762,
+          "groupId": 973,
+          "groupIndex": 0,
+          "itemIndex": 2,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 1583,
+          "rewardId": 762,
+          "groupId": 974,
+          "groupIndex": 1,
+          "itemIndex": 2,
+          "groupProbabilityPercent": 30
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 1593,
+          "rewardId": 769,
+          "groupId": 987,
+          "groupIndex": 0,
+          "itemIndex": 2,
+          "groupProbabilityPercent": 70
+        },
+        {
+          "sheet": "Leve",
+          "rowId": 1593,
+          "rewardId": 769,
+          "groupId": 988,
+          "groupIndex": 1,
+          "itemIndex": 2,
+          "groupProbabilityPercent": 30
+        }
+      ]
+    },
+    {
+      "type": "logogram",
+      "itemId": 30914,
+      "name": "失传魔泉",
+      "randomKey": "00ebbb4161255604c9eb907a334c985192569bcc7b7d5765c5f07169cfa1281f",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107418
+        }
+      ]
+    },
+    {
+      "type": "logogram",
+      "itemId": 33784,
+      "name": "光之幕帘",
+      "randomKey": "0211a0430e6deab14412df539d579adec905af8bba26a2bdc002cc95d55278d0",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 108797
+        }
+      ]
+    },
+    {
+      "type": "logogram",
+      "itemId": 24038,
+      "name": "文理复活",
+      "randomKey": "04cead2f57f86d1abed833a31769bf3d69ff3ef82ce12bb90b9636a97afa7e10",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 97510
+        }
+      ]
+    },
+    {
+      "type": "loot",
+      "itemId": 34391,
+      "name": "赛加羚羊革魔导典",
+      "randomKey": "000db648812dfc0f25fce1ecbb372dcffa8e9f2c1934160ed707d924410fb431",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 109149
+        }
+      ]
+    },
+    {
+      "type": "loot",
+      "itemId": 29064,
+      "name": "伊甸之律制敌腿甲",
+      "randomKey": "000f8bb33cf9cf6bd3f11a94fecaee0b37f2e95703341c2b21fcfefb811179e6",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 105597
+        }
+      ]
+    },
+    {
+      "type": "loot",
+      "itemId": 6053,
+      "name": "精骑锁甲靴",
+      "randomKey": "0011e6bc44dc0a5fe8fb14f02054acd44c1dc29647647d71859ad7f8dbc575e3",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 45157
+        }
+      ]
+    },
+    {
+      "type": "mob_drop",
+      "itemId": 4774,
+      "name": "跳蜥蛋",
+      "randomKey": "003bf21df8f01ed366106deb1d05dc55e6d40a1cf42d8e51416623ba768d1ca2",
+      "localRefs": [
+        {
+          "dataset": "MobDrop",
+          "recordIndex": 64
+        },
+        {
+          "dataset": "MobDrop",
+          "recordIndex": 349
+        },
+        {
+          "dataset": "MobDrop",
+          "recordIndex": 366
+        },
+        {
+          "dataset": "MobDrop",
+          "recordIndex": 475
+        }
+      ]
+    },
+    {
+      "type": "mob_drop",
+      "itemId": 24010,
+      "name": "未鉴定的攻势文理碎晶",
+      "randomKey": "009e7aa80a7b00cbae35fab464e5121abc4c1a73da142019ad6d0e3e0881880b",
+      "localRefs": [
+        {
+          "dataset": "MobDrop",
+          "recordIndex": 1325
+        }
+      ]
+    },
+    {
+      "type": "mob_drop",
+      "itemId": 44054,
+      "name": "锤头鳄的粗皮",
+      "randomKey": "01836542fdc6dfd3615faa123ae83b49d94c3e77273bbfcf980cd385a1279878",
+      "localRefs": [
+        {
+          "dataset": "MobDrop",
+          "recordIndex": 2531
+        }
+      ]
+    },
+    {
+      "type": "oizys",
+      "itemId": 30110,
+      "name": "演技教材·吃面包",
+      "randomKey": "00b4648d8e24339484bd01bdec108de84c32e7e524a543eb124256a090f86bcd",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107096
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107097
+        }
+      ]
+    },
+    {
+      "type": "oizys",
+      "itemId": 46254,
+      "name": "黄金鳗鱼派",
+      "randomKey": "011954b7c0db2b00127270b8d3d8551d5ad3f21327f5f59009a1db328467d632",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 126583
+        }
+      ]
+    },
+    {
+      "type": "oizys",
+      "itemId": 41762,
+      "name": "达识魔晶石拾壹型",
+      "randomKey": "05036befd084325508db01a9d47d6cb76b799332e7d29b0b708b58abb0896fc7",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 118531
+        }
+      ]
+    },
+    {
+      "type": "pagos",
+      "itemId": 18020,
+      "name": "雄略魔晶石陆型",
+      "randomKey": "033e029de285619c40ef5db2abff3e53cce5bd1fe383813a56463f61ba4140bd",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89220
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 89224
+        }
+      ]
+    },
+    {
+      "type": "pagos",
+      "itemId": 5683,
+      "name": "刚柔魔晶石伍型",
+      "randomKey": "03de84ccf9dc8e84378c5a6fc1b789c875fc781973615aa1822d7d109a9b78c2",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 43101
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 43105
+        }
+      ]
+    },
+    {
+      "type": "pagos",
+      "itemId": 23378,
+      "name": "花花公子鞣革",
+      "randomKey": "05141e35f86b71d2a0efa78279fdff9cd73db2c9e7fd448009de88e70b00c4d2",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 97284
+        }
+      ]
+    },
+    {
+      "type": "palace_of_the_dead",
+      "itemId": 10393,
+      "name": "萨维奈舞裙",
+      "randomKey": "01a4d9f8649d26949daea4c16dabc6043736642d77e2f4faf22eaed9b9608b3d",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79319
+        }
+      ]
+    },
+    {
+      "type": "palace_of_the_dead",
+      "itemId": 8374,
+      "name": "厚土大斧",
+      "randomKey": "01bcc5d74252fa3ac26bc64924ccf4830244d023f72360b5a36a58ed7140dc6c",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 78194
+        }
+      ]
+    },
+    {
+      "type": "palace_of_the_dead",
+      "itemId": 10387,
+      "name": "萨维奈包头巾",
+      "randomKey": "02541baa6dfc142070908f50443782c3f95d11c48ff03ac0cb6548d75dd5d998",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 79307
+        }
+      ]
+    },
+    {
+      "type": "pilgrims_traverse",
+      "itemId": 23099,
+      "name": "蓝色大丽花头花",
+      "randomKey": "00b91504f1dd44a896a97952f84e2cea1b072656036825bd5ed18b67582d21bd",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 96959
+        }
+      ]
+    },
+    {
+      "type": "pilgrims_traverse",
+      "itemId": 38542,
+      "name": "梦羽妖灵王利爪",
+      "randomKey": "022cc2cdcba7ad2eb83359f795e97416d143c99919afa12413b19eaf7ce3f77f",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 117361
+        }
+      ]
+    },
+    {
+      "type": "pilgrims_traverse",
+      "itemId": 39311,
+      "name": "沙龙服务员打底裤",
+      "randomKey": "028533e1a2039de18eb920a572ae32d2b08177e8dc3574916b34cfba93eb516b",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 117522
+        }
+      ]
+    },
+    {
+      "type": "pyros",
+      "itemId": 5827,
+      "name": "亚拉戈白金币",
+      "randomKey": "09f2a5d9d9998b0a18587ba1f8e2e4217cbeaa383f33b81b26f04f9b4f9d2d2b",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 44978
+        }
+      ]
+    },
+    {
+      "type": "pyros",
+      "itemId": 24001,
+      "name": "小长颈驼",
+      "randomKey": "09ff98804ad0dcf44283a7c42277dabb45973724c9419629efdc12311d0eac83",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 97423
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 97424
+        }
+      ]
+    },
+    {
+      "type": "pyros",
+      "itemId": 5668,
+      "name": "神眼魔晶石伍型",
+      "randomKey": "0f74698774b1c2ad81ef3fe2fce5325a93f25ec5848bd662a84967fef3b9be95",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 42950
+        }
+      ]
+    },
+    {
+      "type": "quest",
+      "itemId": 2404,
+      "name": "乌尔卡卦利神锤",
+      "randomKey": "0003a66bdd08536a9950ea79e3e8f11294f8ca00b69be25cfd29643d94429816",
+      "localRefs": [
+        {
+          "sheet": "Quest",
+          "rowId": 66194,
+          "field": "Reward[0]"
+        }
+      ]
+    },
+    {
+      "type": "quest",
+      "itemId": 43499,
+      "name": "深红木手臂装备箱（品级663）",
+      "randomKey": "000d70ee4a08e16435afbfe7ad841064e54287d2e05fbf3b8a655568a21e5abc",
+      "localRefs": [
+        {
+          "sheet": "Quest",
+          "rowId": 70438,
+          "field": "Reward[0]"
+        }
+      ]
+    },
+    {
+      "type": "quest",
+      "itemId": 22445,
+      "name": "豆腐煎饼",
+      "randomKey": "002c78e379a04765f655643adc4e3f0f27604fdbe8f977a20bb4d2d5600b496e",
+      "localRefs": [
+        {
+          "sheet": "Quest",
+          "rowId": 68562,
+          "field": "OptionalItemReward[2]"
+        },
+        {
+          "sheet": "Quest",
+          "rowId": 68607,
+          "field": "OptionalItemReward[3]"
+        }
+      ]
+    },
+    {
+      "type": "recipe",
+      "itemId": 4173,
+      "name": "民兵手链",
+      "randomKey": "000221dd26945aeb6ecc30f2d25be33cc1d8643d10190b197fd65acf0f6f2ef3",
+      "localRefs": [
+        {
+          "sheet": "Recipe",
+          "rowId": 1484
+        }
+      ]
+    },
+    {
+      "type": "recipe",
+      "itemId": 27941,
+      "name": "夏季靛蓝衬衫",
+      "randomKey": "0007b1808ff64718df6de896ea0f70b543c73f076e73b47e9abd53913599392d",
+      "localRefs": [
+        {
+          "sheet": "Recipe",
+          "rowId": 33442
+        }
+      ]
+    },
+    {
+      "type": "recipe",
+      "itemId": 49972,
+      "name": "宇宙探索用的开心粉",
+      "randomKey": "000bd856a7d4ed55a6c0ce4d1d263cc48eb9758118caae7f2bf9bffe90242810",
+      "localRefs": [
+        {
+          "sheet": "Recipe",
+          "rowId": 37735
+        }
+      ]
+    },
+    {
+      "type": "reduction",
+      "itemId": 9,
+      "name": "冰之水晶",
+      "randomKey": "045174fa3e4314a679769959f6e01234be8cea343b3bb6544e56e3dce4b25541",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 6363
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 6546
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 6777
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 6778
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 6825
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 7070
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 7110
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 7111
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 7358
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 7375
+        }
+      ]
+    },
+    {
+      "type": "reduction",
+      "itemId": 44035,
+      "name": "黄金灵砂",
+      "randomKey": "05dbdaca2756aa59a2d8a2d6b39814096f18baabdbde61b3d4359c5805324da0",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 122589
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 122590
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 122591
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 122592
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 122593
+        }
+      ]
+    },
+    {
+      "type": "reduction",
+      "itemId": 41418,
+      "name": "高浓度火成精油",
+      "randomKey": "0c9e2caee19c27d3e70d202d21ff0c2f7c7d163dc7e7a2051a9ff280c9a64039",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 118485
+        },
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 118486
+        }
+      ]
+    },
+    {
+      "type": "retainer_normal",
+      "itemId": 7717,
+      "name": "库尔札斯胡萝卜种子",
+      "randomKey": "001072c65ae7a13da44555044a0d8366f11a179b7be497a14c0f6983f9bf0c71",
+      "localRefs": [
+        {
+          "sheet": "RetainerTaskNormal",
+          "rowId": 486
+        }
+      ]
+    },
+    {
+      "type": "retainer_normal",
+      "itemId": 6148,
+      "name": "泽梅尔番茄",
+      "randomKey": "004710cb4c1298405dc76d8e39de8437868b3b53f5b6c6f06f668f253a91b77f",
+      "localRefs": [
+        {
+          "sheet": "RetainerTaskNormal",
+          "rowId": 491
+        }
+      ]
+    },
+    {
+      "type": "retainer_normal",
+      "itemId": 12765,
+      "name": "冰神鱼",
+      "randomKey": "005bf756499cd8a6b503c4697bb113dd82c06dd3f9f333e325af14750f1057d3",
+      "localRefs": [
+        {
+          "sheet": "RetainerTaskNormal",
+          "rowId": 417
+        }
+      ]
+    },
+    {
+      "type": "retainer_random",
+      "itemId": 36086,
+      "name": "棕榈糖浆",
+      "randomKey": "001f1054eef19768302f1da35be0775fd39942cefb77750cb5cbe0d5ac7140a8",
+      "localRefs": [
+        {
+          "dataset": "RetainerVentureItem",
+          "recordIndex": 722
+        }
+      ]
+    },
+    {
+      "type": "retainer_random",
+      "itemId": 36178,
+      "name": "星点石英原石",
+      "randomKey": "026b2ed480b23532dbf6958f31b16dc8ec2dbc06ae8b20e0d9449d2728d03b68",
+      "localRefs": [
+        {
+          "dataset": "RetainerVentureItem",
+          "recordIndex": 748
+        },
+        {
+          "dataset": "RetainerVentureItem",
+          "recordIndex": 781
+        }
+      ]
+    },
+    {
+      "type": "retainer_random",
+      "itemId": 27685,
+      "name": "白梣木原木",
+      "randomKey": "028fbbc0b8b6839b651a590efe8f420ccbb4ba28ff3eb49a73b676415a35a4fe",
+      "localRefs": [
+        {
+          "dataset": "RetainerVentureItem",
+          "recordIndex": 629
+        }
+      ]
+    },
+    {
+      "type": "skybuilder_handin",
+      "itemId": 32919,
+      "name": "第四期重建用的欧洛浦肯（检）",
+      "randomKey": "006726bb1fa28f51eb3cf0270cf97f3c3400b7082ddd8657e3ed2136e883d092",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 108089
+        }
+      ]
+    },
+    {
+      "type": "skybuilder_handin",
+      "itemId": 31990,
+      "name": "第四期重建用的最高级灵青岩（检）",
+      "randomKey": "012da2c47bba57dcf87536b2a66b9cb7202b7a2a0763051bb2e05296554c5dca",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107815
+        }
+      ]
+    },
+    {
+      "type": "skybuilder_handin",
+      "itemId": 31264,
+      "name": "第三期重建用的特供棉花（检）",
+      "randomKey": "01e8551e22eefec0cf0f6cb6a5cac3559699a96dc0a0d38bc50f377d97e435d0",
+      "localRefs": [
+        {
+          "dataset": "ItemSupplement",
+          "recordIndex": 107582
+        }
+      ]
+    },
+    {
+      "type": "spearfishing",
+      "itemId": 20167,
+      "name": "毒鲉",
+      "randomKey": "0033ce509d4c73e9d07e832370415b0a81eef3e618535e7b759f4483100f7e8c",
+      "localRefs": [
+        {
+          "sheet": "SpearfishingItem",
+          "rowId": 20023
+        }
+      ]
+    },
+    {
+      "type": "spearfishing",
+      "itemId": 36522,
+      "name": "萨维奈海参",
+      "randomKey": "02337aacbd25b3142186f1c834fa30c911710441482778f518d3cc3105a4c17d",
+      "localRefs": [
+        {
+          "sheet": "SpearfishingItem",
+          "rowId": 20165
+        }
+      ]
+    },
+    {
+      "type": "spearfishing",
+      "itemId": 36524,
+      "name": "萨维奈鳗鱼",
+      "randomKey": "051e3dbf56815c7735af21b1ebc201a9f7c85b8d25e153c71456e112f9d2b587",
+      "localRefs": [
+        {
+          "sheet": "SpearfishingItem",
+          "rowId": 20167
+        }
+      ]
+    },
+    {
+      "type": "special_vendor",
+      "itemId": 46314,
+      "name": "木工秘籍第十二卷",
+      "randomKey": "000258865768c6817eba678df31a1d0c11bc5e9f7d87e78bbcbc7d7e8ff69190",
+      "localRefs": [
+        {
+          "sheet": "SpecialShop",
+          "rowId": 1770627,
+          "offerIndex": 16,
+          "outputIndex": 0
+        },
+        {
+          "sheet": "SpecialShop",
+          "rowId": 1770874,
+          "offerIndex": 16,
+          "outputIndex": 0
+        }
+      ]
+    },
+    {
+      "type": "special_vendor",
+      "itemId": 41680,
+      "name": "龙须拳·优雅",
+      "randomKey": "00068c8b933137b4ecdd4d8c9f7b5ca1c71d6f82fea719e6e20fdf33c2fc1a28",
+      "localRefs": [
+        {
+          "sheet": "SpecialShop",
+          "rowId": 1770733,
+          "offerIndex": 1,
+          "outputIndex": 0
+        }
+      ]
+    },
+    {
+      "type": "special_vendor",
+      "itemId": 11450,
+      "name": "戈耳狄原型强袭角盔",
+      "randomKey": "0018bac457fc3fb7921579e0db57aeea415c0cb37f6b13d09d6539f99886ddab",
+      "localRefs": [
+        {
+          "sheet": "SpecialShop",
+          "rowId": 1769579,
+          "offerIndex": 2,
+          "outputIndex": 0
+        },
+        {
+          "sheet": "SpecialShop",
+          "rowId": 1770125,
+          "offerIndex": 0,
+          "outputIndex": 0
+        }
+      ]
+    },
+    {
+      "type": "store",
+      "itemId": 33753,
+      "name": "巫女护腿",
+      "randomKey": "0010c208aea4fdeb387cb3cfbed9c668c82df1601524ebfa178f0da301ecfd27",
+      "localRefs": [
+        {
+          "dataset": "StoreItem",
+          "recordIndex": 991
+        }
+      ]
+    },
+    {
+      "type": "store",
+      "itemId": 20491,
+      "name": "特制女仆腕带",
+      "randomKey": "00214c1211ca4832a2cae2b1a87bad6a72c5101ed47b92f442057c8e2169161b",
+      "localRefs": [
+        {
+          "dataset": "StoreItem",
+          "recordIndex": 509
+        }
+      ]
+    },
+    {
+      "type": "store",
+      "itemId": 36338,
+      "name": "欧米茄M耳夹",
+      "randomKey": "002a79b726b574010d6e31c24a92bdec5f70b031161ea6ff76cc6a977f89eacd",
+      "localRefs": [
+        {
+          "dataset": "StoreItem",
+          "recordIndex": 1028
+        }
+      ]
+    },
+    {
+      "type": "submarine",
+      "itemId": 5668,
+      "name": "神眼魔晶石伍型",
+      "randomKey": "009e421673589a6ce19dfcdcb9680eafa742ff4ea6443b895f7dbb3b0dbb5b92",
+      "localRefs": [
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 255
+        },
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 272
+        },
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 317
+        },
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 375
+        }
+      ]
+    },
+    {
+      "type": "submarine",
+      "itemId": 19956,
+      "name": "钯金沙",
+      "randomKey": "00f1c4ca41e2cf93a35eec97d9973a7f21d43118404839faaac036b400b3777e",
+      "localRefs": [
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 341
+        }
+      ]
+    },
+    {
+      "type": "submarine",
+      "itemId": 19933,
+      "name": "榉木原木",
+      "randomKey": "011941ceafbc2918205ea3eb034f9fcc58f2a77afbda5bef85d52b0862803815",
+      "localRefs": [
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 298
+        },
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 501
+        },
+        {
+          "dataset": "SubmarineDrop",
+          "recordIndex": 568
+        }
+      ]
+    }
+  ],
+  "uniqueItems": [
+    9846,
+    2505,
+    16967,
+    13751,
+    14934,
+    5666,
+    22514,
+    5668,
+    18021,
+    31324,
+    20539,
+    20528,
+    23098,
+    12082,
+    24331,
+    16765,
+    9848,
+    16775,
+    12056,
+    8202,
+    13722,
+    27994,
+    36262,
+    31266,
+    23916,
+    24874,
+    12684,
+    40786,
+    35247,
+    27626,
+    40369,
+    14664,
+    26226,
+    31672,
+    31687,
+    33844,
+    35979,
+    23373,
+    27987,
+    30347,
+    30353,
+    23214,
+    48156,
+    47987,
+    41768,
+    28069,
+    45755,
+    43687,
+    12882,
+    39900,
+    33311,
+    20792,
+    7754,
+    7750,
+    29669,
+    17559,
+    41069,
+    17968,
+    20547,
+    17616,
+    5723,
+    18028,
+    18019,
+    3,
+    4153,
+    36170,
+    30914,
+    33784,
+    24038,
+    34391,
+    29064,
+    6053,
+    4774,
+    24010,
+    44054,
+    30110,
+    46254,
+    41762,
+    18020,
+    5683,
+    23378,
+    10393,
+    8374,
+    10387,
+    23099,
+    38542,
+    39311,
+    5827,
+    24001,
+    2404,
+    43499,
+    22445,
+    4173,
+    27941,
+    49972,
+    9,
+    44035,
+    41418,
+    7717,
+    6148,
+    12765,
+    36086,
+    36178,
+    27685,
+    32919,
+    31990,
+    31264,
+    20167,
+    36522,
+    36524,
+    46314,
+    41680,
+    11450,
+    33753,
+    20491,
+    36338,
+    19956,
+    19933
+  ],
+  "unsampledTypes": [
+    {
+      "type": "gil_vendor",
+      "reason": "GilShopItem generic MCP returned Item=0 in every row; subrow decoding unsupported/unreliable, no valid independent sampling pool."
+    },
+    {
+      "type": "wiki_manual_only",
+      "reason": "No independent local source pool; not sampled from expected Wiki answers."
+    },
+    {
+      "type": "supplement_unknown",
+      "reason": "ItemSupplementSource=999; SourceItemId is consumed/opened/converted to output ItemId. Min/Max/Probability preserved as nullable; no complete route/unlock proof."
+    }
+  ],
+  "limitations": [
+    "Candidate pools are known table/CSV references, not all obtainability mechanisms or current availability.",
+    "GilShopItem generic MCP lacks subrow IDs; pool is not proven to enumerate all shop offers.",
+    "No Wiki/manual-only category is invented from the local data."
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "sheet": "GatheringItem",
+  "rowIds": [
+    9,
+    10,
+    11,
+    12,
+    542,
+    640,
+    648,
+    652,
+    680
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "GatheringItem",
+      "rowId": 9,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 10,
+        "GatheringItemLevel": 26,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": false,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373805+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 10,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 11,
+        "GatheringItemLevel": 26,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": false,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373854+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 11,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 12,
+        "GatheringItemLevel": 26,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": false,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373860+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 12,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 13,
+        "GatheringItemLevel": 26,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": false,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373872+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 542,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 27782,
+        "GatheringItemLevel": 410,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": true,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373881+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 640,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 36174,
+        "GatheringItemLevel": 495,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": true,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373888+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 648,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 36162,
+        "GatheringItemLevel": 495,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": true,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373892+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 652,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 36241,
+        "GatheringItemLevel": 520,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": true,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373929+00:00"
+    },
+    {
+      "sheet": "GatheringItem",
+      "rowId": 680,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "RequiredQuest": 0,
+        "SublimeVariant": 0,
+        "Item": 36204,
+        "GatheringItemLevel": 520,
+        "PerceptionReq": 0,
+        "Unknown2": 65535,
+        "Unknown3": 0,
+        "Unknown4": true,
+        "Unknown5": true,
+        "IsHidden": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:01:45.6373934+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:01:45.6373950+00:00"
+}

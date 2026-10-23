@@ -1,0 +1,42 @@
+{
+  "sheet": "CollectablesShopItem",
+  "rowIds": [
+    1
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "CollectablesShopItem",
+      "rowId": 1,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "RequiredQuest": 2038235136,
+        "LevelMin": 0,
+        "LevelMax": 80,
+        "CollectablesShopRefine": 80,
+        "CollectablesShopRewardScrip": 102,
+        "CollectablesShopItemGroup": 0,
+        "Stars": 1,
+        "Key": 35
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:14.6438681+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:10:14.6438708+00:00"
+}

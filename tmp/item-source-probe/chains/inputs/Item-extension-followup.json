@@ -1,0 +1,325 @@
+{
+  "sheet": "Item",
+  "rowIds": [
+    28,
+    6690,
+    12241,
+    12242,
+    12243,
+    17835,
+    17836,
+    26744,
+    26745,
+    36611,
+    36612,
+    39591,
+    43556,
+    31101
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "Item",
+      "rowId": 28,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "古代亚拉戈帝国用于进行记录的奇妙石头。上面记载了关于诗学的内容。",
+        "Name": "亚拉戈诗学神典石",
+        "ClassJobCategory": 0,
+        "PriceMid": 1,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451234+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 6690,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：50级",
+        "Name": "陈旧的巨蟾蜍革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451307+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 12241,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：55级",
+        "Name": "陈旧的古鸟革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451437+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 12242,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：60级",
+        "Name": "陈旧的飞龙革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451447+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 12243,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：60级8人小队",
+        "Name": "陈旧的巨龙革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451457+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 17835,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：70级",
+        "Name": "陈旧的迦迦纳怪鸟革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451500+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 17836,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：70级8人小队",
+        "Name": "陈旧的瞪羚革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451509+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 26744,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：80级",
+        "Name": "陈旧的绿飘龙革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451585+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 26745,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：80级8人小队",
+        "Name": "陈旧的缠尾蛟革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451594+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36611,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：90级",
+        "Name": "陈旧的赛加羚羊革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451622+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 36612,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：90级8人小队",
+        "Name": "陈旧的金毗罗鳄革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451630+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 39591,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：90级8人小队",
+        "Name": "陈旧的蛇牛革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 99999,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451671+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 43556,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "装在瓶子里的陈旧地图。\r\n可以通过“解读”来破译上面的具体内容。\r\n推荐等级：100级",
+        "Name": "陈旧的银狼革地图",
+        "ClassJobCategory": 0,
+        "PriceMid": 1350,
+        "ItemAction": 0,
+        "AlwaysCollectable": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451735+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 31101,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "具有适合改良天钢工具性质的雪松木材。",
+        "Name": "改良用雪松木材",
+        "ClassJobCategory": 0,
+        "PriceMid": 1050,
+        "ItemAction": 0,
+        "AlwaysCollectable": true
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:10:12.6451776+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:10:12.6451805+00:00"
+}

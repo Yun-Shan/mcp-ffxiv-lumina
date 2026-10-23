@@ -1,0 +1,3657 @@
+{
+  "sheet": "CollectablesShopRewardItem",
+  "rowIds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 0,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313744+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 1,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30315,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313756+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 2,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30316,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313760+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 3,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30317,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313763+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 4,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30318,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313766+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 5,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30319,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313770+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 6,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30320,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313808+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 7,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30321,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313811+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 8,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30322,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313814+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 9,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30323,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313818+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 10,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30324,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313820+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 11,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30325,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313823+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 12,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30326,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313825+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 13,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30327,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313828+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 14,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30328,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313864+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 15,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30329,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313867+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 16,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 30330,
+        "Unknown0": 0,
+        "RewardLow": 2,
+        "RewardMid": 3,
+        "RewardHigh": 5,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313870+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 17,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31736,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313873+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 18,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31737,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313876+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 19,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31738,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313879+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 20,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31739,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313882+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 21,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31740,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313884+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 22,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31741,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313921+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 23,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31742,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313925+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 24,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31743,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313927+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 25,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31746,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 7,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313930+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 26,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31744,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 7,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313933+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 27,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31748,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 4,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313935+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 28,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 31749,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 4,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313938+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 29,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33194,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313941+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 30,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33202,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313975+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 31,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33210,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313978+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 32,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33195,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313980+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 33,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33203,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313984+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 34,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33211,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313986+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 35,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33196,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313989+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 36,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33204,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9313992+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 37,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33212,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314024+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 38,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33197,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314028+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 39,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33205,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314030+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 40,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33213,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314033+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 41,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33198,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314035+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 42,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33206,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314038+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 43,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33214,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314040+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 44,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33199,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314042+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 45,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33207,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314045+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 46,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33215,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314078+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 47,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33200,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314080+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 48,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33208,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314083+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 49,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33216,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314085+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 50,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33201,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314088+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 51,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33209,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314090+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 52,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 33217,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314093+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 53,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38772,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314095+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 54,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38773,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314132+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 55,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38774,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314134+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 56,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38775,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314137+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 57,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38776,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314139+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 58,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38777,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314142+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 59,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38778,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314145+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 60,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38779,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314148+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 61,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38780,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314150+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 62,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38781,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314183+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 63,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38782,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314186+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 64,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38783,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314189+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 65,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38784,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314192+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 66,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38785,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314195+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 67,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38786,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314197+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 68,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38787,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314200+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 69,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38801,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314234+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 70,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38800,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314238+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 71,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38802,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314240+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 72,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38803,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314242+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 73,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38805,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314245+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 74,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38804,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314247+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 75,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38806,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314250+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 76,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 38807,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314252+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 77,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39789,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314285+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 78,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39790,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314288+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 79,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39791,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314290+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 80,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39792,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314292+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 81,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39793,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314295+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 82,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39794,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314297+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 83,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39795,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314300+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 84,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39796,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314302+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 85,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39797,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314335+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 86,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39798,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314338+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 87,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39799,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314340+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 88,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39800,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314342+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 89,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39801,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314345+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 90,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39802,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314347+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 91,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39803,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314350+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 92,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39804,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314352+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 93,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39817,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314388+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 94,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39818,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314391+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 95,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39819,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314394+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 96,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39820,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314396+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 97,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39821,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314399+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 98,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39822,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 3,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314401+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 99,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39823,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314404+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 100,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 39824,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314406+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 101,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41270,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314441+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 102,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41271,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314445+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 103,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41272,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314447+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 104,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41273,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314450+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 105,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41274,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314452+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 106,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41275,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314455+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 107,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41276,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314457+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 108,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41277,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314460+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 109,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41278,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314462+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 110,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41279,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314496+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 111,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41280,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314498+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 112,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41281,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314501+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 113,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41282,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314503+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 114,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41283,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314506+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 115,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41284,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314509+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 116,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41285,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 3,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314512+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 117,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41294,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314515+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 118,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41295,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314548+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 119,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41303,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314552+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 120,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41303,
+        "Unknown0": 0,
+        "RewardLow": 3,
+        "RewardMid": 4,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314555+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 121,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41296,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314557+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 122,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41297,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314560+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 123,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41304,
+        "Unknown0": 0,
+        "RewardLow": 1,
+        "RewardMid": 2,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314562+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 124,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 41304,
+        "Unknown0": 0,
+        "RewardLow": 3,
+        "RewardMid": 4,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314565+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 125,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314568+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 126,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314604+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 127,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314607+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 128,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314610+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 129,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314614+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 130,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314617+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 131,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314619+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 132,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314653+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 133,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314655+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 134,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314658+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 135,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314661+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 136,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314664+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 137,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314667+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 138,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314669+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRewardItem",
+      "rowId": 139,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Item": 0,
+        "Unknown0": 0,
+        "RewardLow": 0,
+        "RewardMid": 0,
+        "RewardHigh": 0,
+        "Unknown1": 0,
+        "Unknown2": 0,
+        "Unknown3": 0,
+        "Unknown4": false,
+        "Unknown5": false
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:50.9314672+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:00:50.9314778+00:00"
+}

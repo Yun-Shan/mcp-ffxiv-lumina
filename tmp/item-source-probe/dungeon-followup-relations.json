@@ -1,0 +1,313 @@
+[
+  {
+    "id": 35734,
+    "name": "日影兰武器箱（品级605）",
+    "relations": [
+      {
+        "dataset": "DungeonBossChest",
+        "RowId": 9014,
+        "ItemId": 35734,
+        "ContentFinderConditionId": 801,
+        "Quantity": 1,
+        "FightNo": 0,
+        "CofferNo": 2,
+        "chest": null,
+        "duty": {
+          "Name": "零式万魔殿 边境之狱4",
+          "TerritoryType": 1009,
+          "Content": 30108,
+          "ClassJobLevelRequired": 90,
+          "ClassJobLevelSync": 90,
+          "ContentType": 5
+        },
+        "bosses": [
+          {
+            "RowId": 570,
+            "BNpcNameId": 10742,
+            "ContentFinderConditionId": 801,
+            "FightNo": 0,
+            "name": "赫斯珀洛斯"
+          }
+        ]
+      },
+      {
+        "dataset": "DungeonChestItem",
+        "RowId": 17320,
+        "ItemId": 35734,
+        "ChestId": 1131,
+        "Min": 1,
+        "Max": 1,
+        "Probability": 100,
+        "chest": {
+          "RowId": 1131,
+          "ChestNo": 2,
+          "ContentFinderConditionId": 801,
+          "MapId": 731,
+          "TerritoryTypeId": 1009,
+          "TreasureId": 1442,
+          "DungeonBossId": 0,
+          "Position": "101.97595;-0.015319824;89.98242"
+        },
+        "duty": {
+          "Name": "零式万魔殿 边境之狱4",
+          "TerritoryType": 1009,
+          "Content": 30108,
+          "ClassJobLevelRequired": 90,
+          "ClassJobLevelSync": 90,
+          "ContentType": 5
+        },
+        "bosses": []
+      }
+    ]
+  },
+  {
+    "id": 35826,
+    "name": "第4页边境的断章",
+    "relations": [
+      {
+        "dataset": "DungeonBossDrop",
+        "RowId": 273,
+        "ContentFinderConditionId": 801,
+        "FightNo": 0,
+        "ItemId": 35826,
+        "Quantity": 1,
+        "chest": null,
+        "duty": {
+          "Name": "零式万魔殿 边境之狱4",
+          "TerritoryType": 1009,
+          "Content": 30108,
+          "ClassJobLevelRequired": 90,
+          "ClassJobLevelSync": 90,
+          "ContentType": 5
+        },
+        "bosses": [
+          {
+            "RowId": 570,
+            "BNpcNameId": 10742,
+            "ContentFinderConditionId": 801,
+            "FightNo": 0,
+            "name": "赫斯珀洛斯"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12674,
+    "name": "戈耳狄透镜",
+    "relations": [
+      {
+        "dataset": "DungeonBossChest",
+        "RowId": 7415,
+        "ItemId": 12674,
+        "ContentFinderConditionId": 112,
+        "Quantity": 1,
+        "FightNo": 0,
+        "CofferNo": 1,
+        "chest": null,
+        "duty": {
+          "Name": "亚历山大机神城 启动之章1",
+          "TerritoryType": 442,
+          "Content": 30021,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": [
+          {
+            "RowId": 442,
+            "BNpcNameId": 3747,
+            "ContentFinderConditionId": 112,
+            "FightNo": 0,
+            "name": "压迫者"
+          }
+        ]
+      },
+      {
+        "dataset": "DungeonBossChest",
+        "RowId": 7419,
+        "ItemId": 12674,
+        "ContentFinderConditionId": 112,
+        "Quantity": 1,
+        "FightNo": 0,
+        "CofferNo": 2,
+        "chest": null,
+        "duty": {
+          "Name": "亚历山大机神城 启动之章1",
+          "TerritoryType": 442,
+          "Content": 30021,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": [
+          {
+            "RowId": 442,
+            "BNpcNameId": 3747,
+            "ContentFinderConditionId": 112,
+            "FightNo": 0,
+            "name": "压迫者"
+          }
+        ]
+      },
+      {
+        "dataset": "DungeonBossChest",
+        "RowId": 7423,
+        "ItemId": 12674,
+        "ContentFinderConditionId": 113,
+        "Quantity": 1,
+        "FightNo": 0,
+        "CofferNo": 1,
+        "chest": null,
+        "duty": {
+          "Name": "亚历山大机神城 启动之章2",
+          "TerritoryType": 443,
+          "Content": 30022,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": []
+      },
+      {
+        "dataset": "DungeonBossChest",
+        "RowId": 7431,
+        "ItemId": 12674,
+        "ContentFinderConditionId": 114,
+        "Quantity": 1,
+        "FightNo": 0,
+        "CofferNo": 1,
+        "chest": null,
+        "duty": {
+          "Name": "亚历山大机神城 启动之章3",
+          "TerritoryType": 444,
+          "Content": 30023,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": [
+          {
+            "RowId": 443,
+            "BNpcNameId": 3765,
+            "ContentFinderConditionId": 114,
+            "FightNo": 0,
+            "name": "有生命活水"
+          }
+        ]
+      },
+      {
+        "dataset": "DungeonChestItem",
+        "RowId": 14402,
+        "ItemId": 12674,
+        "ChestId": 814,
+        "Min": 1,
+        "Max": 1,
+        "Probability": 100,
+        "chest": {
+          "RowId": 814,
+          "ChestNo": 1,
+          "ContentFinderConditionId": 112,
+          "MapId": 237,
+          "TerritoryTypeId": 442,
+          "TreasureId": 473,
+          "DungeonBossId": 0,
+          "Position": "1.4800415;-24.002502;-178.02704"
+        },
+        "duty": {
+          "Name": "亚历山大机神城 启动之章1",
+          "TerritoryType": 442,
+          "Content": 30021,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": []
+      },
+      {
+        "dataset": "DungeonChestItem",
+        "RowId": 14406,
+        "ItemId": 12674,
+        "ChestId": 815,
+        "Min": 1,
+        "Max": 1,
+        "Probability": 100,
+        "chest": {
+          "RowId": 815,
+          "ChestNo": 2,
+          "ContentFinderConditionId": 112,
+          "MapId": 237,
+          "TerritoryTypeId": 442,
+          "TreasureId": 474,
+          "DungeonBossId": 0,
+          "Position": "-1.5107422;-24.002502;-178.02704"
+        },
+        "duty": {
+          "Name": "亚历山大机神城 启动之章1",
+          "TerritoryType": 442,
+          "Content": 30021,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": []
+      },
+      {
+        "dataset": "DungeonChestItem",
+        "RowId": 14410,
+        "ItemId": 12674,
+        "ChestId": 816,
+        "Min": 1,
+        "Max": 1,
+        "Probability": 100,
+        "chest": {
+          "RowId": 816,
+          "ChestNo": 1,
+          "ContentFinderConditionId": 113,
+          "MapId": 255,
+          "TerritoryTypeId": 443,
+          "TreasureId": 475,
+          "DungeonBossId": 0,
+          "Position": "-1.5107422;-28.000305;-94.529724"
+        },
+        "duty": {
+          "Name": "亚历山大机神城 启动之章2",
+          "TerritoryType": 443,
+          "Content": 30022,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": []
+      },
+      {
+        "dataset": "DungeonChestItem",
+        "RowId": 14418,
+        "ItemId": 12674,
+        "ChestId": 818,
+        "Min": 1,
+        "Max": 1,
+        "Probability": 100,
+        "chest": {
+          "RowId": 818,
+          "ChestNo": 1,
+          "ContentFinderConditionId": 114,
+          "MapId": 239,
+          "TerritoryTypeId": 444,
+          "TreasureId": 477,
+          "DungeonBossId": 0,
+          "Position": "72.98389;-9.018127;-65.0188"
+        },
+        "duty": {
+          "Name": "亚历山大机神城 启动之章3",
+          "TerritoryType": 444,
+          "Content": 30023,
+          "ClassJobLevelRequired": 60,
+          "ClassJobLevelSync": 60,
+          "ContentType": 5
+        },
+        "bosses": []
+      }
+    ]
+  }
+]

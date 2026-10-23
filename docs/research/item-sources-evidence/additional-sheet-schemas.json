@@ -1,0 +1,1994 @@
+{
+  "description": "Additional live Lumina MCP sheet schemas and limited raw samples. Field names are EXDSchema latest best-effort, not proof of runtime semantics. Coordinates and probabilities are raw values; no normalization has been applied.",
+  "capturedVia": "configured Lumina MCP; no executable invocation",
+  "gameVersion": "2026.10.06.0000.0000",
+  "schemas": [
+    {
+      "sheet": "SpearfishingItem",
+      "rowCount": 321,
+      "fields": [
+        {
+          "name": "Description",
+          "type": "string"
+        },
+        {
+          "name": "Item",
+          "type": "int"
+        },
+        {
+          "name": "GatheringItemLevel",
+          "type": "uint"
+        },
+        {
+          "name": "Expansion",
+          "type": "uint"
+        },
+        {
+          "name": "SpearfishingNotebook",
+          "type": "uint"
+        },
+        {
+          "name": "GatheringSubCategory",
+          "type": "uint"
+        },
+        {
+          "name": "FishingRecordType",
+          "type": "uint"
+        },
+        {
+          "name": "IsHidden",
+          "type": "bool"
+        },
+        {
+          "name": "IsInLog",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:40.5816596+00:00"
+    },
+    {
+      "sheet": "SpearfishingNotebook",
+      "rowCount": 64,
+      "fields": [
+        {
+          "name": "TerritoryType",
+          "type": "int"
+        },
+        {
+          "name": "Radius",
+          "type": "uint"
+        },
+        {
+          "name": "PlaceName",
+          "type": "uint"
+        },
+        {
+          "name": "GatheringPointBase",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown0",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown1",
+          "type": "uint"
+        },
+        {
+          "name": "X",
+          "type": "int"
+        },
+        {
+          "name": "Y",
+          "type": "int"
+        },
+        {
+          "name": "GatheringLevel",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown2",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown3",
+          "type": "uint"
+        },
+        {
+          "name": "IsShadowNode",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:43.0192725+00:00"
+    },
+    {
+      "sheet": "Fate",
+      "rowCount": 2111,
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Description",
+          "type": "string"
+        },
+        {
+          "name": "Objective",
+          "type": "string"
+        },
+        {
+          "name": "StatusText[0]",
+          "type": "string"
+        },
+        {
+          "name": "StatusText[1]",
+          "type": "string"
+        },
+        {
+          "name": "StatusText[2]",
+          "type": "string"
+        },
+        {
+          "name": "ArrayEventHandler",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown1",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown14",
+          "type": "uint"
+        },
+        {
+          "name": "ReqEventItem",
+          "type": "uint"
+        },
+        {
+          "name": "TurnInEventItem",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown2[0]",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown2[1]",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown2[2]",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown10",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown11",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown12",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[0]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[0]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[1]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[1]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[2]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[2]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[3]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[3]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[4]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[4]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[5]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[5]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[6]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[6]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[7]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[7]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[8]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[8]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[9]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[9]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[10]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[10]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[11]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[11]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[12]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[12]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[13]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[13]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[14]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[14]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[15]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[15]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[16]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[16]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[17]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[17]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[18]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[18]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[19]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[19]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[20]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[20]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[21]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[21]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[22]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[22]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[23]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[23]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[24]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[24]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[25]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[25]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[26]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[26]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[27]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[27]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[28]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[28]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[29]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[29]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[30]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[30]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[31]LayoutId",
+          "type": "uint"
+        },
+        {
+          "name": "ObjectiveIcon[31]Icon",
+          "type": "uint"
+        },
+        {
+          "name": "Location",
+          "type": "uint"
+        },
+        {
+          "name": "EventItem",
+          "type": "uint"
+        },
+        {
+          "name": "Icon",
+          "type": "uint"
+        },
+        {
+          "name": "MapIcon",
+          "type": "uint"
+        },
+        {
+          "name": "InactiveMapIcon",
+          "type": "uint"
+        },
+        {
+          "name": "LGBGuardNPCLocation",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredQuest",
+          "type": "uint"
+        },
+        {
+          "name": "FATEChain",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredQuest2",
+          "type": "uint"
+        },
+        {
+          "name": "FateRuleEx",
+          "type": "uint"
+        },
+        {
+          "name": "Music",
+          "type": "uint"
+        },
+        {
+          "name": "ScreenImageAccept",
+          "type": "uint"
+        },
+        {
+          "name": "ScreenImageComplete",
+          "type": "uint"
+        },
+        {
+          "name": "ScreenImageFailed",
+          "type": "uint"
+        },
+        {
+          "name": "GivenStatus",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown4",
+          "type": "uint"
+        },
+        {
+          "name": "OccupiedPermission",
+          "type": "uint"
+        },
+        {
+          "name": "FateMode",
+          "type": "uint"
+        },
+        {
+          "name": "Rule",
+          "type": "uint"
+        },
+        {
+          "name": "ClassJobLevel",
+          "type": "uint"
+        },
+        {
+          "name": "ClassJobLevelMax",
+          "type": "uint"
+        },
+        {
+          "name": "StatusValue[0]",
+          "type": "uint"
+        },
+        {
+          "name": "StatusValue[1]",
+          "type": "uint"
+        },
+        {
+          "name": "StatusValue[2]",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown6",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredClassJobCategory",
+          "type": "uint"
+        },
+        {
+          "name": "SpecialFate",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown8",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown15",
+          "type": "bool"
+        },
+        {
+          "name": "AdventEvent",
+          "type": "bool"
+        },
+        {
+          "name": "MoonFaireEvent",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown9",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:45.1112729+00:00"
+    },
+    {
+      "sheet": "SubmarineExploration",
+      "rowCount": 160,
+      "fields": [
+        {
+          "name": "Destination",
+          "type": "string"
+        },
+        {
+          "name": "Location",
+          "type": "string"
+        },
+        {
+          "name": "ExpReward",
+          "type": "uint"
+        },
+        {
+          "name": "SurveyDurationmin",
+          "type": "uint"
+        },
+        {
+          "name": "X",
+          "type": "int"
+        },
+        {
+          "name": "Y",
+          "type": "int"
+        },
+        {
+          "name": "Z",
+          "type": "int"
+        },
+        {
+          "name": "Map",
+          "type": "uint"
+        },
+        {
+          "name": "Stars",
+          "type": "uint"
+        },
+        {
+          "name": "RankReq",
+          "type": "uint"
+        },
+        {
+          "name": "CeruleumTankReq",
+          "type": "uint"
+        },
+        {
+          "name": "SurveyDistance",
+          "type": "uint"
+        },
+        {
+          "name": "StartingPoint",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:46.6392013+00:00"
+    },
+    {
+      "sheet": "AirshipExplorationPoint",
+      "rowCount": 28,
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "NameShort",
+          "type": "string"
+        },
+        {
+          "name": "ExpReward",
+          "type": "uint"
+        },
+        {
+          "name": "CeruleumTankReq",
+          "type": "uint"
+        },
+        {
+          "name": "SurveyDurationmin",
+          "type": "uint"
+        },
+        {
+          "name": "SurveyDistance",
+          "type": "uint"
+        },
+        {
+          "name": "X",
+          "type": "int"
+        },
+        {
+          "name": "Y",
+          "type": "int"
+        },
+        {
+          "name": "RankReq",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown0",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown1",
+          "type": "uint"
+        },
+        {
+          "name": "SurveillanceReq",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown2",
+          "type": "uint"
+        },
+        {
+          "name": "Passengers",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:48.6073732+00:00"
+    },
+    {
+      "sheet": "TomestonesItem",
+      "rowCount": 24,
+      "fields": [
+        {
+          "name": "Item",
+          "type": "int"
+        },
+        {
+          "name": "Tomestones",
+          "type": "int"
+        },
+        {
+          "name": "CurrencyInventorySlot",
+          "type": "int"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:50.1030817+00:00"
+    },
+    {
+      "sheet": "TopicSelect",
+      "rowCount": 154,
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Shop[0]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[1]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[2]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[3]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[4]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[5]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[6]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[7]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[8]",
+          "type": "uint"
+        },
+        {
+          "name": "Shop[9]",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown0",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown1",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown2",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:52.5010932+00:00"
+    },
+    {
+      "sheet": "QuestClassJobReward",
+      "rowCount": 40,
+      "fields": [
+        {
+          "name": "RewardItem[0]",
+          "type": "uint"
+        },
+        {
+          "name": "RewardItem[1]",
+          "type": "uint"
+        },
+        {
+          "name": "RewardItem[2]",
+          "type": "uint"
+        },
+        {
+          "name": "RewardItem[3]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredItem[0]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredItem[1]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredItem[2]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredItem[3]",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown8",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown9",
+          "type": "uint"
+        },
+        {
+          "name": "ClassJobCategory",
+          "type": "uint"
+        },
+        {
+          "name": "RewardAmount[0]",
+          "type": "uint"
+        },
+        {
+          "name": "RewardAmount[1]",
+          "type": "uint"
+        },
+        {
+          "name": "RewardAmount[2]",
+          "type": "uint"
+        },
+        {
+          "name": "RewardAmount[3]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredAmount[0]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredAmount[1]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredAmount[2]",
+          "type": "uint"
+        },
+        {
+          "name": "RequiredAmount[3]",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown10",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown11",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown0",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown1",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown2",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown3",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown4",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown5",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown6",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown7",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown12",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown13",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown14",
+          "type": "bool"
+        },
+        {
+          "name": "Unknown15",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:54.1450364+00:00"
+    },
+    {
+      "sheet": "LeveRewardItem",
+      "rowCount": 901,
+      "fields": [
+        {
+          "name": "LeveRewardItemGroup[0]",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItemGroup[1]",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItemGroup[2]",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItemGroup[3]",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItemGroup[4]",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItemGroup[5]",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItemGroup[6]",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItemGroup[7]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[0]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[1]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[2]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[3]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[4]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[5]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[6]",
+          "type": "uint"
+        },
+        {
+          "name": "ProbabilityPercent[7]",
+          "type": "uint"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:58.0015457+00:00"
+    },
+    {
+      "sheet": "LeveRewardItemGroup",
+      "rowCount": 1194,
+      "fields": [
+        {
+          "name": "Item[0]",
+          "type": "int"
+        },
+        {
+          "name": "Item[1]",
+          "type": "int"
+        },
+        {
+          "name": "Item[2]",
+          "type": "int"
+        },
+        {
+          "name": "Item[3]",
+          "type": "int"
+        },
+        {
+          "name": "Item[4]",
+          "type": "int"
+        },
+        {
+          "name": "Item[5]",
+          "type": "int"
+        },
+        {
+          "name": "Item[6]",
+          "type": "int"
+        },
+        {
+          "name": "Item[7]",
+          "type": "int"
+        },
+        {
+          "name": "Item[8]",
+          "type": "int"
+        },
+        {
+          "name": "Count[0]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[1]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[2]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[3]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[4]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[5]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[6]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[7]",
+          "type": "uint"
+        },
+        {
+          "name": "Count[8]",
+          "type": "uint"
+        },
+        {
+          "name": "IsHQ[0]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[1]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[2]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[3]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[4]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[5]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[6]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[7]",
+          "type": "bool"
+        },
+        {
+          "name": "IsHQ[8]",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:58:56.1455026+00:00"
+    },
+    {
+      "sheet": "Leve",
+      "rowCount": 1808,
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Description",
+          "type": "string"
+        },
+        {
+          "name": "ExpFactor",
+          "type": "float"
+        },
+        {
+          "name": "ExpReward",
+          "type": "uint"
+        },
+        {
+          "name": "GilReward",
+          "type": "uint"
+        },
+        {
+          "name": "LeveRewardItem",
+          "type": "uint"
+        },
+        {
+          "name": "JournalGenre",
+          "type": "uint"
+        },
+        {
+          "name": "LevelLevemete",
+          "type": "uint"
+        },
+        {
+          "name": "LevelStart",
+          "type": "uint"
+        },
+        {
+          "name": "LeveClient",
+          "type": "int"
+        },
+        {
+          "name": "LeveAssignmentType",
+          "type": "int"
+        },
+        {
+          "name": "Town",
+          "type": "int"
+        },
+        {
+          "name": "PlaceNameStart",
+          "type": "int"
+        },
+        {
+          "name": "PlaceNameIssued",
+          "type": "int"
+        },
+        {
+          "name": "PlaceNameStartZone",
+          "type": "int"
+        },
+        {
+          "name": "IconCityState",
+          "type": "int"
+        },
+        {
+          "name": "DataId",
+          "type": "int"
+        },
+        {
+          "name": "IconIssuer",
+          "type": "int"
+        },
+        {
+          "name": "ClassJobLevel",
+          "type": "uint"
+        },
+        {
+          "name": "FishingSpot",
+          "type": "uint"
+        },
+        {
+          "name": "BGM",
+          "type": "uint"
+        },
+        {
+          "name": "Unknown1",
+          "type": "uint"
+        },
+        {
+          "name": "TimeLimit",
+          "type": "uint"
+        },
+        {
+          "name": "AllowanceCost",
+          "type": "uint"
+        },
+        {
+          "name": "SpearfishingNotebook",
+          "type": "uint"
+        },
+        {
+          "name": "ClassJobCategory",
+          "type": "uint"
+        },
+        {
+          "name": "MaxDifficulty",
+          "type": "uint"
+        },
+        {
+          "name": "LeveVfx",
+          "type": "uint"
+        },
+        {
+          "name": "LeveVfxFrame",
+          "type": "uint"
+        },
+        {
+          "name": "CanCancel",
+          "type": "bool"
+        },
+        {
+          "name": "LockedLeve",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:59:23.7792745+00:00"
+    },
+    {
+      "sheet": "SpearfishingItemReverse",
+      "rowCount": 305,
+      "fields": [
+        {
+          "name": "Unknown0",
+          "type": "bool"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:59:26.2087733+00:00"
+    },
+    {
+      "sheet": "SpearfishingEcology",
+      "rowCount": 13,
+      "fields": [
+        {
+          "name": "Unknown0",
+          "type": "string"
+        },
+        {
+          "name": "Unknown1",
+          "type": "string"
+        },
+        {
+          "name": "Unknown2",
+          "type": "string"
+        },
+        {
+          "name": "Unknown3",
+          "type": "string"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:59:28.4557360+00:00"
+    },
+    {
+      "sheet": "SpearfishingComboTarget",
+      "rowCount": 4,
+      "fields": [
+        {
+          "name": "Unknown0",
+          "type": "string"
+        },
+        {
+          "name": "Unknown1",
+          "type": "string"
+        },
+        {
+          "name": "Unknown_70",
+          "type": "string"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:59:30.3902532+00:00"
+    },
+    {
+      "sheet": "FateRuleEx",
+      "rowCount": 38,
+      "fields": [
+        {
+          "name": "Unknown0",
+          "type": "uint"
+        }
+      ],
+      "languages": [
+        "chs"
+      ],
+      "schema": {
+        "available": true,
+        "version": "latest",
+        "note": "Column names are derived from EXDSchema and are best-effort."
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T15:59:32.4803069+00:00"
+    }
+  ],
+  "samples": [
+    {
+      "request": {
+        "sheet": "SpearfishingItem",
+        "rowIds": [
+          1,
+          2
+        ],
+        "returnFields": "Item,GatheringItemLevel,SpearfishingNotebook,GatheringSubCategory,IsHidden"
+      },
+      "response": {
+        "sheet": "SpearfishingItem",
+        "rowIds": [
+          1,
+          2
+        ],
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "rows": [],
+        "missingRowIds": [
+          1,
+          2
+        ],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:59:35.0123875+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "SpearfishingNotebook",
+        "rowIds": [
+          1,
+          2
+        ],
+        "returnFields": "TerritoryType,PlaceName,GatheringPointBase,X,Y,GatheringLevel,IsShadowNode"
+      },
+      "response": {
+        "sheet": "SpearfishingNotebook",
+        "rowIds": [
+          1,
+          2
+        ],
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "rows": [
+          {
+            "sheet": "SpearfishingNotebook",
+            "rowId": 1,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "TerritoryType": 613,
+              "PlaceName": 2512,
+              "GatheringPointBase": 465,
+              "X": 1344,
+              "Y": 516,
+              "GatheringLevel": 65,
+              "IsShadowNode": false
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:36.8242143+00:00"
+          },
+          {
+            "sheet": "SpearfishingNotebook",
+            "rowId": 2,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "TerritoryType": 613,
+              "PlaceName": 2513,
+              "GatheringPointBase": 466,
+              "X": 828,
+              "Y": 964,
+              "GatheringLevel": 65,
+              "IsShadowNode": false
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:36.8242227+00:00"
+          }
+        ],
+        "missingRowIds": [],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:59:36.8242250+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "TomestonesItem",
+        "rowIds": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "returnFields": "Item,Tomestones,CurrencyInventorySlot"
+      },
+      "response": {
+        "sheet": "TomestonesItem",
+        "rowIds": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "rows": [
+          {
+            "sheet": "TomestonesItem",
+            "rowId": 1,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Item": 24,
+              "Tomestones": 0,
+              "CurrencyInventorySlot": 5
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:40.0211483+00:00"
+          },
+          {
+            "sheet": "TomestonesItem",
+            "rowId": 2,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Item": 26,
+              "Tomestones": 0,
+              "CurrencyInventorySlot": 7
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:40.0211502+00:00"
+          },
+          {
+            "sheet": "TomestonesItem",
+            "rowId": 3,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Item": 28,
+              "Tomestones": 1,
+              "CurrencyInventorySlot": 6
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:40.0211508+00:00"
+          },
+          {
+            "sheet": "TomestonesItem",
+            "rowId": 4,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Item": 30,
+              "Tomestones": 0,
+              "CurrencyInventorySlot": 5
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:40.0211519+00:00"
+          }
+        ],
+        "missingRowIds": [],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:59:40.0211533+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "QuestClassJobReward",
+        "rowIds": [
+          1
+        ],
+        "returnFields": "RewardItem[0],RequiredItem[0],ClassJobCategory,RewardAmount[0],RequiredAmount[0]"
+      },
+      "response": {
+        "sheet": "QuestClassJobReward",
+        "rowIds": [
+          1
+        ],
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "rows": [
+          {
+            "sheet": "QuestClassJobReward",
+            "rowId": 1,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "RewardItem[0]": 0,
+              "RequiredItem[0]": 0,
+              "ClassJobCategory": 0,
+              "RewardAmount[0]": 0,
+              "RequiredAmount[0]": 0
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:42.9991311+00:00"
+          }
+        ],
+        "missingRowIds": [],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:59:42.9991331+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "LeveRewardItem",
+        "rowIds": [
+          1
+        ],
+        "returnFields": "LeveRewardItemGroup[0],ProbabilityPercent[0]"
+      },
+      "response": {
+        "sheet": "LeveRewardItem",
+        "rowIds": [
+          1
+        ],
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "rows": [
+          {
+            "sheet": "LeveRewardItem",
+            "rowId": 1,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "LeveRewardItemGroup[0]": 0,
+              "ProbabilityPercent[0]": 0
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T15:59:45.0148289+00:00"
+          }
+        ],
+        "missingRowIds": [],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T15:59:45.0148305+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "SpearfishingItem",
+        "query": "海",
+        "textFields": "Description",
+        "returnFields": "Item,GatheringItemLevel,SpearfishingNotebook,GatheringSubCategory,IsHidden",
+        "limit": 1
+      },
+      "response": {
+        "sheet": "SpearfishingItem",
+        "query": "海",
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "totalMatches": 50,
+        "offset": 0,
+        "limit": 1,
+        "rowsScanned": 321,
+        "results": [
+          {
+            "sheet": "SpearfishingItem",
+            "rowId": 20002,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Item": 20146,
+              "GatheringItemLevel": 205,
+              "SpearfishingNotebook": 1,
+              "GatheringSubCategory": 0,
+              "IsHidden": false
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T16:00:01.2178337+00:00"
+          }
+        ],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T16:00:01.2184251+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "TopicSelect",
+        "query": "交易",
+        "textFields": "Name",
+        "returnFields": "Name,Shop[0],Shop[1]",
+        "limit": 1
+      },
+      "response": {
+        "sheet": "TopicSelect",
+        "query": "交易",
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "totalMatches": 67,
+        "offset": 0,
+        "limit": 1,
+        "rowsScanned": 154,
+        "results": [
+          {
+            "sheet": "TopicSelect",
+            "rowId": 3276802,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Name": "戈耳狄相关道具交易（190品级）",
+              "Shop[0]": 1769579,
+              "Shop[1]": 1769605
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T16:00:03.3321557+00:00"
+          }
+        ],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T16:00:03.3323198+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "Leve",
+        "query": "采购",
+        "textFields": "Name",
+        "returnFields": "Name,LeveRewardItem,ClassJobLevel,ClassJobCategory,PlaceNameIssued",
+        "limit": 1
+      },
+      "response": {
+        "sheet": "Leve",
+        "query": "采购",
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "totalMatches": 0,
+        "offset": 0,
+        "limit": 1,
+        "rowsScanned": 1808,
+        "results": [],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T16:00:05.7504821+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "Leve",
+        "query": "的",
+        "textFields": "Name",
+        "returnFields": "Name,LeveRewardItem,ClassJobLevel,ClassJobCategory,PlaceNameIssued",
+        "limit": 1,
+        "languages": "chs"
+      },
+      "response": {
+        "sheet": "Leve",
+        "query": "的",
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "totalMatches": 1399,
+        "offset": 0,
+        "limit": 1,
+        "rowsScanned": 1808,
+        "results": [
+          {
+            "sheet": "Leve",
+            "rowId": 21,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Name": "制作委托：双蛇党用于训练的长枪",
+              "LeveRewardItem": 2,
+              "PlaceNameIssued": 39,
+              "ClassJobLevel": 1,
+              "ClassJobCategory": 9
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T16:00:32.2039147+00:00"
+          }
+        ],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T16:00:32.2046766+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "LeveRewardItem",
+        "rowId": 2,
+        "returnFields": "LeveRewardItemGroup[0],LeveRewardItemGroup[1],ProbabilityPercent[0],ProbabilityPercent[1]",
+        "languages": "chs"
+      },
+      "response": {
+        "sheet": "LeveRewardItem",
+        "rowId": 2,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "LeveRewardItemGroup[0]": 1,
+          "LeveRewardItemGroup[1]": 3,
+          "ProbabilityPercent[0]": 90,
+          "ProbabilityPercent[1]": 10
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T16:00:39.0379474+00:00"
+      }
+    },
+    {
+      "request": {
+        "sheet": "LeveRewardItemGroup",
+        "rowIds": [
+          1,
+          3
+        ],
+        "returnFields": "Item[0],Item[1],Count[0],Count[1],IsHQ[0],IsHQ[1]",
+        "languages": "chs"
+      },
+      "response": {
+        "sheet": "LeveRewardItemGroup",
+        "rowIds": [
+          1,
+          3
+        ],
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "rows": [
+          {
+            "sheet": "LeveRewardItemGroup",
+            "rowId": 1,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Item[0]": 4,
+              "Item[1]": 3,
+              "Count[0]": 3,
+              "Count[1]": 3,
+              "IsHQ[0]": false,
+              "IsHQ[1]": false
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T16:00:55.4683284+00:00"
+          },
+          {
+            "sheet": "LeveRewardItemGroup",
+            "rowId": 3,
+            "languagesRequested": [
+              "chs"
+            ],
+            "languagesReturned": [
+              "chs"
+            ],
+            "fallbackUsed": false,
+            "fields": {
+              "Item[0]": 4,
+              "Item[1]": 3,
+              "Count[0]": 24,
+              "Count[1]": 24,
+              "IsHQ[0]": false,
+              "IsHQ[1]": false
+            },
+            "gameVersion": "2026.10.06.0000.0000",
+            "timestamp": "2026-10-23T16:00:55.4683301+00:00"
+          }
+        ],
+        "missingRowIds": [],
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T16:00:55.4683316+00:00"
+      }
+    }
+  ]
+}

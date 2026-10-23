@@ -1,0 +1,2367 @@
+[
+  {
+    "type": "achievement",
+    "itemId": 9846,
+    "name": "九宫幻卡：斯考尔·莱昂哈特",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "成就",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "achievement",
+    "itemId": 2505,
+    "name": "流光平底锅",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "商店",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "成就",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "achievement",
+    "itemId": 16967,
+    "name": "赐福园野手斧",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "商店",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "成就",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "airship",
+    "itemId": 13751,
+    "name": "浮岛陶石",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "部队探索",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "airship",
+    "itemId": 14934,
+    "name": "古代野兽的化石片",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "部队探索",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "潜水艇",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "airship",
+    "itemId": 5666,
+    "name": "神眼魔晶石叁型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "anemos",
+    "itemId": 22514,
+    "name": "常风皮盔帽",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "anemos",
+    "itemId": 5668,
+    "name": "神眼魔晶石伍型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 12
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 21
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 19
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 11
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "anemos",
+    "itemId": 18021,
+    "name": "刚柔魔晶石陆型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 9
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 22
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 20
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "auxesia",
+    "itemId": 31324,
+    "name": "沉稳方格阳伞",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "auxesia",
+    "itemId": 20539,
+    "name": "迷你奇美拉",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "auxesia",
+    "itemId": 20528,
+    "name": "龙之孙",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "bozja",
+    "itemId": 23098,
+    "name": "红色大丽花头花",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "bozja",
+    "itemId": 12082,
+    "name": "俾斯麦装甲",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "bozja",
+    "itemId": 24331,
+    "name": "邪龙怨影魔导典",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "card_pack",
+    "itemId": 16765,
+    "name": "九宫幻卡：晴天霹雳托佐尔·法托特尔",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "幻卡对战",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "card_pack",
+    "itemId": 9848,
+    "name": "九宫幻卡：提达",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "其他",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "card_pack",
+    "itemId": 16775,
+    "name": "九宫幻卡：魔导炮艇",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "coffer",
+    "itemId": 12056,
+    "name": "小熊猫",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "宝物库",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "coffer",
+    "itemId": 8202,
+    "name": "食果花鼠",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "寻宝",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "宝物库",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "coffer",
+    "itemId": 13722,
+    "name": "金属靛染剂",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 7
+      }
+    ]
+  },
+  {
+    "type": "desynth",
+    "itemId": 27994,
+    "name": "古代银币",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 65
+      }
+    ]
+  },
+  {
+    "type": "desynth",
+    "itemId": 36262,
+    "name": "潜能量碎晶",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 11
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "desynth",
+    "itemId": 31266,
+    "name": "第三期重建用的特供藤条（检）",
+    "status": "ok",
+    "sourceProfiles": []
+  },
+  {
+    "type": "dungeon_boss",
+    "itemId": 23916,
+    "name": "九宫幻卡：欧米茄",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "幻卡对战",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "dungeon_boss",
+    "itemId": 24874,
+    "name": "九宫幻卡：青龙",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "dungeon_boss",
+    "itemId": 12684,
+    "name": "第4页戈耳狄断章",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "dungeon_boss_chest",
+    "itemId": 40786,
+    "name": "虚月游击上装",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "dungeon_boss_chest",
+    "itemId": 35247,
+    "name": "日影兰战锤",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "dungeon_boss_chest",
+    "itemId": 27626,
+    "name": "无瑕精准手镯",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "dungeon_chest",
+    "itemId": 40369,
+    "name": "海鹦",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "dungeon_chest",
+    "itemId": 14664,
+    "name": "龙堡强袭护手",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      }
+    ]
+  },
+  {
+    "type": "dungeon_chest",
+    "itemId": 26226,
+    "name": "拿巴示艾兰精准缠手带",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "dungeon_drop",
+    "itemId": 31672,
+    "name": "管弦乐琴乐谱：冬贝利之泪",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "dungeon_drop",
+    "itemId": 31687,
+    "name": "陈旧的乐谱：末路尽头",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "dungeon_drop",
+    "itemId": 33844,
+    "name": "管弦乐琴乐谱：凯宁／最终幻想主题曲版",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "eureka_orthos",
+    "itemId": 35979,
+    "name": "河马幼崽",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "eureka_orthos",
+    "itemId": 23373,
+    "name": "风尚礼帽",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "eureka_orthos",
+    "itemId": 27987,
+    "name": "无瑕灵君装甲",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "fate",
+    "itemId": 30347,
+    "name": "战果记录：慈悲为怀布拉兹",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "危命任务",
+        "shape": "array",
+        "entryCount": 4
+      }
+    ]
+  },
+  {
+    "type": "fate",
+    "itemId": 30353,
+    "name": "战果记录：魔导技师长西西尼乌斯",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "危命任务",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "紧急遭遇战",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "fate",
+    "itemId": 23214,
+    "name": "白泽的火之眼",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "fieldop_coffer",
+    "itemId": 48156,
+    "name": "面部配饰：渐变色镜框眼镜",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "fieldop_coffer",
+    "itemId": 47987,
+    "name": "发型样式：蘑菇头",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "fieldop_coffer",
+    "itemId": 41768,
+    "name": "战技魔晶石拾壹型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "寻宝",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 12
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 41
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 49
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 20
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "fishing",
+    "itemId": 28069,
+    "name": "冠骨鱼",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "钓鱼",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "fishing",
+    "itemId": 45755,
+    "name": "月水晶刺鱼",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "钓鱼",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "fishing",
+    "itemId": 43687,
+    "name": "半饱鳟",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "钓鱼",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "gardening",
+    "itemId": 12882,
+    "name": "库尔札斯茶叶",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "商店",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "栽培",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "gardening",
+    "itemId": 39900,
+    "name": "海岛红菜",
+    "status": "ok",
+    "sourceProfiles": []
+  },
+  {
+    "type": "gardening",
+    "itemId": 33311,
+    "name": "橙色蝴蝶兰",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "栽培",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "gardening_crossbreed",
+    "itemId": 20792,
+    "name": "白云花种子",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "种子",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "gardening_crossbreed",
+    "itemId": 7754,
+    "name": "伞叶无花果种子",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "种子",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "gardening_crossbreed",
+    "itemId": 7750,
+    "name": "皇家可可豆种子",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "种子",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "gathering",
+    "itemId": 29669,
+    "name": "改良用的乳胶",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "gathering",
+    "itemId": 17559,
+    "name": "黄昏苔藓",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "gathering",
+    "itemId": 41069,
+    "name": "魅惑猫咪必需品的素材",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "heaven_on_high",
+    "itemId": 17968,
+    "name": "东方午餐组合：荞麦面",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "heaven_on_high",
+    "itemId": 20547,
+    "name": "俾斯麦之形",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "heaven_on_high",
+    "itemId": 17616,
+    "name": "生命之仪",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "hydatos",
+    "itemId": 5723,
+    "name": "咏唱魔晶石伍型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 12
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 10
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 19
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 11
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "hydatos",
+    "itemId": 18028,
+    "name": "战技魔晶石陆型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 9
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 22
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 20
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "hydatos",
+    "itemId": 18019,
+    "name": "武略魔晶石陆型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 9
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 22
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 20
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "leve",
+    "itemId": 3,
+    "name": "冰之碎晶",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "寻宝",
+        "shape": "array",
+        "entryCount": 5
+      },
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 18
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 24
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "栽培",
+        "shape": "object"
+      },
+      {
+        "key": "理符",
+        "shape": "number"
+      }
+    ]
+  },
+  {
+    "type": "leve",
+    "itemId": 4153,
+    "name": "盗龙革手环",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "理符",
+        "shape": "number"
+      }
+    ]
+  },
+  {
+    "type": "leve",
+    "itemId": 36170,
+    "name": "铋金锭",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "寻宝",
+        "shape": "array",
+        "entryCount": 5
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "理符",
+        "shape": "number"
+      }
+    ]
+  },
+  {
+    "type": "logogram",
+    "itemId": 30914,
+    "name": "失传魔泉",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "logogram",
+    "itemId": 33784,
+    "name": "光之幕帘",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "logogram",
+    "itemId": 24038,
+    "name": "文理复活",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "loot",
+    "itemId": 34391,
+    "name": "赛加羚羊革魔导典",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "商店",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "loot",
+    "itemId": 29064,
+    "name": "伊甸之律制敌腿甲",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "loot",
+    "itemId": 6053,
+    "name": "精骑锁甲靴",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "mob_drop",
+    "itemId": 4774,
+    "name": "跳蜥蛋",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 4
+      }
+    ]
+  },
+  {
+    "type": "mob_drop",
+    "itemId": 24010,
+    "name": "未鉴定的攻势文理碎晶",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "其他",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "mob_drop",
+    "itemId": 44054,
+    "name": "锤头鳄的粗皮",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "寻宝",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "oizys",
+    "itemId": 30110,
+    "name": "演技教材·吃面包",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "oizys",
+    "itemId": 46254,
+    "name": "黄金鳗鱼派",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "oizys",
+    "itemId": 41762,
+    "name": "达识魔晶石拾壹型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 43
+      },
+      {
+        "key": "宇宙好运道",
+        "shape": "array",
+        "entryCount": 4
+      }
+    ]
+  },
+  {
+    "type": "pagos",
+    "itemId": 18020,
+    "name": "雄略魔晶石陆型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 9
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 22
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 20
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "pagos",
+    "itemId": 5683,
+    "name": "刚柔魔晶石伍型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 12
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 10
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 19
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 11
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "pagos",
+    "itemId": 23378,
+    "name": "花花公子鞣革",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "palace_of_the_dead",
+    "itemId": 10393,
+    "name": "萨维奈舞裙",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "宝物库",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "palace_of_the_dead",
+    "itemId": 8374,
+    "name": "厚土大斧",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "palace_of_the_dead",
+    "itemId": 10387,
+    "name": "萨维奈包头巾",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "宝物库",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "pilgrims_traverse",
+    "itemId": 23099,
+    "name": "蓝色大丽花头花",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "pilgrims_traverse",
+    "itemId": 38542,
+    "name": "梦羽妖灵王利爪",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "pilgrims_traverse",
+    "itemId": 39311,
+    "name": "沙龙服务员打底裤",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "pyros",
+    "itemId": 5827,
+    "name": "亚拉戈白金币",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "其他",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 17
+      },
+      {
+        "key": "道具商城",
+        "shape": "array",
+        "entryCount": 73
+      },
+      {
+        "key": "天书奇谈",
+        "shape": "array",
+        "entryCount": 4
+      }
+    ]
+  },
+  {
+    "type": "pyros",
+    "itemId": 24001,
+    "name": "小长颈驼",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "物品箱",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "pyros",
+    "itemId": 5668,
+    "name": "神眼魔晶石伍型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 12
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 21
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 19
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 11
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "quest",
+    "itemId": 2404,
+    "name": "乌尔卡卦利神锤",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "任务",
+        "shape": "object"
+      },
+      {
+        "key": "商店",
+        "shape": "array",
+        "entryCount": 4
+      }
+    ]
+  },
+  {
+    "type": "quest",
+    "itemId": 43499,
+    "name": "深红木手臂装备箱（品级663）",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "任务",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "quest",
+    "itemId": 22445,
+    "name": "豆腐煎饼",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "itemId": 4173,
+    "name": "民兵手链",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "itemId": 27941,
+    "name": "夏季靛蓝衬衫",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "recipe",
+    "itemId": 49972,
+    "name": "宇宙探索用的开心粉",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "制作",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "reduction",
+    "itemId": 9,
+    "name": "冰之水晶",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "寻宝",
+        "shape": "array",
+        "entryCount": 18
+      },
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 31
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 2
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 20
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 5
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 3
+      },
+      {
+        "key": "理符",
+        "shape": "number"
+      }
+    ]
+  },
+  {
+    "type": "reduction",
+    "itemId": 44035,
+    "name": "黄金灵砂",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "精选",
+        "shape": "array",
+        "entryCount": 5
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 26
+      }
+    ]
+  },
+  {
+    "type": "reduction",
+    "itemId": 41418,
+    "name": "高浓度火成精油",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "精选",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "retainer_normal",
+    "itemId": 7717,
+    "name": "库尔札斯胡萝卜种子",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "种子",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "retainer_normal",
+    "itemId": 6148,
+    "name": "泽梅尔番茄",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "栽培",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "retainer_normal",
+    "itemId": 12765,
+    "name": "冰神鱼",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "钓鱼",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "retainer_random",
+    "itemId": 36086,
+    "name": "棕榈糖浆",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "retainer_random",
+    "itemId": 36178,
+    "name": "星点石英原石",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "retainer_random",
+    "itemId": 27685,
+    "name": "白梣木原木",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "理符",
+        "shape": "object"
+      }
+    ]
+  },
+  {
+    "type": "skybuilder_handin",
+    "itemId": 32919,
+    "name": "第四期重建用的欧洛浦肯（检）",
+    "status": "ok",
+    "sourceProfiles": []
+  },
+  {
+    "type": "skybuilder_handin",
+    "itemId": 31990,
+    "name": "第四期重建用的最高级灵青岩（检）",
+    "status": "ok",
+    "sourceProfiles": []
+  },
+  {
+    "type": "skybuilder_handin",
+    "itemId": 31264,
+    "name": "第三期重建用的特供棉花（检）",
+    "status": "ok",
+    "sourceProfiles": []
+  },
+  {
+    "type": "spearfishing",
+    "itemId": 20167,
+    "name": "毒鲉",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "spearfishing",
+    "itemId": 36522,
+    "name": "萨维奈海参",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "spearfishing",
+    "itemId": 36524,
+    "name": "萨维奈鳗鱼",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "special_vendor",
+    "itemId": 46314,
+    "name": "木工秘籍第十二卷",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 25
+      }
+    ]
+  },
+  {
+    "type": "special_vendor",
+    "itemId": 41680,
+    "name": "龙须拳·优雅",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "special_vendor",
+    "itemId": 11450,
+    "name": "戈耳狄原型强袭角盔",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 2
+      }
+    ]
+  },
+  {
+    "type": "store",
+    "itemId": 33753,
+    "name": "巫女护腿",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "道具商城",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "store",
+    "itemId": 20491,
+    "name": "特制女仆腕带",
+    "status": "ok",
+    "sourceProfiles": []
+  },
+  {
+    "type": "store",
+    "itemId": 36338,
+    "name": "欧米茄M耳夹",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "道具商城",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "submarine",
+    "itemId": 5668,
+    "name": "神眼魔晶石伍型",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "鉴定",
+        "shape": "array",
+        "entryCount": 12
+      },
+      {
+        "key": "任务",
+        "shape": "array",
+        "entryCount": 21
+      },
+      {
+        "key": "副本",
+        "shape": "array",
+        "entryCount": 4
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 19
+      },
+      {
+        "key": "特殊商店",
+        "shape": "array",
+        "entryCount": 11
+      },
+      {
+        "key": "特殊场景探索",
+        "shape": "array",
+        "entryCount": 3
+      }
+    ]
+  },
+  {
+    "type": "submarine",
+    "itemId": 19956,
+    "name": "钯金沙",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      }
+    ]
+  },
+  {
+    "type": "submarine",
+    "itemId": 19933,
+    "name": "榉木原木",
+    "status": "ok",
+    "sourceProfiles": [
+      {
+        "key": "采集",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "采集点",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "雇员探险",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "掉落",
+        "shape": "array",
+        "entryCount": 1
+      },
+      {
+        "key": "理符",
+        "shape": "object"
+      }
+    ]
+  }
+]

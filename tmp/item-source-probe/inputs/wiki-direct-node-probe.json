@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "fetchedAtUtc": "2026-10-23T16:20:59.356Z",
+  "endpoint": "https://ff14.huijiwiki.com/api.php",
+  "transport": "node-fetch",
+  "credentials": "omit",
+  "batchSize": 10,
+  "requestedItemIds": [
+    50777
+  ],
+  "note": "Fixed input IDs; failed or missing Wiki pages are retained and never replaced. Data revisions, not rendered-page revisions.",
+  "batches": [
+    {
+      "itemIds": [
+        50777
+      ],
+      "url": "https://ff14.huijiwiki.com/api.php?action=query&format=json&formatversion=2&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent%7Ccontentmodel&rvslots=main&titles=Data%3AItem%2F50777.json",
+      "fetchedAtUtc": "2026-10-23T16:20:59.357Z",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "responseLength": 6132,
+      "status": "http_error",
+      "bodyPrefix": "<!DOCTYPE html><html lang=\"zh-CN\"><head><title>请稍候…</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-OyJpapZawe0gHtiTFyBObL&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare-cn.com; script-src-attr &"
+    }
+  ],
+  "items": [
+    {
+      "itemId": 50777,
+      "status": "http_error",
+      "batchIndex": 0
+    }
+  ],
+  "finishedAtUtc": "2026-10-23T16:20:59.547Z",
+  "statusCounts": {
+    "http_error": 1
+  }
+}

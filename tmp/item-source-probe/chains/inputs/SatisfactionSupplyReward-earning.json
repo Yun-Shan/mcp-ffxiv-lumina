@@ -1,0 +1,4657 @@
+{
+  "sheet": "SatisfactionSupplyReward",
+  "rowIds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 0,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 0,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 0,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 0,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 0,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 0,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 0,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 0,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 0,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 0,
+        "GilMid": 0,
+        "GilHigh": 0,
+        "BonusMultiplier": 0,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459072+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 1,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459093+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 2,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459099+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 3,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459104+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 4,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459109+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 5,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459115+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 6,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459120+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 7,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459131+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 8,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459136+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 9,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459141+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 10,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459146+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 11,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459151+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 12,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459155+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 13,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459167+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 14,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459173+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 15,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459178+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 16,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459183+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 17,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459188+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 18,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459193+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 19,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459203+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 20,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459208+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 21,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459213+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 22,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459218+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 23,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459223+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 24,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459228+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 25,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459240+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 26,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459245+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 27,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459249+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 28,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459254+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 29,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459259+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 30,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459263+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 31,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459277+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 32,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459282+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 33,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459287+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 34,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459292+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 35,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459297+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 36,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459301+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 37,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459310+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 38,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459315+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 39,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459319+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 40,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459324+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 41,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459329+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 42,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459334+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 43,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459343+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 44,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459348+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 45,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459353+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 46,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459358+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 47,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459362+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 48,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459367+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 49,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459372+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 50,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459383+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 51,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459388+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 52,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459393+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 53,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459397+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 54,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459402+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 55,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459406+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 56,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459417+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 57,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459422+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 58,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459427+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 59,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459432+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 60,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459436+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 61,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459441+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 62,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459451+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 63,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459456+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 64,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459461+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 65,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459467+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 66,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459472+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 67,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459476+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 68,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459487+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 69,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459492+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 70,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459497+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 71,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459502+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 72,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459507+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 73,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459512+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 74,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459521+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 75,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459526+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 76,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459531+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 77,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459535+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 78,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459540+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 79,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459545+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 80,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459555+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 81,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459560+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 82,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459565+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 83,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459569+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 84,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459574+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 85,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459579+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 86,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459592+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 87,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459597+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 88,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459602+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 89,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459607+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 90,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459611+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 91,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459616+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 92,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459629+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 93,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459634+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 94,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459639+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 95,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459643+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 96,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459648+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 97,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459653+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 98,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459658+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 99,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459668+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 100,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459673+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 101,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459677+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 102,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459682+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 103,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459687+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 104,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459692+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 105,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459701+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 106,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459706+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 107,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459711+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 108,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459715+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 109,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459720+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 110,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459725+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 111,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459736+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 112,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459741+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 113,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459745+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 114,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459750+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 115,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459755+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 116,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459760+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 117,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459773+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 118,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459778+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 119,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459783+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 120,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 140,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459788+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 121,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459792+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 122,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 82,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 100,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 116,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459797+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 123,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459806+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 124,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 88,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 106,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 122,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459811+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 125,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459816+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 126,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 95,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 111,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 128,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459820+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 127,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459825+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 128,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 100,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 118,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 134,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459830+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 129,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 141,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459845+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 130,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 141,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459850+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 131,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 141,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459854+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 132,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 107,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 124,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 141,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459859+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 133,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 97,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 137,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459864+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 134,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 94,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 140,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 97,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 117,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 137,
+        "SatisfactionLow": 30,
+        "SatisfactionMid": 30,
+        "SatisfactionHigh": 30,
+        "GilLow": 670,
+        "GilMid": 840,
+        "GilHigh": 1000,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459873+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 135,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 122,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 144,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459878+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 136,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 127,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 150,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 104,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 122,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 144,
+        "SatisfactionLow": 80,
+        "SatisfactionMid": 80,
+        "SatisfactionHigh": 80,
+        "GilLow": 780,
+        "GilMid": 980,
+        "GilHigh": 1170,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459883+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 137,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 110,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 131,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 150,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459888+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 138,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 114,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 137,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 160,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 110,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 131,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 150,
+        "SatisfactionLow": 130,
+        "SatisfactionMid": 130,
+        "SatisfactionHigh": 130,
+        "GilLow": 900,
+        "GilMid": 1120,
+        "GilHigh": 1340,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459892+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 139,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 117,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 136,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 155,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459897+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 140,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 124,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 147,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 170,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 117,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 136,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 155,
+        "SatisfactionLow": 180,
+        "SatisfactionMid": 180,
+        "SatisfactionHigh": 180,
+        "GilLow": 1010,
+        "GilMid": 1260,
+        "GilHigh": 1510,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459906+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 141,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 123,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 142,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 162,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459911+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 142,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 123,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 142,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 162,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 100,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459916+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 143,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 2,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 6,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 123,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 142,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 162,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459920+00:00"
+    },
+    {
+      "sheet": "SatisfactionSupplyReward",
+      "rowId": 144,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "SatisfactionSupplyRewardData[0]RewardCurrency": 4,
+        "SatisfactionSupplyRewardData[0]QuantityLow": 134,
+        "SatisfactionSupplyRewardData[0]QuantityMid": 157,
+        "SatisfactionSupplyRewardData[0]QuantityHigh": 180,
+        "SatisfactionSupplyRewardData[1]RewardCurrency": 7,
+        "SatisfactionSupplyRewardData[1]QuantityLow": 123,
+        "SatisfactionSupplyRewardData[1]QuantityMid": 142,
+        "SatisfactionSupplyRewardData[1]QuantityHigh": 162,
+        "SatisfactionLow": 0,
+        "SatisfactionMid": 0,
+        "SatisfactionHigh": 0,
+        "GilLow": 1120,
+        "GilMid": 1400,
+        "GilHigh": 1670,
+        "BonusMultiplier": 150,
+        "MinLevelForSecondReward": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:03:29.8459925+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:03:29.8460016+00:00"
+}

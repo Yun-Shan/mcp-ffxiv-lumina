@@ -1,0 +1,3931 @@
+{
+  "sheet": "CollectablesShopRefine",
+  "rowIds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 0,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 0,
+        "MidCollectability": 0,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823427+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 1,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 110,
+        "MidCollectability": 160,
+        "HighCollectability": 200
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823434+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 2,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 160,
+        "MidCollectability": 220,
+        "HighCollectability": 280
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823437+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 3,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 49,
+        "MidCollectability": 81,
+        "HighCollectability": 114
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823439+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 4,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 141,
+        "MidCollectability": 236,
+        "HighCollectability": 332
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823441+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 5,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 209,
+        "MidCollectability": 349,
+        "HighCollectability": 491
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823445+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 6,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 294,
+        "MidCollectability": 492,
+        "HighCollectability": 691
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823447+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 7,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 74,
+        "MidCollectability": 123,
+        "HighCollectability": 173
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823487+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 8,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 72,
+        "MidCollectability": 120,
+        "HighCollectability": 170
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823489+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 9,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 311,
+        "MidCollectability": 520,
+        "HighCollectability": 731
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823492+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 10,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 118,
+        "MidCollectability": 197,
+        "HighCollectability": 277
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823494+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 11,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 171,
+        "MidCollectability": 286,
+        "HighCollectability": 403
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823496+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 12,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 376,
+        "MidCollectability": 629,
+        "HighCollectability": 883
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823498+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 13,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 19,
+        "MidCollectability": 54,
+        "HighCollectability": 90
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823500+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 14,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1039,
+        "MidCollectability": 1740,
+        "HighCollectability": 2442
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823502+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 15,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 622,
+        "MidCollectability": 761,
+        "HighCollectability": 901
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823504+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 16,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 650,
+        "MidCollectability": 1088,
+        "HighCollectability": 1527
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823505+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 17,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 393,
+        "MidCollectability": 658,
+        "HighCollectability": 924
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823508+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 18,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 508,
+        "MidCollectability": 850,
+        "HighCollectability": 1194
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823510+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 19,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 19,
+        "MidCollectability": 54,
+        "HighCollectability": 90
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823540+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 20,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 557,
+        "MidCollectability": 932,
+        "HighCollectability": 1309
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823542+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 21,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 346,
+        "MidCollectability": 579,
+        "HighCollectability": 814
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823544+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 22,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 137,
+        "MidCollectability": 228,
+        "HighCollectability": 321
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823546+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 23,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 314,
+        "MidCollectability": 526,
+        "HighCollectability": 739
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823548+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 24,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 53,
+        "MidCollectability": 88,
+        "HighCollectability": 125
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823550+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 25,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 206,
+        "MidCollectability": 344,
+        "HighCollectability": 484
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823552+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 26,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 5,
+        "MidCollectability": 8,
+        "HighCollectability": 12
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823554+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 27,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 23,
+        "MidCollectability": 38,
+        "HighCollectability": 55
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823556+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 28,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 7,
+        "MidCollectability": 11,
+        "HighCollectability": 17
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823558+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 29,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 470,
+        "MidCollectability": 787,
+        "HighCollectability": 1106
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823560+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 30,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 23,
+        "MidCollectability": 38,
+        "HighCollectability": 55
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823562+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 31,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 19,
+        "MidCollectability": 32,
+        "HighCollectability": 46
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823564+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 32,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 785,
+        "MidCollectability": 1315,
+        "HighCollectability": 1846
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823565+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 33,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 314,
+        "MidCollectability": 526,
+        "HighCollectability": 739
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823597+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 34,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 17,
+        "MidCollectability": 28,
+        "HighCollectability": 40
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823599+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 35,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 456,
+        "MidCollectability": 763,
+        "HighCollectability": 1072
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823601+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 36,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 99,
+        "MidCollectability": 165,
+        "HighCollectability": 233
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823602+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 37,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 377,
+        "MidCollectability": 631,
+        "HighCollectability": 887
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823604+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 38,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 346,
+        "MidCollectability": 579,
+        "HighCollectability": 814
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823606+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 39,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 62,
+        "MidCollectability": 104,
+        "HighCollectability": 147
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823608+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 40,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 96,
+        "MidCollectability": 160,
+        "HighCollectability": 225
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823610+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 41,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 314,
+        "MidCollectability": 526,
+        "HighCollectability": 739
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823612+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 42,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 201,
+        "MidCollectability": 336,
+        "HighCollectability": 472
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823614+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 43,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 6,
+        "MidCollectability": 9,
+        "HighCollectability": 14
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823616+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 44,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 9,
+        "MidCollectability": 14,
+        "HighCollectability": 21
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823617+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 45,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 157,
+        "MidCollectability": 262,
+        "HighCollectability": 369
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823647+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 46,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 944,
+        "MidCollectability": 1581,
+        "HighCollectability": 2220
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823650+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 47,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 26,
+        "MidCollectability": 43,
+        "HighCollectability": 62
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823652+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 48,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 14,
+        "MidCollectability": 22,
+        "HighCollectability": 32
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823736+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 49,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 314,
+        "MidCollectability": 526,
+        "HighCollectability": 739
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823745+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 50,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 236,
+        "MidCollectability": 394,
+        "HighCollectability": 554
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823748+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 51,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 31,
+        "MidCollectability": 51,
+        "HighCollectability": 73
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823750+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 52,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 18,
+        "MidCollectability": 30,
+        "HighCollectability": 44
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823752+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 53,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 188,
+        "MidCollectability": 315,
+        "HighCollectability": 443
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823754+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 54,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 217,
+        "MidCollectability": 363,
+        "HighCollectability": 510
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823756+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 55,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 211,
+        "MidCollectability": 352,
+        "HighCollectability": 495
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823758+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 56,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 244,
+        "MidCollectability": 408,
+        "HighCollectability": 573
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823760+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 57,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 385,
+        "MidCollectability": 645,
+        "HighCollectability": 906
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823762+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 58,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 433,
+        "MidCollectability": 724,
+        "HighCollectability": 1017
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823803+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 59,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 330,
+        "MidCollectability": 552,
+        "HighCollectability": 776
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823806+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 60,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 417,
+        "MidCollectability": 698,
+        "HighCollectability": 980
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823808+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 61,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 501,
+        "MidCollectability": 838,
+        "HighCollectability": 1177
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823810+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 62,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 398,
+        "MidCollectability": 666,
+        "HighCollectability": 936
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823812+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 63,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1181,
+        "MidCollectability": 1977,
+        "HighCollectability": 2774
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823814+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 64,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1181,
+        "MidCollectability": 1977,
+        "HighCollectability": 2774
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823816+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 65,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1055,
+        "MidCollectability": 1766,
+        "HighCollectability": 2478
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823820+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 66,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 110,
+        "MidCollectability": 160,
+        "HighCollectability": 200
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823822+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 67,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 160,
+        "MidCollectability": 220,
+        "HighCollectability": 280
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823824+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 68,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 190,
+        "MidCollectability": 270,
+        "HighCollectability": 340
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823826+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 69,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 220,
+        "MidCollectability": 300,
+        "HighCollectability": 390
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823828+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 70,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 230,
+        "MidCollectability": 320,
+        "HighCollectability": 410
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823862+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 71,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 240,
+        "MidCollectability": 340,
+        "HighCollectability": 430
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823864+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 72,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 250,
+        "MidCollectability": 340,
+        "HighCollectability": 440
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823866+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 73,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 260,
+        "MidCollectability": 360,
+        "HighCollectability": 460
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823868+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 74,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 270,
+        "MidCollectability": 370,
+        "HighCollectability": 480
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823870+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 75,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 290,
+        "MidCollectability": 410,
+        "HighCollectability": 530
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823872+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 76,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 300,
+        "MidCollectability": 420,
+        "HighCollectability": 530
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823874+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 77,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 300,
+        "MidCollectability": 420,
+        "HighCollectability": 540
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823876+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 78,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 320,
+        "MidCollectability": 450,
+        "HighCollectability": 580
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823878+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 79,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 330,
+        "MidCollectability": 460,
+        "HighCollectability": 580
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823880+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 80,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 330,
+        "MidCollectability": 460,
+        "HighCollectability": 600
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823882+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 81,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 350,
+        "MidCollectability": 490,
+        "HighCollectability": 630
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823884+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 82,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 360,
+        "MidCollectability": 500,
+        "HighCollectability": 640
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823886+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 83,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 370,
+        "MidCollectability": 520,
+        "HighCollectability": 670
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823914+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 84,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 400,
+        "MidCollectability": 550,
+        "HighCollectability": 710
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823916+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 85,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 420,
+        "MidCollectability": 580,
+        "HighCollectability": 750
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823918+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 86,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 450,
+        "MidCollectability": 630,
+        "HighCollectability": 820
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823920+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 87,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 460,
+        "MidCollectability": 640,
+        "HighCollectability": 830
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823922+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 88,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 500,
+        "MidCollectability": 690,
+        "HighCollectability": 890
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823924+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 89,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 520,
+        "MidCollectability": 730,
+        "HighCollectability": 930
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823926+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 90,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 540,
+        "MidCollectability": 760,
+        "HighCollectability": 970
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823928+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 91,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 560,
+        "MidCollectability": 780,
+        "HighCollectability": 1010
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823929+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 92,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 580,
+        "MidCollectability": 800,
+        "HighCollectability": 1030
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823931+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 93,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 580,
+        "MidCollectability": 810,
+        "HighCollectability": 1040
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823933+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 94,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 590,
+        "MidCollectability": 830,
+        "HighCollectability": 1060
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823935+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 95,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 630,
+        "MidCollectability": 880,
+        "HighCollectability": 1130
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823937+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 96,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 690,
+        "MidCollectability": 960,
+        "HighCollectability": 1230
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823939+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 97,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 750,
+        "MidCollectability": 1040,
+        "HighCollectability": 1350
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823968+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 98,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 810,
+        "MidCollectability": 1130,
+        "HighCollectability": 1460
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823970+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 99,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 840,
+        "MidCollectability": 1170,
+        "HighCollectability": 1500
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823973+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 100,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 860,
+        "MidCollectability": 1210,
+        "HighCollectability": 1550
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823975+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 101,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 950,
+        "MidCollectability": 1330,
+        "HighCollectability": 1720
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823976+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 102,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 360,
+        "MidCollectability": 540,
+        "HighCollectability": 720
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823978+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 103,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 400,
+        "MidCollectability": 600,
+        "HighCollectability": 800
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823980+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 104,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 110,
+        "MidCollectability": 150,
+        "HighCollectability": 190
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823982+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 105,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 117,
+        "MidCollectability": 160,
+        "HighCollectability": 203
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823984+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 106,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 125,
+        "MidCollectability": 171,
+        "HighCollectability": 216
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823986+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 107,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 133,
+        "MidCollectability": 181,
+        "HighCollectability": 229
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823988+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 108,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 140,
+        "MidCollectability": 192,
+        "HighCollectability": 243
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823990+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 109,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 148,
+        "MidCollectability": 202,
+        "HighCollectability": 256
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9823992+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 110,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 158,
+        "MidCollectability": 216,
+        "HighCollectability": 273
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824022+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 111,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 168,
+        "MidCollectability": 229,
+        "HighCollectability": 290
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824024+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 112,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 178,
+        "MidCollectability": 243,
+        "HighCollectability": 307
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824026+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 113,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 188,
+        "MidCollectability": 256,
+        "HighCollectability": 324
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824028+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 114,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 198,
+        "MidCollectability": 270,
+        "HighCollectability": 342
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824029+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 115,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 209,
+        "MidCollectability": 285,
+        "HighCollectability": 361
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824031+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 116,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 220,
+        "MidCollectability": 300,
+        "HighCollectability": 380
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824033+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 117,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 231,
+        "MidCollectability": 315,
+        "HighCollectability": 399
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824035+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 118,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 242,
+        "MidCollectability": 330,
+        "HighCollectability": 418
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824037+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 119,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 253,
+        "MidCollectability": 345,
+        "HighCollectability": 437
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824039+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 120,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 470,
+        "MidCollectability": 850,
+        "HighCollectability": 1230
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824041+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 121,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 400,
+        "MidCollectability": 700,
+        "HighCollectability": 1000
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824043+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 122,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 126,
+        "MidCollectability": 296,
+        "HighCollectability": 305
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824045+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 123,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 600,
+        "MidCollectability": 800,
+        "HighCollectability": 1000
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824074+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 124,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 400,
+        "MidCollectability": 700,
+        "HighCollectability": 1000
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824076+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 125,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 62,
+        "MidCollectability": 147,
+        "HighCollectability": 152
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824078+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 126,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 6300,
+        "MidCollectability": 7500,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824080+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 127,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 6500,
+        "MidCollectability": 7800,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824082+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 128,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 7000,
+        "MidCollectability": 8500,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824084+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 129,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 286,
+        "MidCollectability": 390,
+        "HighCollectability": 494
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824087+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 130,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 341,
+        "MidCollectability": 465,
+        "HighCollectability": 589
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824089+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 131,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 368,
+        "MidCollectability": 502,
+        "HighCollectability": 636
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824091+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 132,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 379,
+        "MidCollectability": 517,
+        "HighCollectability": 655
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824093+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 133,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 390,
+        "MidCollectability": 532,
+        "HighCollectability": 674
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824128+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 134,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 396,
+        "MidCollectability": 540,
+        "HighCollectability": 684
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824131+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 135,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1200,
+        "MidCollectability": 1420,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824133+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 136,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1230,
+        "MidCollectability": 1480,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824134+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 137,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1330,
+        "MidCollectability": 1610,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824136+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 138,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 395,
+        "MidCollectability": 661,
+        "HighCollectability": 928
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824138+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 139,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 129,
+        "MidCollectability": 216,
+        "HighCollectability": 304
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824140+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 140,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 20,
+        "MidCollectability": 33,
+        "HighCollectability": 48
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824142+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 141,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 370,
+        "MidCollectability": 619,
+        "HighCollectability": 869
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824144+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 142,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 403,
+        "MidCollectability": 675,
+        "HighCollectability": 948
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824147+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 143,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 147,
+        "MidCollectability": 245,
+        "HighCollectability": 345
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824148+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 144,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 25,
+        "MidCollectability": 41,
+        "HighCollectability": 59
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824150+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 145,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 402,
+        "MidCollectability": 673,
+        "HighCollectability": 945
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824152+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 146,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 362,
+        "MidCollectability": 605,
+        "HighCollectability": 850
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824178+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 147,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 417,
+        "MidCollectability": 698,
+        "HighCollectability": 980
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824180+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 148,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 62,
+        "MidCollectability": 104,
+        "HighCollectability": 147
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824182+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 149,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 29,
+        "MidCollectability": 48,
+        "HighCollectability": 69
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824184+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 150,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 181,
+        "MidCollectability": 302,
+        "HighCollectability": 424
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824186+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 151,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 31,
+        "MidCollectability": 51,
+        "HighCollectability": 73
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824188+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 152,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 181,
+        "MidCollectability": 302,
+        "HighCollectability": 424
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824190+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 153,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 400,
+        "MidCollectability": 669,
+        "HighCollectability": 940
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824192+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 154,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 31,
+        "MidCollectability": 51,
+        "HighCollectability": 73
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824194+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 155,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 423,
+        "MidCollectability": 708,
+        "HighCollectability": 995
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824196+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 156,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 33,
+        "MidCollectability": 54,
+        "HighCollectability": 77
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824198+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 157,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 425,
+        "MidCollectability": 711,
+        "HighCollectability": 998
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824200+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 158,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 540,
+        "MidCollectability": 900,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824201+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 159,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 660,
+        "MidCollectability": 1100,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824203+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 160,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 570,
+        "MidCollectability": 1000,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824271+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 161,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 570,
+        "MidCollectability": 1000,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824274+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 162,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 47,
+        "MidCollectability": 110,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824276+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 163,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 283,
+        "MidCollectability": 665,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824278+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 164,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 9,
+        "MidCollectability": 21,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824279+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 165,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 425,
+        "MidCollectability": 998,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824281+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 166,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 720,
+        "MidCollectability": 1200,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824283+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 167,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 780,
+        "MidCollectability": 1300,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824285+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 168,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 570,
+        "MidCollectability": 1000,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824287+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 169,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 580,
+        "MidCollectability": 1000,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824289+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 170,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 82,
+        "MidCollectability": 193,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824291+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 171,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 322,
+        "MidCollectability": 758,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824293+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 172,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 94,
+        "MidCollectability": 220,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824295+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 173,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 47,
+        "MidCollectability": 110,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824322+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 174,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 750,
+        "MidCollectability": 1125,
+        "HighCollectability": 1500
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824325+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 175,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 800,
+        "MidCollectability": 1200,
+        "HighCollectability": 1600
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824327+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 176,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 570,
+        "MidCollectability": 1000,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824328+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 177,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 580,
+        "MidCollectability": 1000,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824330+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 178,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 501,
+        "MidCollectability": 1177,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824332+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 179,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 501,
+        "MidCollectability": 1177,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824334+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 180,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 9,
+        "MidCollectability": 21,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824336+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 181,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 384,
+        "MidCollectability": 902,
+        "HighCollectability": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824338+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 182,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 451,
+        "MidCollectability": 615,
+        "HighCollectability": 779
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824340+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 183,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 495,
+        "MidCollectability": 675,
+        "HighCollectability": 855
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824342+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 184,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 539,
+        "MidCollectability": 735,
+        "HighCollectability": 931
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824344+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 185,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 583,
+        "MidCollectability": 795,
+        "HighCollectability": 1007
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824346+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 186,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 627,
+        "MidCollectability": 855,
+        "HighCollectability": 1083
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824373+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 187,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 660,
+        "MidCollectability": 900,
+        "HighCollectability": 1140
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824375+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 188,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 135,
+        "MidCollectability": 225,
+        "HighCollectability": 317
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824377+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 189,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 151,
+        "MidCollectability": 252,
+        "HighCollectability": 354
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824379+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 190,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 503,
+        "MidCollectability": 842,
+        "HighCollectability": 1183
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824381+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 191,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 480,
+        "MidCollectability": 1128,
+        "HighCollectability": 1185
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824383+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 192,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 56,
+        "MidCollectability": 93,
+        "HighCollectability": 132
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824385+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 193,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 508,
+        "MidCollectability": 1194,
+        "HighCollectability": 1255
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824387+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 194,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 440,
+        "MidCollectability": 737,
+        "HighCollectability": 1035
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824389+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 195,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 469,
+        "MidCollectability": 785,
+        "HighCollectability": 1102
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824391+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 196,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 70,
+        "MidCollectability": 117,
+        "HighCollectability": 166
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824393+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 197,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 348,
+        "MidCollectability": 817,
+        "HighCollectability": 859
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824395+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 198,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 491,
+        "MidCollectability": 1154,
+        "HighCollectability": 1213
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824397+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 199,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 89,
+        "MidCollectability": 149,
+        "HighCollectability": 210
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824399+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 200,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1078,
+        "MidCollectability": 2534,
+        "HighCollectability": 2663
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824427+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 201,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 1141,
+        "MidCollectability": 1911,
+        "HighCollectability": 2682
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824429+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 202,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 401,
+        "MidCollectability": 671,
+        "HighCollectability": 942
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824431+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 203,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 182,
+        "MidCollectability": 304,
+        "HighCollectability": 428
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824433+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 204,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 425,
+        "MidCollectability": 711,
+        "HighCollectability": 998
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824435+00:00"
+    },
+    {
+      "sheet": "CollectablesShopRefine",
+      "rowId": 205,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "LowCollectability": 21,
+        "MidCollectability": 34,
+        "HighCollectability": 49
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T17:00:52.9824437+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T17:00:52.9824554+00:00"
+}

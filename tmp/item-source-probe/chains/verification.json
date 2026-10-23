@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-10-23T17:13:29.538Z",
+  "scope": "Targeted path-segment verification, not independent random coverage or full route equality.",
+  "summary": {
+    "match": 11,
+    "difference": 1
+  },
+  "checks": [
+    {
+      "label": "日影兰战锤直接副本",
+      "status": "match",
+      "local": [
+        30108
+      ],
+      "wiki": [
+        30108
+      ],
+      "wikiItemId": 35247,
+      "wikiRevision": 2211515,
+      "note": "只比较直接副本实体集合，未验证宝箱身份/坐标/概率。"
+    },
+    {
+      "label": "日影兰战锤直接Boss",
+      "status": "match",
+      "local": [
+        "30108:10742"
+      ],
+      "wiki": [
+        "30108:10742"
+      ],
+      "wikiItemId": 35247,
+      "wikiRevision": 2211515,
+      "note": "本地缺 Boss 关联时保留差集，不借用 Wiki 反填成已恢复。"
+    },
+    {
+      "label": "日影兰战锤来源容器",
+      "status": "match",
+      "local": [
+        35734
+      ],
+      "wiki": [
+        35734
+      ],
+      "wikiItemId": 35247,
+      "wikiRevision": 2211515,
+      "note": ""
+    },
+    {
+      "label": "日影兰战锤：8断章兑换1件",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 35826,
+          "quantity": 8
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 35826,
+          "quantity": 8
+        }
+      ],
+      "wikiItemId": 35247,
+      "wikiRevision": 2211515,
+      "note": "同一报价的材料是 AND；这里比较目标一件时的数量。NPC/条件另未验证。"
+    },
+    {
+      "label": "武器箱上游副本",
+      "status": "match",
+      "local": [
+        30108
+      ],
+      "wiki": [
+        30108
+      ],
+      "wikiItemId": 35734,
+      "wikiRevision": 2211982,
+      "note": "只比较直接副本实体集合，未验证宝箱身份/坐标/概率。"
+    },
+    {
+      "label": "武器箱上游Boss",
+      "status": "match",
+      "local": [
+        "30108:10742"
+      ],
+      "wiki": [
+        "30108:10742"
+      ],
+      "wikiItemId": 35734,
+      "wikiRevision": 2211982,
+      "note": "本地缺 Boss 关联时保留差集，不借用 Wiki 反填成已恢复。"
+    },
+    {
+      "label": "断章上游副本",
+      "status": "match",
+      "local": [
+        30108
+      ],
+      "wiki": [
+        30108
+      ],
+      "wikiItemId": 35826,
+      "wikiRevision": 2212074,
+      "note": "只比较直接副本实体集合，未验证宝箱身份/坐标/概率。"
+    },
+    {
+      "label": "断章上游Boss",
+      "status": "match",
+      "local": [
+        "30108:10742"
+      ],
+      "wiki": [
+        "30108:10742"
+      ],
+      "wikiItemId": 35826,
+      "wikiRevision": 2212074,
+      "note": "本地缺 Boss 关联时保留差集，不借用 Wiki 反填成已恢复。"
+    },
+    {
+      "label": "戈耳狄原型头盔：2透镜兑换1件",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 12674,
+          "quantity": 2
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 12674,
+          "quantity": 2
+        }
+      ],
+      "wikiItemId": 11450,
+      "wikiRevision": 2367055,
+      "note": "同一报价的材料是 AND；这里比较目标一件时的数量。NPC/条件另未验证。"
+    },
+    {
+      "label": "透镜上游副本",
+      "status": "match",
+      "local": [
+        30021,
+        30022,
+        30023
+      ],
+      "wiki": [
+        30021,
+        30022,
+        30023
+      ],
+      "wikiItemId": 12674,
+      "wikiRevision": 2189747,
+      "note": "只比较直接副本实体集合，未验证宝箱身份/坐标/概率。"
+    },
+    {
+      "label": "透镜上游Boss",
+      "status": "difference",
+      "local": [
+        "30021:3747",
+        "30023:3765"
+      ],
+      "wiki": [
+        "30021:3747",
+        "30022:3753",
+        "30022:3754",
+        "30022:3755",
+        "30022:3757",
+        "30022:3758",
+        "30022:3759",
+        "30022:3760",
+        "30023:3765"
+      ],
+      "wikiItemId": 12674,
+      "wikiRevision": 2189747,
+      "note": "本地缺 Boss 关联时保留差集，不借用 Wiki 反填成已恢复。"
+    },
+    {
+      "label": "龙须拳·优雅：两种材料同时需要",
+      "status": "match",
+      "local": [
+        {
+          "itemId": 40091,
+          "quantity": 1
+        },
+        {
+          "itemId": 41699,
+          "quantity": 1
+        }
+      ],
+      "wiki": [
+        {
+          "itemId": 40091,
+          "quantity": 1
+        },
+        {
+          "itemId": 41699,
+          "quantity": 1
+        }
+      ],
+      "wikiItemId": 41680,
+      "wikiRevision": 2217735,
+      "note": "同一报价的材料是 AND；这里比较目标一件时的数量。NPC/条件另未验证。"
+    }
+  ]
+}

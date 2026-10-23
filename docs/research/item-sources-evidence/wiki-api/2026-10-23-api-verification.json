@@ -1,0 +1,732 @@
+{
+  "observedAt": "2026-10-23T15:57:28.367Z",
+  "transport": "Playwright browser fetch, credentials omit; no API key or login supplied",
+  "requests": {
+    "revisions": {
+      "url": "https://ff14.huijiwiki.com/api.php?action=query&prop=revisions&titles=%E7%89%A9%E5%93%81%3A%E5%8A%A0%E7%89%B9%E5%8B%92%7CData%3AItem%2F50777.json%7C%E6%A8%A1%E5%9D%97%3AItem%2FLinkAsync&rvprop=ids%7Ctimestamp%7Ccontent%7Ccontentmodel&rvslots=main&redirects=1&format=json&formatversion=2",
+      "status": 200
+    },
+    "parse": {
+      "url": "https://ff14.huijiwiki.com/api.php?action=parse&page=%E7%89%A9%E5%93%81%3A%E5%8A%A0%E7%89%B9%E5%8B%92&prop=text%7Cwikitext%7Csections%7Crevid%7Ctemplates&redirects=1&format=json&formatversion=2",
+      "status": 200
+    },
+    "paraminfo": {
+      "url": "https://ff14.huijiwiki.com/api.php?action=paraminfo&modules=query%2Brevisions%7Cparse%7Clua&helpformat=raw&format=json&formatversion=2",
+      "status": 200
+    },
+    "lua": {
+      "url": "https://ff14.huijiwiki.com/api.php?action=lua&module=Item%2FLinkAsync&id=50777&format=json&formatversion=2",
+      "status": 200
+    },
+    "additional": {
+      "url": "https://ff14.huijiwiki.com/api.php?action=query&prop=revisions&titles=Data%3AItem%2F5116.json%7CData%3AItem%2F5059.json%7CData%3AItem%2F4930.json%7C%E6%A8%A1%E5%9D%97%3AItem%2FItemSource%7C%E6%A8%A1%E5%9D%97%3AItem%2FPage&rvprop=ids%7Ctimestamp%7Ccontent%7Ccontentmodel&rvslots=main&format=json&formatversion=2",
+      "status": 200
+    },
+    "extendedSamples": {
+      "url": "https://ff14.huijiwiki.com/api.php?action=query&prop=revisions&titles=Data%3AItem%2F6269.json%7CData%3AItem%2F46728.json%7CData%3AItem%2F39486.json%7CData%3AItem%2F19124.json&rvprop=ids%7Ctimestamp%7Ccontent%7Ccontentmodel&rvslots=main&format=json&formatversion=2",
+      "status": 200
+    }
+  },
+  "itemPage": {
+    "title": "物品:加特勒",
+    "pageid": 687621,
+    "revid": 2362351,
+    "timestamp": "2026-09-08T07:47:59Z",
+    "wikitext": "{{物品页|id=50777<!--\n|title1=段落标题\n|pos1=before(默认)/after\n|content1=内容，如果需要列表请用ul写<ul>\n<li></li>\n</ul>\n-->}}"
+  },
+  "dataPage": {
+    "title": "Data:Item/50777.json",
+    "pageid": 686947,
+    "revid": 2375330,
+    "timestamp": "2026-09-08T18:10:42Z",
+    "contentmodel": "BSON",
+    "data": {
+      "ID": 50777,
+      "name": "加特勒",
+      "version": 7.56,
+      "source": {
+        "特殊商店": [
+          {
+            "ID": 1059408,
+            "中文名": "科纳格流派商人",
+            "称号": "贸易人员",
+            "位置": {
+              "X": 21.9,
+              "Y": 22.6,
+              "ID": 4,
+              "MapName": "黑衣森林中央林区",
+              "ZoneName": "黑衣森林"
+            },
+            "商店ID": 1771020,
+            "商店名称": "高纯度兽核晶",
+            "商店条件": [
+              {
+                "ID": 71034,
+                "中文名": "贪食无厌加特勒",
+                "页面名": "贪食无厌加特勒",
+                "等级": 50,
+                "图标ID": 62423,
+                "CategoryName": "战斗精英特职任务",
+                "条件类型": "任务"
+              }
+            ],
+            "兑换信息": {
+              "index": 38,
+              "兑换": [
+                {
+                  "ID": 50777,
+                  "数量": 1,
+                  "HQ": false,
+                  "中文名": "加特勒",
+                  "品质": 4,
+                  "图标ID": 39933,
+                  "图标": "546dbd4ccecbfe11e2637aa52b5776b58e1a9fcf",
+                  "图标HQ": ""
+                }
+              ],
+              "材料": [
+                {
+                  "ID": 50770,
+                  "数量": 1,
+                  "HQ": false,
+                  "收藏值": 0,
+                  "中文名": "兽主手斧+4",
+                  "品质": 3,
+                  "图标ID": 39931,
+                  "图标": "3305cb51e744b278362035b11dade42a6ec4833a",
+                  "图标HQ": ""
+                },
+                {
+                  "ID": 51735,
+                  "数量": 20,
+                  "HQ": false,
+                  "收藏值": 0,
+                  "中文名": "高纯度兽核晶",
+                  "品质": 1,
+                  "图标ID": 20230,
+                  "图标": "db692b9fa24654d00fae9152dd4651ea29e0b0bf",
+                  "图标HQ": ""
+                }
+              ],
+              "任务": {
+                "ID": 71037,
+                "中文名": "奇盘上的王者：高段第二盘",
+                "页面名": "奇盘上的王者：高段第二盘",
+                "等级": 50,
+                "图标ID": 61419,
+                "CategoryName": "",
+                "条件类型": "任务"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parse": {
+    "revid": 2362351,
+    "sourceSection": "获得物品兑换信息NPC加特勒兽主手斧+4 ×1高纯度兽核晶 ×20需要完成任务贪食无厌加特勒需要完成任务奇盘上的王者：高段第二盘科纳格流派商人<贸易人员>高纯度兽核晶黑衣森林中央林区 X:21.9 , Y:22.6",
+    "sections": [
+      "<span>物品信息</span>",
+      "通过兑换获得",
+      "同模型装备"
+    ]
+  },
+  "lua": {
+    "output": [
+      {
+        "name": "加特勒",
+        "icon_id": 39933,
+        "ID": 50777,
+        "icon_hq": "",
+        "icon": "546dbd4ccecbfe11e2637aa52b5776b58e1a9fcf",
+        "rarity": 4
+      }
+    ]
+  },
+  "paraminfo": [
+    {
+      "name": "revisions",
+      "path": "query+revisions",
+      "source": "MediaWiki",
+      "readrights": true
+    },
+    {
+      "name": "parse",
+      "path": "parse",
+      "source": "MediaWiki",
+      "readrights": true
+    },
+    {
+      "name": "lua",
+      "path": "lua",
+      "source": "HuijiDragonstone",
+      "readrights": true,
+      "parameters": [
+        {
+          "name": "module",
+          "type": "string",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "title": "模块:Item/Page",
+      "revid": 2377653,
+      "timestamp": "2026-09-12T16:08:46Z",
+      "verifiedLineRanges": [
+        [
+          169,
+          225
+        ],
+        [
+          226,
+          260
+        ],
+        [
+          388,
+          408
+        ],
+        [
+          2027,
+          2100
+        ]
+      ],
+      "findings": [
+        "169-225: source categories rendered separately via ITEM_SOURCE_MAP; includes exchanges, crafting, gathering, quests, drops, venture, instances, item boxes, aetherial reduction, desynthesis, airship/submarine, maps, gardening, paid/external sources.",
+        "226-260: usage rendered separately via USED_BY_MAP; crafting ingredients and exchange costs must not be interpreted as acquisition routes.",
+        "388-408: item lookup uses mw.huiji.db.find with data_type Item and ID or Chinese name.",
+        "2027-2100: exchange rendering uses output items, material costs, shop-level conditions, row-level quest/achievement conditions, NPC and location."
+      ]
+    },
+    {
+      "title": "模块:Item/ItemSource",
+      "revid": 2337404,
+      "timestamp": "2026-07-31T02:14:06Z",
+      "verifiedLineRanges": [
+        [
+          1,
+          43
+        ],
+        [
+          135,
+          162
+        ]
+      ],
+      "findings": [
+        "1-43 and 135-162: short source summary is derived from source data and may collapse exchange detail to a count; do not use the short summary as the source model."
+      ]
+    }
+  ],
+  "siteinfo": {
+    "url": "https://ff14.huijiwiki.com/api.php?action=query&meta=siteinfo&siprop=general&format=json&formatversion=2",
+    "transport": "Playwright navigation then document.body.innerText",
+    "generator": "MediaWiki 1.38.4",
+    "lang": "zh-hans",
+    "serverTime": "2026-10-23T15:55:09Z",
+    "note": "Navigation returned JSON. Later cross-origin fetch from about:blank failed CORS, with and without origin=*. Other tested API GET fetches succeeded."
+  },
+  "transportNotes": [
+    "web open returned HTTP 403 for some wiki pages; browser API calls succeeded.",
+    "All saved query/parse/paraminfo/lua HTTP successes used fetch credentials: omit and no API key.",
+    "This verifies these anonymous read requests at observation time, not future access policy or write permission.",
+    "No CAPTCHA or authentication bypass attempted."
+  ],
+  "additionalSamples": [
+    {
+      "title": "Data:Item/4930.json",
+      "pageid": 66715,
+      "revid": 2182151,
+      "timestamp": "2026-03-11T18:09:51Z",
+      "ID": 4930,
+      "name": "公主鳟",
+      "sourceTypes": [
+        "雇员探险",
+        "商店",
+        "钓鱼"
+      ],
+      "usage": [
+        "制作",
+        "任务"
+      ],
+      "sources": {
+        "雇员探险": {
+          "count": 1,
+          "first": {
+            "ID": 311,
+            "随机任务": false,
+            "职业组ID": 19,
+            "职业组": "捕鱼人",
+            "等级": 5,
+            "探险币": 1,
+            "时间": 60,
+            "经验值": 1400,
+            "属性需求": [
+              0,
+              16,
+              23,
+              26,
+              28
+            ],
+            "中文名": "捕鱼筹集委托：公主鳟",
+            "物品ID": 4930,
+            "物品数量": [
+              3,
+              5,
+              7,
+              8,
+              9
+            ]
+          }
+        },
+        "商店": {
+          "count": 4,
+          "first": {
+            "ID": 1001016,
+            "中文名": "荷拉斯菲斯",
+            "称号": "鱼商",
+            "位置": {
+              "X": 10.3,
+              "Y": 13.6,
+              "ID": 11,
+              "MapName": "利姆萨·罗敏萨上层甲板",
+              "ZoneName": "拉诺西亚"
+            },
+            "商店ID": 262210,
+            "商店名称": "",
+            "商店条件": [],
+            "商品条件": {}
+          }
+        },
+        "钓鱼": {
+          "count": 4,
+          "first": 39
+        }
+      }
+    },
+    {
+      "title": "Data:Item/5059.json",
+      "pageid": 66844,
+      "revid": 2182280,
+      "timestamp": "2026-03-11T18:10:08Z",
+      "ID": 5059,
+      "name": "钴铁锭",
+      "sourceTypes": [
+        "寻宝",
+        "制作"
+      ],
+      "usage": [
+        "制作",
+        "部队合建",
+        "理符"
+      ],
+      "sources": {
+        "寻宝": {
+          "count": 2,
+          "first": {
+            "ID": 6689,
+            "中文名": "陈旧的山羊革地图",
+            "品质": 1,
+            "图标ID": 25930,
+            "图标": "655ea2a7072258c9de49d541b678830d3558c0fe",
+            "图标HQ": "",
+            "分类": "素材",
+            "简称": "G2",
+            "稀有物品": [
+              7041,
+              7044,
+              8021,
+              8156,
+              10124,
+              14271
+            ]
+          }
+        },
+        "制作": {
+          "count": 2,
+          "first": {
+            "职业": "锻铁匠",
+            "配方等级": 42,
+            "等级": 42,
+            "星级": 0
+          }
+        }
+      }
+    },
+    {
+      "title": "Data:Item/5116.json",
+      "pageid": 66901,
+      "revid": 2182337,
+      "timestamp": "2026-03-11T18:10:15Z",
+      "ID": 5116,
+      "name": "钴铁矿",
+      "sourceTypes": [
+        "采集",
+        "采集点",
+        "雇员探险",
+        "特殊商店",
+        "理符"
+      ],
+      "usage": [
+        "制作"
+      ],
+      "sources": {
+        "采集": {
+          "count": 1,
+          "first": {
+            "职业": "采矿工",
+            "等级": 47,
+            "星级": 0
+          }
+        },
+        "采集点": {
+          "count": 1,
+          "first": 189
+        },
+        "雇员探险": {
+          "count": 1,
+          "first": {
+            "ID": 157,
+            "随机任务": false,
+            "职业组ID": 17,
+            "职业组": "采矿工",
+            "等级": 47,
+            "探险币": 1,
+            "时间": 60,
+            "经验值": 61900,
+            "属性需求": [
+              142,
+              176,
+              252,
+              277,
+              302
+            ],
+            "中文名": "采矿筹集委托：钴铁矿",
+            "物品ID": 5116,
+            "物品数量": [
+              15,
+              20,
+              30,
+              40,
+              50
+            ]
+          }
+        },
+        "特殊商店": {
+          "count": 13,
+          "first": {
+            "ID": 1005633,
+            "中文名": "素材商人",
+            "称号": "贸易人员",
+            "位置": {
+              "X": 11,
+              "Y": 11.3,
+              "ID": 72,
+              "MapName": "海雾村",
+              "ZoneName": "拉诺西亚"
+            },
+            "商店ID": 1769681,
+            "商店名称": "特殊物品",
+            "商店条件": [],
+            "兑换信息": {
+              "index": 9,
+              "兑换": [
+                {
+                  "ID": 5116,
+                  "数量": 6,
+                  "HQ": false,
+                  "中文名": "钴铁矿",
+                  "品质": 1,
+                  "图标ID": 21216,
+                  "图标": "322517c015343adb9bca987540693894ea35fe7d",
+                  "图标HQ": ""
+                }
+              ],
+              "材料": [
+                {
+                  "ID": 15858,
+                  "数量": 1,
+                  "HQ": false,
+                  "收藏值": 0,
+                  "中文名": "虚无界风茄",
+                  "品质": 1,
+                  "图标ID": 25004,
+                  "图标": "e3648641cc84f485cb91003f6325b1095c5fe906",
+                  "图标HQ": ""
+                }
+              ]
+            }
+          }
+        },
+        "理符": 12
+      }
+    },
+    {
+      "title": "Data:Item/6269.json",
+      "pageid": 68049,
+      "revid": 2183486,
+      "timestamp": "2026-03-11T18:12:42Z",
+      "ID": 6269,
+      "name": "独角兽笛",
+      "sourceTypes": [
+        "任务"
+      ],
+      "sources": {
+        "任务": {
+          "ID": 65730,
+          "中文名": "我唯一的希望",
+          "页面名": "我唯一的希望",
+          "等级": 30,
+          "图标ID": 61411
+        }
+      }
+    },
+    {
+      "title": "Data:Item/19124.json",
+      "pageid": 98415,
+      "revid": 2195912,
+      "timestamp": "2026-03-11T18:39:28Z",
+      "ID": 19124,
+      "name": "吉祥天女羽衣",
+      "sourceTypes": [
+        "其他",
+        "副本"
+      ],
+      "usage": [
+        "制作"
+      ],
+      "sources": {
+        "其他": {
+          "count": 1,
+          "first": {
+            "标题": "通过分解获得",
+            "描述": "分解通过副本[[吉祥天女歼殛战]]获得的饰品概率获得",
+            "模板解析": false,
+            "中文名": "分解获得"
+          }
+        },
+        "副本": {
+          "count": 1,
+          "first": {
+            "ID": 20049,
+            "中文名": "吉祥天女歼殛战",
+            "图片": 112246,
+            "类型ID": 4,
+            "数据类型": "首领",
+            "LevelMax": 70,
+            "LevelMin": 70,
+            "bossname_key": "boss",
+            "BNpcNames_ID": [
+              6385
+            ],
+            "BNpcNames": [
+              "吉祥天女"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "title": "Data:Item/39486.json",
+      "pageid": 454534,
+      "revid": 2215603,
+      "timestamp": "2026-03-11T19:21:14Z",
+      "ID": 39486,
+      "name": "永恒角笛",
+      "sourceTypes": [
+        "其他"
+      ],
+      "sources": {
+        "其他": {
+          "count": 1,
+          "first": {
+            "标题": "通过正统优雷卡获得",
+            "描述": "完成任务{{任务|优雷卡的真相}}并持有或装备{{物品|高尚耳坠}}、{{物品|高尚项链}}、{{物品|高尚手环}}、{{物品|高尚戒指}}时，与{{地图|摩杜纳|34.7|19.3|name=珂尔·拉布恩塔}}对话后获得",
+            "模板解析": true,
+            "中文名": "正统优雷卡"
+          }
+        }
+      }
+    },
+    {
+      "title": "Data:Item/46728.json",
+      "pageid": 603775,
+      "revid": 2222638,
+      "timestamp": "2026-03-11T19:36:09Z",
+      "ID": 46728,
+      "name": "二型通用规格神典石",
+      "sourceTypes": [
+        "副本",
+        "特殊商店"
+      ],
+      "usage": [
+        "特殊商店"
+      ],
+      "sources": {
+        "副本": {
+          "count": 1,
+          "first": {
+            "ID": 30148,
+            "中文名": "阿卡狄亚零式登天斗技场 中量级2",
+            "图片": 112600,
+            "类型ID": 5,
+            "数据类型": "首领",
+            "LevelMax": 100,
+            "LevelMin": 100,
+            "bossname_key": "boss",
+            "BNpcNames_ID": [
+              13822
+            ],
+            "BNpcNames": [
+              "狂热糖潮"
+            ]
+          }
+        },
+        "特殊商店": {
+          "count": 3,
+          "first": {
+            "ID": 1049081,
+            "中文名": "希灰",
+            "称号": "大型任务交易",
+            "位置": {
+              "X": 8.7,
+              "Y": 13.4,
+              "ID": 856,
+              "MapName": "九号解决方案",
+              "ZoneName": "萨卡图拉尔"
+            },
+            "商店ID": 1770917,
+            "商店名称": "中量级全息装备（战斗精英1）",
+            "商店条件": [],
+            "兑换信息": {
+              "index": 24,
+              "兑换": [
+                {
+                  "ID": 46728,
+                  "数量": 1,
+                  "HQ": false,
+                  "中文名": "二型通用规格神典石",
+                  "品质": 1,
+                  "图标ID": 26679,
+                  "图标": "fcef11834c118de471afbb759ade7d75ac9182f1",
+                  "图标HQ": ""
+                }
+              ],
+              "材料": [
+                {
+                  "ID": 46727,
+                  "数量": 4,
+                  "HQ": false,
+                  "收藏值": 0,
+                  "中文名": "中量级全息投影利刃",
+                  "品质": 1,
+                  "图标ID": 26678,
+                  "图标": "94a60e890dcbb34026dc302f145bf05bddc72d46",
+                  "图标HQ": ""
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "parseSamples": [
+    {
+      "itemId": 5116,
+      "title": "物品:钴铁矿",
+      "revid": 2113592,
+      "status": 200,
+      "observations": {
+        "gathering": {
+          "job": "采矿工",
+          "itemLevel": 47,
+          "nodeLevel": 50,
+          "map": "北萨纳兰",
+          "x": 23.3,
+          "y": 24.3
+        },
+        "sourceSectionTitles": [
+          "通过兑换获得",
+          "通过采集获得",
+          "通过雇员探险获得",
+          "理符任务奖励"
+        ],
+        "usageSectionTitles": [
+          "用于制作"
+        ],
+        "leveCount": 12
+      }
+    },
+    {
+      "itemId": 5059,
+      "title": "物品:钴铁锭",
+      "revid": 848845,
+      "status": 200,
+      "observations": {
+        "crafts": [
+          {
+            "job": "锻铁匠",
+            "level": 42,
+            "costs": [
+              {
+                "item": "钴铁矿",
+                "quantity": 2
+              },
+              {
+                "item": "铁矿",
+                "quantity": 1
+              },
+              {
+                "item": "火之碎晶",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "job": "铸甲匠",
+            "level": 42,
+            "costs": [
+              {
+                "item": "钴铁矿",
+                "quantity": 2
+              },
+              {
+                "item": "铁矿",
+                "quantity": 1
+              },
+              {
+                "item": "冰之碎晶",
+                "quantity": 5
+              }
+            ]
+          }
+        ],
+        "sourceSectionTitles": [
+          "制作配方",
+          "通过寻宝获得"
+        ],
+        "usageSectionTitles": [
+          "用于理符任务",
+          "用于制作",
+          "用于部队合建"
+        ]
+      }
+    },
+    {
+      "itemId": 4930,
+      "title": "物品:公主鳟",
+      "revid": 2019725,
+      "status": 200,
+      "observations": {
+        "gathering": {
+          "job": "捕鱼人",
+          "itemLevel": 5
+        },
+        "fishingDetails": "Rendered source page directs fishing spot/bait information to Fish Momola (鱼糕); it does not itself expose a complete bait/weather/time guide in the observed source section."
+      }
+    }
+  ]
+}

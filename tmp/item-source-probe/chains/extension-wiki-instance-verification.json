@@ -1,0 +1,96 @@
+{
+  "generatedAtUtc": "2026-10-23T17:06:44.599Z",
+  "scope": "Independent raw MCP InstanceContent fields versus Wiki Data:Instance. A-currency identity for instance90 additionally witnessed in rendered page.",
+  "checks": [
+    {
+      "instanceId": 24,
+      "field": "final_boss_currency_a",
+      "status": "match",
+      "local": 25,
+      "wiki": 25,
+      "wikiRevision": 2095913
+    },
+    {
+      "instanceId": 24,
+      "field": "mid_boss_currency_a",
+      "status": "match",
+      "local": [
+        10,
+        15
+      ],
+      "wiki": [
+        10,
+        15
+      ],
+      "wikiRevision": 2095913
+    },
+    {
+      "instanceId": 24,
+      "field": "new_player_bonus_a",
+      "status": "match",
+      "local": 60,
+      "wiki": 60,
+      "wikiRevision": 2095913
+    },
+    {
+      "instanceId": 90,
+      "field": "final_boss_currency_a",
+      "status": "match",
+      "local": 35,
+      "wiki": 35,
+      "wikiRevision": 2096178
+    },
+    {
+      "instanceId": 90,
+      "field": "mid_boss_currency_a",
+      "status": "match",
+      "local": [
+        15,
+        20
+      ],
+      "wiki": [
+        15,
+        20
+      ],
+      "wikiRevision": 2096178
+    },
+    {
+      "instanceId": 90,
+      "field": "new_player_bonus_a",
+      "status": "match",
+      "local": 70,
+      "wiki": 70,
+      "wikiRevision": 2096178
+    },
+    {
+      "instanceId": 91,
+      "field": "final_boss_currency_a",
+      "status": "match",
+      "local": 50,
+      "wiki": 50,
+      "wikiRevision": 2096180
+    },
+    {
+      "instanceId": 91,
+      "field": "mid_boss_currency_a",
+      "status": "match",
+      "local": [
+        20,
+        30
+      ],
+      "wiki": [
+        20,
+        30
+      ],
+      "wikiRevision": 2096180
+    },
+    {
+      "instanceId": 91,
+      "field": "new_player_bonus_a",
+      "status": "match",
+      "local": 80,
+      "wiki": 80,
+      "wikiRevision": 2096180
+    }
+  ]
+}

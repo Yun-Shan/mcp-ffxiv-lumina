@@ -1,0 +1,53 @@
+{
+  "accessedLocalDate": "2026-10-24",
+  "sources": [
+    {
+      "key": "schema",
+      "url": "https://github.com/xivdev/EXDSchema/blob/83e965d091116f895d5b17573cc5d12909a5f407/SpecialShop.yml",
+      "blobSha": "047d19490120286f2e67f8ac007c25a688846b32",
+      "excerpts": [
+        "- name: CostType\n        comment: Indicates what the Cost Id links to. 3 = SpecialBucketId, rest items?\n        type: array\n        count: 3\n      "
+      ]
+    },
+    {
+      "key": "collect",
+      "url": "https://github.com/fae-industries/ffxiv-collect/blob/7c0249d3357d77b043290e92aaecf5eb4ef03fbd/lib/tasks/sources/shops.rake",
+      "blobSha": "6a2754e97139bdde62ec1ce6ba98912274f5743a",
+      "excerpts": [
+        "currency = case shop[\"Item[#{i}].CostType[#{j}]\"].to_i\n          when 0, 1\n            Item.find(currency_item_id)\n          when 2\n            tomestone_items[currency_item_id]\n          when 3\n            scrip_id = case currency_item_id\n            when 1\n              25199 # White Crafter's Scrip\n            when 2\n              33913 # Purple Crafters' Scrip\n            when 3\n              25200 # White Gatherers' Scrip\n            when 4\n              33914 # Purple Gatherers' Scrip\n            when 5\n              10307 # Centurio Seal\n            when 6\n              41784 # Orange Crafters' Scrip\n            when 7\n              41785 # Orange Gatherers' Scrip\n            end\n\n            Item.find(scrip_id)\n          else\n            next # Skip currencies that cannot be resolved to items\n          end\n\n          "
+      ]
+    },
+    {
+      "key": "ultros",
+      "url": "https://github.com/akarras/ultros/blob/11cc9ac1e2c0f161a024788011875613abcf93c0/xiv-gen/src/csv_to_rkyv.rs",
+      "blobSha": "ba80025adb4c332fe66a64c1658a5c7de20a0da8",
+      "excerpts": [
+        "ables.into_iter().collect(),\n    }\n}\n\n/// `Item[n].CostType[k]` value meaning \"`ItemCost` is a `TomestonesItem`\n/// index\" — the game re-points those indexes every patch so a shop can keep\n/// selling for \"the current tomestone\" without a data edit.\nconst COST_TYPE_TOMESTONE: u8 = 2;\n/// `Item[n].CostType[k]` value meaning \"`ItemCost` is a scrip index\" (see\n/// [`scrip_item`]).\nconst COST_TYPE_SCRIP: u8 = 3;\n\n/// Tomestone index -> item, from the `TomestonesItem` rows that are currently\n/// assigned an index (`Tomestones != 0`).\npub(crate) fn tomestone_items(rows: &[TomestonesItemRow]) -> HashMap<u16, u16> {\n    rows.iter()\n        .filter(|r| r.tomestones != 0)\n        .map(|r| (r.tomestones as u16, r.item as u16))\n        .collect()\n}\n\n/// Rewrite the tomestone and scrip costs of every special shop from the\n/// sheet's index encoding to the item they stand for.\n///\n/// In the sheet a Poetics cost is `ItemCost = 1` (which is also Gil's item id)\n/// and a Purple Crafters' Scrip cost is `ItemCost = 2` (Fire Shard's); only\n/// `CostType` tells them apart from a real item cost, and nothing downstream\n/// wants to carry that distinction. A slot whose cost type is unknown, or\n/// whose index has no item, is left as it was.\npub(crate) fn resolve_currency_costs(\n    shops: &mut IdMap<SpecialShopId, SpecialShop>,\n    cost_types: &HashMap<SpecialShopId, SpecialShopCostTypes>,\n    tomestones: &HashMap<u16, u16>,\n) {\n    let resolve = |cost_type: u8, cost: u16| -> Option<u16> {\n        match cost_type {\n            COST_TYPE_TOMESTONE => tomestones.get(&cost).copied(),\n            COST_TYPE_SCRIP => scrip_item(cost as u32).map(|item| item.0 as u16),\n            _ => None,\n        }\n    };\n    for (id, shop) in shops.iter_mut() {\n        let Some(types) = cost_types.get(id) else {\n            continue;\n        };\n        let colum"
+      ]
+    },
+    {
+      "key": "ultros_scrip",
+      "url": "https://github.com/akarras/ultros/blob/11cc9ac1e2c0f161a024788011875613abcf93c0/xiv-gen/src/lib.rs",
+      "blobSha": "1d092d74842be345fc9858b05163c9a6b7cec059",
+      "excerpts": [
+        "pub fn scrip_item(currency: u32) -> Option<ItemId> {\n    match currency {\n        2 => Some(ItemId(33913)), // Purple Crafters' Scrip\n        4 => Some(ItemId(33914)), // Purple Gatherers' Scrip\n        6 => Some(ItemId(41784)), // Orange Crafters' Scrip\n        7 => Some(ItemId(41785)), // Orange Gatherers' Scrip\n        _ => None,\n    }\n}\n\n#[derive(\n    Debug,\n    Clone,\n    Serialize,\n    Deserialize,\n    PartialEq,\n    Archive,\n    "
+      ]
+    },
+    {
+      "key": "allagan",
+      "url": "https://github.com/Critical-Impact/AllaganLib/blob/c34734f75e369777e7ac36dc57c09a8fc3e78fd4/AllaganLib.GameSheets/Sheets/SpecialShopListing.cs",
+      "blobSha": "8a4ab985b219baddd62f2fb64a45d82d89731013",
+      "excerpts": [
+        "costItem.CurrencyCost,\n                        costItem.CostType == 1,\n                        costItem.CollectabilityCost));\n            }\n"
+      ]
+    },
+    {
+      "key": "teamcraft",
+      "url": "https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/blob/f2918cca2b159d05f569e24b5828b5af38444d0a/apps/data-extraction/src/extractors/shops.extractor.ts",
+      "blobSha": "ea74a0bd45a4e7bee339c120780e4e0dd9806ee3",
+      "excerpts": [
+        "amount: row.CurrencyCost[costIndex] || (specialShop.UseCurrencyType === 8 ? row.Item[costIndex]?.PriceMid || 0 : 0),\n                hq: costItem > 50 && row.HqCost?.[costIndex] > 0,\n                collectability: row.C"
+      ]
+    }
+  ]
+}

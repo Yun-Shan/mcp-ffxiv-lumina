@@ -1,0 +1,101 @@
+{
+  "sheet": "Item",
+  "rowIds": [
+    35734,
+    35247,
+    35826,
+    12674
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "Item",
+      "rowId": 35734,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "里面装着日影兰武器的箱子。\r\n使用后便能获得相应职业或特职的武器。\r\n可装备等级：90（装备品级：605）\r\n可以在主城及野外使用。",
+        "Name": "日影兰武器箱（品级605）",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 388
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:40:50.0321496+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 35247,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "",
+        "Name": "日影兰战锤",
+        "LevelEquip": 90,
+        "ClassJobCategory": 44,
+        "ItemAction": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:40:50.0321595+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 35826,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "在万魔殿内部发现的充满谜团的断章。\r\n集齐一定数量后，可用来换取特定的装备。",
+        "Name": "第4页边境的断章",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:40:50.0321623+00:00"
+    },
+    {
+      "sheet": "Item",
+      "rowId": 12674,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Description": "在戈耳狄内部发现的神秘透镜。\r\n集齐2个后，可用来换取特定的头部防具。",
+        "Name": "戈耳狄透镜",
+        "LevelEquip": 1,
+        "ClassJobCategory": 0,
+        "ItemAction": 0
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:40:50.0321652+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T16:40:50.0321701+00:00"
+}

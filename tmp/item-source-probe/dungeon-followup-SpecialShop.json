@@ -1,0 +1,79 @@
+{
+  "sheet": "SpecialShop",
+  "rowIds": [
+    1770443,
+    1770797
+  ],
+  "languagesRequested": [
+    "chs"
+  ],
+  "languagesReturned": [
+    "chs"
+  ],
+  "fallbackUsed": false,
+  "rows": [
+    {
+      "sheet": "SpecialShop",
+      "rowId": 1770443,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "边境的断章（战斗精英1）",
+        "Item[1]ReceiveCount[0]": 1,
+        "Item[1]CurrencyCost[0]": 8,
+        "Item[1]Item[0]": 35246,
+        "Item[1]ItemCost[0]": 35826,
+        "Item[1]Quest": 0,
+        "Item[1]CostType[0]": 0,
+        "Item[2]ReceiveCount[0]": 1,
+        "Item[2]CurrencyCost[0]": 8,
+        "Item[2]Item[0]": 35247,
+        "Item[2]ItemCost[0]": 35826,
+        "Item[2]Quest": 0,
+        "Item[2]CostType[0]": 0,
+        "Quest": 0,
+        "UseCurrencyType": 2
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:40:52.3422709+00:00"
+    },
+    {
+      "sheet": "SpecialShop",
+      "rowId": 1770797,
+      "languagesRequested": [
+        "chs"
+      ],
+      "languagesReturned": [
+        "chs"
+      ],
+      "fallbackUsed": false,
+      "fields": {
+        "Name": "日影兰装备（600-605品级）",
+        "Item[1]ReceiveCount[0]": 1,
+        "Item[1]CurrencyCost[0]": 8,
+        "Item[1]Item[0]": 35247,
+        "Item[1]ItemCost[0]": 35826,
+        "Item[1]Quest": 0,
+        "Item[1]CostType[0]": 0,
+        "Item[2]ReceiveCount[0]": 1,
+        "Item[2]CurrencyCost[0]": 8,
+        "Item[2]Item[0]": 35251,
+        "Item[2]ItemCost[0]": 35826,
+        "Item[2]Quest": 0,
+        "Item[2]CostType[0]": 0,
+        "Quest": 0,
+        "UseCurrencyType": 16
+      },
+      "gameVersion": "2026.10.06.0000.0000",
+      "timestamp": "2026-10-23T16:40:52.3422811+00:00"
+    }
+  ],
+  "missingRowIds": [],
+  "gameVersion": "2026.10.06.0000.0000",
+  "timestamp": "2026-10-23T16:40:52.3422846+00:00"
+}

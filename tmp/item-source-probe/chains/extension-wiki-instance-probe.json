@@ -1,0 +1,28 @@
+{
+  "fetchedAtUtc": "2026-10-23T17:03:58.269Z",
+  "url": "https://ff14.huijiwiki.com/api.php?action=query&format=json&formatversion=2&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent%7Ccontentmodel&rvslots=main&titles=Data%3AInstanceContent%2F90.json%7CData%3AInstanceContent%2F91.json%7CData%3AInstanceContent%2F24.json",
+  "httpStatus": 200,
+  "credentials": "omit",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "ns": 3500,
+          "title": "Data:InstanceContent/24.json",
+          "missing": true
+        },
+        {
+          "ns": 3500,
+          "title": "Data:InstanceContent/91.json",
+          "missing": true
+        },
+        {
+          "ns": 3500,
+          "title": "Data:InstanceContent/90.json",
+          "missing": true
+        }
+      ]
+    }
+  }
+}

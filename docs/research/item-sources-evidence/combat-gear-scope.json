@@ -1,0 +1,457 @@
+{
+  "purpose": "Combat gear subset of the existing 22 acquisition-chain targets; equipment identity from configured Lumina MCP raw tables, not a new random sample",
+  "items": {
+    "sheet": "Item",
+    "rowIds": [
+      35247,
+      11450,
+      40786,
+      27626,
+      14664,
+      26226,
+      34391,
+      29064,
+      6053,
+      41680
+    ],
+    "languagesRequested": [
+      "chs"
+    ],
+    "languagesReturned": [
+      "chs"
+    ],
+    "fallbackUsed": false,
+    "rows": [
+      {
+        "sheet": "Item",
+        "rowId": 35247,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "日影兰战锤",
+          "LevelEquip": 90,
+          "ClassJobCategory": 44,
+          "LevelItem": 605,
+          "EquipSlotCategory": 13
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930300+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 11450,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "戈耳狄原型强袭角盔",
+          "LevelEquip": 60,
+          "ClassJobCategory": 65,
+          "LevelItem": 190,
+          "EquipSlotCategory": 3
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930325+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 40786,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "虚月游击上装",
+          "LevelEquip": 90,
+          "ClassJobCategory": 103,
+          "LevelItem": 635,
+          "EquipSlotCategory": 4
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930340+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 27626,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "无瑕精准手镯",
+          "LevelEquip": 80,
+          "ClassJobCategory": 105,
+          "LevelItem": 450,
+          "EquipSlotCategory": 11
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930354+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 14664,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "龙堡强袭护手",
+          "LevelEquip": 60,
+          "ClassJobCategory": 65,
+          "LevelItem": 195,
+          "EquipSlotCategory": 5
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930366+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 26226,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "拿巴示艾兰精准缠手带",
+          "LevelEquip": 77,
+          "ClassJobCategory": 66,
+          "LevelItem": 412,
+          "EquipSlotCategory": 5
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930378+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 34391,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "赛加羚羊革魔导典",
+          "LevelEquip": 84,
+          "ClassJobCategory": 29,
+          "LevelItem": 533,
+          "EquipSlotCategory": 13
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930389+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 29064,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "伊甸之律制敌腿甲",
+          "LevelEquip": 80,
+          "ClassJobCategory": 76,
+          "LevelItem": 500,
+          "EquipSlotCategory": 7
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930400+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 6053,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "精骑锁甲靴",
+          "LevelEquip": 50,
+          "ClassJobCategory": 20,
+          "LevelItem": 90,
+          "EquipSlotCategory": 8
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930444+00:00"
+      },
+      {
+        "sheet": "Item",
+        "rowId": 41680,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "Name": "龙须拳·优雅",
+          "LevelEquip": 90,
+          "ClassJobCategory": 41,
+          "LevelItem": 665,
+          "EquipSlotCategory": 13
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:43:32.2930457+00:00"
+      }
+    ],
+    "missingRowIds": [],
+    "gameVersion": "2026.10.06.0000.0000",
+    "timestamp": "2026-10-23T17:43:32.2930484+00:00"
+  },
+  "slots": {
+    "sheet": "EquipSlotCategory",
+    "rowIds": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      11,
+      13
+    ],
+    "languagesRequested": [
+      "chs"
+    ],
+    "languagesReturned": [
+      "chs"
+    ],
+    "fallbackUsed": false,
+    "rows": [
+      {
+        "sheet": "EquipSlotCategory",
+        "rowId": 3,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "MainHand": 0,
+          "OffHand": 0,
+          "Head": 1,
+          "Body": 0,
+          "Gloves": 0,
+          "Waist": 0,
+          "Legs": 0,
+          "Feet": 0,
+          "Ears": 0,
+          "Neck": 0,
+          "Wrists": 0,
+          "FingerL": 0,
+          "FingerR": 0,
+          "SoulCrystal": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:42:55.2044895+00:00"
+      },
+      {
+        "sheet": "EquipSlotCategory",
+        "rowId": 4,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "MainHand": 0,
+          "OffHand": 0,
+          "Head": 0,
+          "Body": 1,
+          "Gloves": 0,
+          "Waist": 0,
+          "Legs": 0,
+          "Feet": 0,
+          "Ears": 0,
+          "Neck": 0,
+          "Wrists": 0,
+          "FingerL": 0,
+          "FingerR": 0,
+          "SoulCrystal": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:42:55.2044946+00:00"
+      },
+      {
+        "sheet": "EquipSlotCategory",
+        "rowId": 5,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "MainHand": 0,
+          "OffHand": 0,
+          "Head": 0,
+          "Body": 0,
+          "Gloves": 1,
+          "Waist": 0,
+          "Legs": 0,
+          "Feet": 0,
+          "Ears": 0,
+          "Neck": 0,
+          "Wrists": 0,
+          "FingerL": 0,
+          "FingerR": 0,
+          "SoulCrystal": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:42:55.2045484+00:00"
+      },
+      {
+        "sheet": "EquipSlotCategory",
+        "rowId": 7,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "MainHand": 0,
+          "OffHand": 0,
+          "Head": 0,
+          "Body": 0,
+          "Gloves": 0,
+          "Waist": 0,
+          "Legs": 1,
+          "Feet": 0,
+          "Ears": 0,
+          "Neck": 0,
+          "Wrists": 0,
+          "FingerL": 0,
+          "FingerR": 0,
+          "SoulCrystal": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:42:55.2045504+00:00"
+      },
+      {
+        "sheet": "EquipSlotCategory",
+        "rowId": 8,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "MainHand": 0,
+          "OffHand": 0,
+          "Head": 0,
+          "Body": 0,
+          "Gloves": 0,
+          "Waist": 0,
+          "Legs": 0,
+          "Feet": 1,
+          "Ears": 0,
+          "Neck": 0,
+          "Wrists": 0,
+          "FingerL": 0,
+          "FingerR": 0,
+          "SoulCrystal": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:42:55.2045508+00:00"
+      },
+      {
+        "sheet": "EquipSlotCategory",
+        "rowId": 11,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "MainHand": 0,
+          "OffHand": 0,
+          "Head": 0,
+          "Body": 0,
+          "Gloves": 0,
+          "Waist": 0,
+          "Legs": 0,
+          "Feet": 0,
+          "Ears": 0,
+          "Neck": 0,
+          "Wrists": 1,
+          "FingerL": 0,
+          "FingerR": 0,
+          "SoulCrystal": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:42:55.2045515+00:00"
+      },
+      {
+        "sheet": "EquipSlotCategory",
+        "rowId": 13,
+        "languagesRequested": [
+          "chs"
+        ],
+        "languagesReturned": [
+          "chs"
+        ],
+        "fallbackUsed": false,
+        "fields": {
+          "MainHand": 1,
+          "OffHand": -1,
+          "Head": 0,
+          "Body": 0,
+          "Gloves": 0,
+          "Waist": 0,
+          "Legs": 0,
+          "Feet": 0,
+          "Ears": 0,
+          "Neck": 0,
+          "Wrists": 0,
+          "FingerL": 0,
+          "FingerR": 0,
+          "SoulCrystal": 0
+        },
+        "gameVersion": "2026.10.06.0000.0000",
+        "timestamp": "2026-10-23T17:42:55.2045519+00:00"
+      }
+    ],
+    "missingRowIds": [],
+    "gameVersion": "2026.10.06.0000.0000",
+    "timestamp": "2026-10-23T17:42:55.2045544+00:00"
+  }
+}

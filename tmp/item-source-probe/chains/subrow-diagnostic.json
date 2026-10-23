@@ -1,0 +1,123 @@
+{
+  "capturedAt": "2026-10-23T17:14:04.963Z",
+  "purpose": "External diagnostic only, never evidence of local-version parity or an input to the graph",
+  "request": "https://v2.xivapi.com/api/sheet/CollectablesShopItem/1:0?fields=Item%40as(raw)%2CRequiredQuest%40as(raw)%2CLevelMin%2CLevelMax%2CCollectablesShopRefine%40as(raw)%2CCollectablesShopRewardScrip%40as(raw)",
+  "httpStatus": 200,
+  "raw": {
+    "schema": "exdschema@2:rev:e773c41a90aed788cf4c1c48469fa85618ef01fb",
+    "version": "0874aee069e1e7c4",
+    "row_id": 1,
+    "subrow_id": 0,
+    "fields": {
+      "CollectablesShopRefine@as(raw)": 102,
+      "CollectablesShopRewardScrip@as(raw)": 1,
+      "Item@as(raw)": 31101,
+      "LevelMax": 80,
+      "LevelMin": 80,
+      "RequiredQuest@as(raw)": 0
+    }
+  },
+  "local": {
+    "sheet": "CollectablesShopItem",
+    "rowId": 1,
+    "languagesRequested": [
+      "chs"
+    ],
+    "languagesReturned": [
+      "chs"
+    ],
+    "fallbackUsed": false,
+    "fields": {
+      "Item": 0,
+      "RequiredQuest": 2038235136,
+      "LevelMin": 0,
+      "LevelMax": 80,
+      "CollectablesShopRefine": 80,
+      "CollectablesShopRewardScrip": 102,
+      "CollectablesShopItemGroup": 0,
+      "Stars": 1,
+      "Key": 35
+    },
+    "gameVersion": "2026.10.06.0000.0000",
+    "timestamp": "2026-10-23T17:10:14.6438681+00:00"
+  },
+  "comparison": [
+    {
+      "field": "CollectablesShopRefine",
+      "local": 80,
+      "external": 102,
+      "equal": false
+    },
+    {
+      "field": "CollectablesShopRewardScrip",
+      "local": 102,
+      "external": 1,
+      "equal": false
+    },
+    {
+      "field": "Item",
+      "local": 0,
+      "external": 31101,
+      "equal": false
+    },
+    {
+      "field": "LevelMax",
+      "local": 80,
+      "external": 80,
+      "equal": true
+    },
+    {
+      "field": "LevelMin",
+      "local": 0,
+      "external": 80,
+      "equal": false
+    },
+    {
+      "field": "RequiredQuest",
+      "local": 2038235136,
+      "external": 0,
+      "equal": false
+    }
+  ],
+  "localReward": {
+    "sheet": "CollectablesShopRewardScrip",
+    "rowId": 1,
+    "languagesRequested": [
+      "chs"
+    ],
+    "languagesReturned": [
+      "chs"
+    ],
+    "fallbackUsed": false,
+    "fields": {
+      "Currency": 2,
+      "LowReward": 5,
+      "MidReward": 10,
+      "HighReward": 15,
+      "ExpRatioLow": 100,
+      "ExpRatioMid": 120,
+      "ExpRatioHigh": 150
+    },
+    "gameVersion": "2026.10.06.0000.0000",
+    "timestamp": "2026-10-23T17:00:55.3076690+00:00"
+  },
+  "localRefine": {
+    "sheet": "CollectablesShopRefine",
+    "rowId": 102,
+    "languagesRequested": [
+      "chs"
+    ],
+    "languagesReturned": [
+      "chs"
+    ],
+    "fallbackUsed": false,
+    "fields": {
+      "LowCollectability": 360,
+      "MidCollectability": 540,
+      "HighCollectability": 720
+    },
+    "gameVersion": "2026.10.06.0000.0000",
+    "timestamp": "2026-10-23T17:00:52.9823978+00:00"
+  },
+  "conclusion": "The generic MCP has no subrow-id argument and returns invalid Item/quest values. External subrow identifies a candidate join but has a separate game version; do not repair local bytes by shifting fields or count the candidate as a closed chain."
+}

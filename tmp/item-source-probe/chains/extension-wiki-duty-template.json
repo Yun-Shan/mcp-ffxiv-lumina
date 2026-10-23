@@ -1,0 +1,39 @@
+{
+  "fetchedAtUtc": "2026-10-23T17:04:30.333Z",
+  "url": "https://ff14.huijiwiki.com/api.php?action=query&format=json&formatversion=2&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent%7Ccontentmodel&rvslots=main&titles=Template%3A%E5%89%AF%E6%9C%AC%E9%A1%B5",
+  "httpStatus": 200,
+  "credentials": "omit",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "normalized": [
+        {
+          "fromencoded": false,
+          "from": "Template:副本页",
+          "to": "模板:副本页"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 87373,
+          "ns": 10,
+          "title": "模板:副本页",
+          "revisions": [
+            {
+              "revid": 104847,
+              "parentid": 104820,
+              "timestamp": "2017-08-11T05:36:25Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "content": "<includeonly>__TOC__{{#invoke:Instance/Page|main|{{{1|{{PAGENAME}}}}}}}[[分类:副本]]</includeonly><noinclude>\n{{Documentation}}</noinclude>"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
